@@ -72,7 +72,35 @@
         <a href="#" class="second" title="Xem thêm">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
     </div>
     <div class="wrapper_item">
-        <div class="item">
+<?php 
+	$args = array(
+		'post_status' => 'publish', // Chỉ lấy những bài viết được publish
+		'post_type' => 'post', // Lấy những bài viết thuộc post, nếu lấy những bài trong 'trang' thì để là page 
+		'showposts' => 8, // số lượng bài viết
+		'cat' => 1, // lấy bài viết trong chuyên mục có id là 1
+	);
+?>
+<?php $getposts = new WP_query($args); ?>
+<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+      <div class="item">
+            <div class="wrapper_img">
+                <div class="khungAnh">
+                    <a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="khungAnhCrop">
+                    <?php echo get_the_post_thumbnail( get_the_id(), 'full', array( 'class' =>'thumnail') ); ?>
+                    </a>
+                    <a href="<?php the_permalink(); ?> " class="detail " title="<?php the_title(); ?> "><?php the_title(); ?></a>
+
+                </div>
+            </div>
+            <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="content_outer">
+            <?php the_title(); ?>
+            </a>
+        </div>
+<?php endwhile; wp_reset_postdata(); ?>
+
+
+        <!-- <div class="item">
             <div class="wrapper_img">
                 <div class="khungAnh">
                     <a href="#" title="item" class="khungAnhCrop">
@@ -183,7 +211,7 @@
             <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
                 Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
             </a>
-        </div>
+        </div> -->
     </div>
 </div>
 <div class="block">

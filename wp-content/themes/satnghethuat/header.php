@@ -70,7 +70,24 @@
                 </div>
                 <div class="bottom">
                     <div id="menu">
-                        <ul>
+                        <?php wp_nav_menu( 
+                        array( 
+                            'theme_location' => 'header-menu', 
+                            'container' => 'false', 
+                            'menu_id' => 'header-menu', 
+                            'menu_class' => 'menu'
+                        ) 
+                        ); ?>
+
+                        <?php wp_nav_menu( 
+                        array( 
+                            'theme_location' => 'header-menu', 
+                            'container' => 'false', 
+                            'menu_id' => 'menu', 
+                            'menu_class' => 'menu'
+                        ) 
+                        ); ?>
+                        <!-- <ul>
                             <li class="actived">
                                 <a href="#" title="Trang chủ">Trang chủ</a>
                             </li>
@@ -98,7 +115,7 @@
                             <li>
                                 <a href="#" title="Liên hệ"> Liên hệ</a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                     <div class="search_content">
                         <input type="text" placeholder="Từ khóa tìm kiếm">
