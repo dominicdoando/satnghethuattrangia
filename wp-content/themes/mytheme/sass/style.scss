@@ -1,0 +1,3295 @@
+            @font-face {
+                font-family: 'open_sansbold';
+                src: url('fonts/opensans-bold-webfont.eot');
+                src: url('fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/opensans-bold-webfont.woff2') format('woff2'), url('fonts/opensans-bold-webfont.woff') format('woff'), url('fonts/opensans-bold-webfont.ttf') format('truetype'), url('fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+            
+            @font-face {
+                font-family: 'open_sansregular';
+                src: url('fonts/opensans-regular-webfont.eot');
+                src: url('fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/opensans-regular-webfont.woff2') format('woff2'), url('fonts/opensans-regular-webfont.woff') format('woff'), url('fonts/opensans-regular-webfont.ttf') format('truetype'), url('fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+            
+            @font-face {
+                font-family: 'sfu_futurabold';
+                src: url('fonts/sfufuturabold-webfont.eot');
+                src: url('fonts/sfufuturabold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/sfufuturabold-webfont.woff2') format('woff2'), url('fonts/sfufuturabold-webfont.woff') format('woff'), url('fonts/sfufuturabold-webfont.ttf') format('truetype'), url('fonts/sfufuturabold-webfont.svg#sfu_futurabold') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+            
+            @font-face {
+                font-family: 'sfu_futuraheavy';
+                src: url('fonts/sfufuturaheavy-webfont.eot');
+                src: url('fonts/sfufuturaheavy-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/sfufuturaheavy-webfont.woff2') format('woff2'), url('fonts/sfufuturaheavy-webfont.woff') format('woff'), url('fonts/sfufuturaheavy-webfont.ttf') format('truetype'), url('fonts/sfufuturaheavy-webfont.svg#sfu_futuraheavy') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+            
+            @font-face {
+                font-family: 'sfu_futuraregular';
+                src: url('fonts/sfufuturaregular-webfont.eot');
+                src: url('fonts/sfufuturaregular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/sfufuturaregular-webfont.woff2') format('woff2'), url('fonts/sfufuturaregular-webfont.woff') format('woff'), url('fonts/sfufuturaregular-webfont.ttf') format('truetype'), url('fonts/sfufuturaregular-webfont.svg#sfu_futuraregular') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+            
+            @font-face {
+                font-family: 'robotoregular';
+                src: url('fonts/roboto-regular-webfont.eot');
+                src: url('fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/roboto-regular-webfont.woff2') format('woff2'), url('fonts/roboto-regular-webfont.woff') format('woff'), url('fonts/roboto-regular-webfont.ttf') format('truetype'), url('fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+            
+            @font-face {
+                font-family: 'iciel_ciaobellaregular';
+                src: url('fonts/iciel_ciaobella-webfont.eot');
+                src: url('fonts/iciel_ciaobella-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/iciel_ciaobella-webfont.woff2') format('woff2'), url('fonts/iciel_ciaobella-webfont.woff') format('woff'), url('fonts/iciel_ciaobella-webfont.ttf') format('truetype'), url('fonts/iciel_ciaobella-webfont.svg#iciel_ciaobellaregular') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+            
+            @font-face {
+                font-family: 'roboto_condensedbold';
+                src: url('fonts/robotocondensed-bold-webfont.eot');
+                src: url('fonts/robotocondensed-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/robotocondensed-bold-webfont.woff2') format('woff2'), url('fonts/robotocondensed-bold-webfont.woff') format('woff'), url('fonts/robotocondensed-bold-webfont.ttf') format('truetype'), url('fonts/robotocondensed-bold-webfont.svg#roboto_condensedbold') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+            
+            $font11:'sfu_futuraregular';
+            $font12:'sfu_futuraheavy';
+            $font13:'sfu_futurabold';
+            $font21:'open_sansregular';
+            $font22:'open_sansbold';
+            $font31:'robotoregular';
+            $font32:'roboto_condensedbold';
+            $font41:'iciel_ciaobellaregular';
+            $blue:#2a83d5;
+            $white: #fff;
+            $black:#000;
+            $gray: #333333;
+            $gray2: #666666;
+            $white: #fff;
+            $nau:#744c28;
+            $cam:#f8a638;
+            @mixin text($font,
+            $color,
+            $font-size,
+            $line-height) {
+                font-family: $font;
+                color: $color;
+                font-size: $font-size;
+                line-height: $line-height;
+            }
+            
+            a {
+                text-decoration: none!important;
+            }
+            
+            body {
+                font-family: $font11;
+                color: $white;
+                line-height: 22px;
+            }
+            
+            main {
+                transition: 0.5s;
+            }
+            
+            .clear {
+                clear: both;
+            }
+            
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            #header {
+                .top_header {
+                    background-color: $nau;
+                    height: 30px;
+                    .content {
+                        display: flex;
+                        justify-content: flex-start;
+                        flex-direction: row;
+                        height: 30px;
+                        .block1 {
+                            margin-right: 30px;
+                            height: inherit;
+                            ul {
+                                li {
+                                    padding: 0;
+                                    a {
+                                        @include text($font11,
+                                        $white,
+                                        14px,
+                                        30px);
+                                        padding-right: 12px;
+                                        position: relative;
+                                        display: inline-block;
+                                        padding-left: 12px;
+                                        &:after {
+                                            content: "";
+                                            position: absolute;
+                                            right: 0;
+                                            top: 10px;
+                                            width: 1px;
+                                            height: 14px;
+                                            background: url(../css/images/bg_li.jpg) no-repeat;
+                                            background-size: 100% 100%;
+                                        }
+                                    }
+                                    &:first-child {
+                                        padding-left: 0;
+                                    }
+                                    &:last-child {
+                                        a {
+                                            padding-right: 0;
+                                            &:after {
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .block2 {
+                            height: inherit; // margin-right: 40px;
+                            .tuvan {
+                                height: inherit;
+                                p {
+                                    display: inline-block;
+                                    @include text($font11,
+                                    $white,
+                                    14px,
+                                    30px);
+                                    padding-left: 18px;
+                                    background: url(../css/images/phone2.png) no-repeat top 8px left;
+                                    span {
+                                        display: inline-block;
+                                        padding-right: 8px;
+                                        @include text($font11,
+                                        $white,
+                                        14px,
+                                        30px);
+                                    }
+                                    &:first-child {
+                                        margin-right: 20px;
+                                    }
+                                    &:last-child {
+                                        font-family: $font12;
+                                        font-size: 16px;
+                                        color: $cam;
+                                    }
+                                }
+                            }
+                        }
+                        .block3 {
+                            margin-left: 20px;
+                            a.openSearch {
+                                display: none;
+                                color: #333333;
+                                height: 16px;
+                                width: 16px;
+                                line-height: 16px;
+                                margin-right: 13px;
+                                position: relative;
+                                z-index: 103;
+                                i {
+                                    color: #333333;
+                                    height: 16px;
+                                    width: 16px;
+                                    line-height: 16px;
+                                    display: inline-block;
+                                }
+                            }
+                            ul {
+                                height: 30px;
+                                margin-bottom: 0;
+                                li {
+                                    height: 100%;
+                                    padding: 0;
+                                    a {
+                                        display: inline-block;
+                                        width: 25px;
+                                        height: 20px;
+                                    }
+                                    &:first-child {
+                                        a {
+                                            background: url(../css/images/VN2.png) no-repeat top 5px left;
+                                            background-size: 100% 20px;
+                                            height: 30px;
+                                            line-height: 30px;
+                                        }
+                                    }
+                                    &:nth-child(2) {
+                                        a {
+                                            background: url(../css/images/CN.png) no-repeat top 5px left;
+                                            background-size: 100% 20px;
+                                            height: 30px;
+                                            line-height: 30px;
+                                        }
+                                    }
+                                    &:nth-child(3) {
+                                        a {
+                                            background: url(../css/images/EN.png) no-repeat top 5px left;
+                                            background-size: 100% 20px;
+                                            height: 30px;
+                                            line-height: 30px;
+                                        }
+                                    }
+                                    &:last-child {
+                                        a {
+                                            background: url(../css/images/CN2.png) no-repeat top 5px left;
+                                            background-size: 100% 20px;
+                                            height: 30px;
+                                            line-height: 30px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .middle_header {
+                    height: 150px;
+                    background-color: #fffbf7;
+                    .container {
+                        height: inherit;
+                        .row {
+                            height: inherit;
+                            background: url(../css/images/bg_header.jpg) no-repeat top right;
+                            background-size: 420px 100%;
+                            .block1 {
+                                .logo {
+                                    width: 232px;
+                                    height: inherit;
+                                    float: left;
+                                    img {
+                                        margin: 30px 0 24px 0;
+                                        height: auto;
+                                        max-width: 100%;
+                                    }
+                                }
+                                .name_company {
+                                    display: inline-block;
+                                    width: calc(100% - 232px);
+                                    float: right;
+                                    margin-top: 30px;
+                                    p {
+                                        &:first-child {
+                                            @include text($font13,
+                                            $nau,
+                                            18px,
+                                            40px);
+                                            text-transform: uppercase;
+                                            width: 100%; // margin-bottom: 6px;
+                                        }
+                                        &:last-child {
+                                            @include text($font11,
+                                            #dc8300,
+                                            16px,
+                                            40px);
+                                            width: 100%;
+                                            padding-left: 62px;
+                                            margin-top: -25px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .bottom_header {
+                    border-bottom: solid 4px $nau;
+                    height: 32px;
+                    #menu {
+                        height: 28px;
+                        margin-top: 0;
+                        background-color: $nau;
+                        padding-left: calc((100% - 1170px)/2);
+                        display: inline-block;
+                        >ul {
+                            >li {
+                                background: $cam;
+                                position: relative;
+                                height: 28px;
+                                padding-left: 40px;
+                                &:before {
+                                    content: "";
+                                    height: 28px;
+                                    width: 40px;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    display: inline-block;
+                                    background: url(../css/images/br_li.png) no-repeat;
+                                }
+                                &:after {
+                                    content: "";
+                                    height: 28px;
+                                    position: absolute;
+                                    width: 40px;
+                                    top: 0;
+                                    right: -40px;
+                                    display: inline-block;
+                                    background: url(../css/images/at_li.png) no-repeat;
+                                    z-index: 100;
+                                }
+                                &:first-child {
+                                    background: $nau;
+                                    &:before {
+                                        background: url(../css/images/br_li_actived.png) no-repeat;
+                                    }
+                                    &:after {
+                                        background: url(../css/images/at_li_actived.png) no-repeat;
+                                    }
+                                }
+                                &:last-child {
+                                    &:after {
+                                        background: url(../css/images/at_li_last.png) no-repeat;
+                                    }
+                                }
+                                a {
+                                    @include text($font12,
+                                    $white,
+                                    14px,
+                                    28px);
+                                    height: inherit;
+                                    display: inline-block;
+                                    padding: 0;
+                                }
+                                ul {
+                                    background: rgba(116, 76, 40, .89);
+                                    width: 260px;
+                                    // padding-top: 4px;
+                                    z-index: 99999;
+                                    li {
+                                        height: 45px;
+                                        width: 100%;
+                                        a {
+                                            height: 45px;
+                                            line-height: 45px;
+                                            border: 0;
+                                            margin: 0 22px 0 15px;
+                                            position: relative;
+                                            width: 100%;
+                                            display: inline-block;
+                                            padding-left: 15px;
+                                            width: calc(100% - 30px);
+                                            &:after {
+                                                content: "";
+                                                position: absolute;
+                                                left: 0;
+                                                top: 0;
+                                                width: 100%;
+                                                height: 2px;
+                                                background: url(../css/images/at_menu2.png) no-repeat;
+                                            }
+                                            &:before {
+                                                font: normal normal normal 5px/1 FontAwesome!important;
+                                                content: "\f111";
+                                                color: $cam;
+                                                height: 5px;
+                                                width: 5px;
+                                                top: 20px;
+                                                left: 0;
+                                                display: inline-block;
+                                                position: absolute;
+                                                transition: .5s;
+                                            }
+                                        }
+                                        &:hover {
+                                            &+li {
+                                                a {
+                                                    &:after {
+                                                        display: none;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        ul {
+                                            background: rgba(248, 166, 56, .85);
+                                            padding-top: 0;
+                                            li {
+                                                height: 45px;
+                                                width: 100%;
+                                                a {
+                                                    height: 45px;
+                                                    line-height: 45px;
+                                                    border: 0;
+                                                    margin: 0 22px 0 15px;
+                                                    position: relative;
+                                                    width: 100%;
+                                                    display: inline-block;
+                                                    padding-left: 15px;
+                                                    width: calc(100% - 37px);
+                                                    &:after {
+                                                        content: "";
+                                                        position: absolute;
+                                                        left: 0;
+                                                        top: 0;
+                                                        width: 100%;
+                                                        height: 2px;
+                                                        background: url(../css/images/at_menu3.png) no-repeat;
+                                                    }
+                                                    &:before {
+                                                        font: normal normal normal 5px/1 FontAwesome;
+                                                        content: "\f111";
+                                                        color: #785836;
+                                                        height: 5px;
+                                                        width: 5px;
+                                                        top: 20px;
+                                                        left: 0;
+                                                        display: inline-block;
+                                                        position: absolute;
+                                                        transition: .5s;
+                                                    }
+                                                }
+                                                &:hover {
+                                                    background-color: rgba(94, 48, 6, .46);
+                                                    &+li {
+                                                        a {
+                                                            &:after {
+                                                                display: none;
+                                                            }
+                                                        }
+                                                    }
+                                                    a {
+                                                        &:before {
+                                                            color: #eaa74e;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        &:first-child {
+                                            >a {
+                                                &:after {
+                                                    display: none;
+                                                }
+                                            }
+                                        }
+                                        &:hover {
+                                            background-color: $cam;
+                                            >a {
+                                                &:before {
+                                                    color: $nau;
+                                                }
+                                            }
+                                            >a {
+                                                &:after {
+                                                    display: none;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    #box_search {
+                        display: inline-block;
+                        float: right;
+                        margin-right: calc((100% - 1170px)/2);
+                        position: relative;
+                        background: url(../css/images/bg_search.png) no-repeat;
+                        background-size: 100% 100%;
+                        width: 290px;
+                        height: 32px;
+                        margin-top: -4px;
+                        input {
+                            height: 25px;
+                            padding-left: 10px;
+                            @include text($font21,
+                            #999999,
+                            13px,
+                            25px);
+                            border: 0;
+                            outline: 0;
+                            width: 100%;
+                            background: $white;
+                            border-radius: 10px;
+                            top: 3px;
+                            left: 30px;
+                            width: 230px;
+                            position: absolute;
+                        }
+                        a.search {
+                            display: inline-block;
+                            width: 13px;
+                            height: 13px;
+                            right: 40px;
+                            top: 4px;
+                            position: absolute;
+                            i {
+                                color: $nau;
+                                display: inline-block;
+                                height: 13px;
+                                line-height: 13px;
+                                width: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            #banner {
+                position: relative;
+                .banner_tchu {
+                    .khungAnh {
+                        &:before {
+                            padding-bottom: 36.60%;
+                        }
+                        .content_banner {
+                            top: 33%;
+                            right: 14.64%;
+                            position: absolute;
+                            padding: 30px 72px 26px 60px;
+                            background: url(../css/images/bg_content_banner.png) no-repeat;
+                            background-size: 100% 100%;
+                            z-index: 100;
+                            p.first {
+                                width: 100%;
+                                text-align: center;
+                                @include text($font12,
+                                $white,
+                                24px,
+                                24px);
+                                margin-bottom: 8px;
+                                text-transform: uppercase;
+                            }
+                            p.second {
+                                @include text($font11,
+                                $white,
+                                18px,
+                                24px);
+                                margin-bottom: 22px;
+                                width: 100%;
+                                text-align: center;
+                            }
+                            a.more {
+                                width: 120px;
+                                height: 30px;
+                                line-height: 30px;
+                                text-align: center;
+                                @include text($font11,
+                                $white,
+                                16px,
+                                30px);
+                                text-align: center;
+                                border-radius: 10px;
+                                border: solid 1px $white;
+                                display: inline-block;
+                                margin: 0 auto;
+                                position: relative;
+                                left: 50%;
+                                transform: translateX(-50%);
+                            }
+                        }
+                    }
+                    .slick-dots {
+                        position: absolute;
+                        bottom: 22px;
+                        li {
+                            width: 21px;
+                            height: 21px;
+                            box-sizing: border-box;
+                            border-radius: 50%;
+                            border: 0;
+                            padding: 3px;
+                            color: $white;
+                            position: relative;
+                            border: solid 1px $white;
+                            button {
+                                width: 100%;
+                                height: inherit;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                padding: 0;
+                                display: inline-block;
+                                text-align: center;
+                                &:before {
+                                    color: transparent;
+                                    font-size: 15px;
+                                    height: 21px;
+                                    line-height: 21px;
+                                    opacity: 1;
+                                    font: normal normal normal 15px/20px FontAwesome;
+                                    content: "\f111";
+                                }
+                            }
+                        }
+                        li.slick-active {
+                            border: solid 1px $white;
+                            color: $white;
+                            button {
+                                &:before {
+                                    color: $white;
+                                }
+                            }
+                        }
+                    }
+                }
+                .banner_tcon {
+                    position: relative;
+                    .khungAnh {
+                        &:before {
+                            padding-bottom: 16%;
+                        }
+                        .khungAnhCrop {}
+                    }
+                    .menu_banner {
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        z-index: 99;
+                        left: 50%;
+                        width: 100%;
+                        transform: translateX(-50%);
+                        background: url(../css/images/bg_menu.png) no-repeat top left;
+                        background-size: 100% 80px;
+                        span {
+                            @include text($font21,
+                            $white,
+                            24px,
+                            40px);
+                            text-transform: uppercase;
+                            display: block;
+                            width: 100%;
+                            text-align: center;
+                        }
+                        ul {
+                            height: auto;
+                            min-height: 100%;
+                            overflow: hidden;
+                            display: flex;
+                            justify-content: center;
+                            margin-bottom: 0;
+                            li {
+                                float: left;
+                                a {
+                                    @include text($font21,
+                                    $white,
+                                    15px,
+                                    40px);
+                                    position: relative;
+                                    padding-right: 23px;
+                                    display: block;
+                                    width: 100%;
+                                    text-align: center;
+                                    &:first-letter {
+                                        text-transform: uppercase;
+                                    }
+                                    &:after {
+                                        content: "";
+                                        position: absolute;
+                                        right: 0;
+                                        top: 16px;
+                                        right: 10px;
+                                        width: 5px;
+                                        height: 9px;
+                                        background: url(../css/images/right4.png) no-repeat;
+                                        background-size: 100% 100%;
+                                    }
+                                }
+                                &:last-child {
+                                    a {
+                                        &:after {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            #backtop {
+                bottom: 0;
+                bottom: 100px;
+                height: 57px;
+                position: fixed;
+                right: 0;
+                right: 0;
+                width: 57px;
+                z-index: 1000;
+                img {}
+            }
+            
+            #gioiThieu {
+                padding: 40px 0 55px 0;
+                border-bottom: solid 1px #dedede;
+                background: #fff url(../css/images/bg_gt2.png) no-repeat top 90px right 755px;
+                background-size: 850px 390px;
+                span.title {
+                    @include text($font12,
+                    $nau,
+                    24px,
+                    40px);
+                    text-transform: uppercase;
+                    position: relative;
+                    padding-bottom: 6px;
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        left: 50%;
+                        bottom: 0;
+                        height: 1px;
+                        width: 160px;
+                        transform: translateX(-50%);
+                        background: url(../css/images/at_title.jpg) no-repeat;
+                        background-size: contain;
+                    }
+                }
+                p.description {
+                    @include text($font21,
+                    $gray,
+                    15px,
+                    24px);
+                    margin-bottom: 43px;
+                    text-align: center;
+                    height: auto;
+                    max-height: 72px;
+                    overflow: hidden;
+                    margin-top: 20px;
+                }
+                .content_left {
+                    .header {
+                        span.title {
+                            @include text($font12,
+                            $nau,
+                            24px,
+                            40px);
+                            text-transform: uppercase;
+                            position: relative;
+                            padding-bottom: 6px;
+                            width: 100%;
+                            background: #fcfcfc;
+                            display: block;
+                            text-align: center;
+                            &:after {
+                                content: "";
+                                position: absolute;
+                                left: 50%;
+                                bottom: 0;
+                                height: 1px;
+                                width: 160px;
+                                transform: translateX(-50%);
+                                background: url(../css/images/at_title.jpg) no-repeat;
+                                background-size: contain;
+                            }
+                        }
+                        p.description {
+                            @include text($font21,
+                            $gray,
+                            15px,
+                            24px);
+                            margin-bottom: 43px;
+                            text-align: center;
+                            height: auto;
+                            max-height: 72px;
+                            overflow: hidden;
+                            margin-top: 20px;
+                        }
+                    }
+                    .contain {
+                        .item {
+                            a.name {
+                                background: url(../css/images/gioithieu.png) no-repeat;
+                                background-size: 55px 55px;
+                                display: inline-block;
+                                @include text($font12,
+                                $nau,
+                                16px,
+                                40px);
+                                padding: 10px 0 5px 60px;
+                                margin-bottom: 13px;
+                            }
+                            p.info {
+                                @include text($font21,
+                                $gray,
+                                15px,
+                                22px);
+                                height: 88px;
+                                overflow: hidden;
+                                margin-bottom: 9px;
+                            }
+                            a.more {
+                                @include text($font11,
+                                $cam,
+                                15px,
+                                40px);
+                                padding-right: 9px;
+                                background: url(../css/images/right3.png) top 8px right no-repeat;
+                                background-size: 5px 9px;
+                                i {
+                                    margin-left: 4px;
+                                }
+                            }
+                            &:nth-child(2) {
+                                a.name {
+                                    background: url(../css/images/khacbiet.png) no-repeat;
+                                }
+                            }
+                            &:nth-child(3) {
+                                a.name {
+                                    background: url(../css/images/tamnhin.png) no-repeat;
+                                }
+                            }
+                        }
+                    }
+                }
+                .content_right {
+                    padding-left: 15px;
+                    .img_gt {
+                        position: relative;
+                        .khungAnh {
+                            &:before {
+                                padding-bottom: 101%;
+                            }
+                        }
+                        .img_bg {
+                            background: url(../css/images/bg_gt.png) no-repeat;
+                            background-size: 100% 100%;
+                            z-index: 2;
+                            pointer-events: none;
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            top: 0;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+            
+            #ad {
+                padding-top: 30px;
+                .khungAnh {
+                    &:before {
+                        padding-bottom: 8.56%;
+                    }
+                }
+            }
+            
+            #info {
+                padding-top: 30px;
+                padding-bottom: 40px;
+                .title {
+                    border-bottom: solid 1px #eeeeee;
+                    position: relative;
+                    a.name {
+                        text-transform: uppercase;
+                        @include text($font12,
+                        $nau,
+                        22px,
+                        24px);
+                        padding-bottom: 12px;
+                        position: relative;
+                        display: inline-block;
+                        &:after {
+                            position: absolute;
+                            content: "";
+                            left: 4px;
+                            bottom: 0;
+                            height: 1px;
+                            width: 83px;
+                            background-color: $cam;
+                        }
+                    }
+                    a.xemThem {
+                        @include text($font31,
+                        $gray,
+                        14px,
+                        16px);
+                        background: #fff;
+                        position: absolute;
+                        bottom: -4px;
+                        right: 0;
+                    }
+                }
+                .newz {
+                    .block_left {
+                        .item {
+                            &:first-child {
+                                margin-top: 25px;
+                            }
+                            margin-top: 30px;
+                            .khungAnh {
+                                width: 283px;
+                                float: left;
+                                &:before {
+                                    padding-bottom: 65.02%;
+                                }
+                            }
+                            .content_outer {
+                                float: right;
+                                width: calc(100% - 283px);
+                                padding-left: 18px;
+                                a.title {
+                                    @include text($font22,
+                                    #36200b,
+                                    16px,
+                                    24px);
+                                    height: 72px;
+                                    overflow: hidden;
+                                    margin-bottom: 10px;
+                                    border: 0;
+                                    display: inline-block;
+                                    text-align: left;
+                                }
+                                .thongke {
+                                    background: $white;
+                                    margin-bottom: 15px;
+                                    border: 0;
+                                    margin: 0 0 0 0;
+                                }
+                                p.description {
+                                    @include text($font21,
+                                    $gray,
+                                    14px,
+                                    22px);
+                                    height: 66px;
+                                    overflow: hidden;
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+                    .block_right {
+                        padding-top: 25px;
+                        .item {
+                            height: 57px;
+                            &:nth-of-type(2n+1) {
+                                background: #fafafa;
+                            }
+                            &:nth-of-type(2n+2) {
+                                background: #fff;
+                            }
+                        }
+                        a {
+                            margin: 10px;
+                            @include text($font21,
+                            $gray,
+                            14px,
+                            20px);
+                            display: inline-block;
+                            height: auto;
+                            max-height: 40px;
+                            overflow: hidden;
+                            position: relative;
+                            padding-left: 26px;
+                            i {
+                                color: #dedede;
+                                margin-right: 10px;
+                                font-size: 8px;
+                                position: absolute;
+                                left: 11px;
+                                top: 5px;
+                            }
+                        }
+                    }
+                }
+                .video {
+                    .khungAnh.main_video {
+                        margin-bottom: 2px;
+                        margin-top: 25px;
+                        position: relative;
+                        &:before {
+                            padding-bottom: 57.14%;
+                        }
+                        a.play_video {
+                            background: url(../css/images/common/video.play.png) no-repeat;
+                            background-size: cover;
+                            height: 50px;
+                            left: 50%;
+                            position: absolute;
+                            top: 50%;
+                            -webkit-transform: translate(-50%, -50%);
+                            transform: translate(-50%, -50%);
+                            width: 50px;
+                            z-index: 100;
+                        }
+                    }
+                    .sub_video {
+                        .khungAnh {
+                            border-radius: 5px;
+                            margin-right: 1px;
+                            width: calc((100% - 2px)/3);
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                            &:before {
+                                padding-bottom: 55.56%;
+                            }
+                            a.play_video {
+                                background: url(../css/images/common/video.play.png) no-repeat;
+                                background-size: cover;
+                                height: 50px;
+                                left: 50%;
+                                position: absolute;
+                                top: 50%;
+                                -webkit-transform: translate(-50%, -50%);
+                                transform: translate(-50%, -50%);
+                                width: 20px;
+                                z-index: 100;
+                                height: 20px;
+                            }
+                        }
+                    }
+                }
+                .ad2 {
+                    margin-top: 20px;
+                    .khungAnh {
+                        &:before {
+                            padding-bottom: 67.03%;
+                        }
+                    }
+                }
+            }
+
+#dangKy {
+    margin-bottom: 28px;
+
+    .bg_content {
+        position: relative;
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 0 10px;
+            span.title {
+                @include text($font41, $white, 30px, 43px);
+                display: inline-block;
+                margin-right: 14px;
+                width: calc(100% - 134px);
+                overflow: hidden;
+                height: 43px;
+            }
+
+            a.dangKy {
+                display: inline-block;
+                width: 188px;
+                height: 43px;
+                @include text($font21, $white, 18px, 43px);
+                text-align: center;
+                background: $cam;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+            
+            #thuVien {
+                margin-bottom: 40px;
+                .title {
+                    border-bottom: solid 1px #eeeeee;
+                    position: relative;
+                    margin-bottom: 20px;
+                    a.name {
+                        text-transform: uppercase;
+                        @include text($font12,
+                        $nau,
+                        22px,
+                        24px);
+                        padding-bottom: 12px;
+                        position: relative;
+                        display: inline-block;
+                        &:after {
+                            position: absolute;
+                            content: "";
+                            left: 4px;
+                            bottom: 0;
+                            height: 1px;
+                            width: 83px;
+                            background-color: $cam;
+                        }
+                    }
+                }
+                .wrapper_item {
+                    .item {
+                        // margin-bottom: 17px;
+                        &:hover {
+                            .khungAnh {
+                                .khungAnhCrop {
+                                    &:before {
+                                        width: 100%;
+                                        height: 100%;
+                                        margin-top: 0;
+                                        margin-left: 0;
+                                    }
+                                }
+                                a.view {
+                                    width: 55px;
+                                }
+                            }
+                            a.content_outer {
+                                color: $cam;
+                            }
+                        }
+                        .khungAnh {
+                            &:before {
+                                padding-bottom: 66.91%;
+                            }
+                            a.khungAnhCrop {
+                                &:before {
+                                    content: "";
+                                    display: block;
+                                    width: 0;
+                                    height: 0;
+                                    margin-top: 150px;
+                                    margin-left: 50px;
+                                    background-color: rgba(63, 34, 8, 0.8);
+                                    position: absolute;
+                                    z-index: 2;
+                                    top: 0;
+                                    left: 0;
+                                    transition: .5s;
+                                }
+                            }
+                            a.view {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                width: 0;
+                                height: 55px;
+                                background: url(../css/images/view.png) no-repeat;
+                                background-size: cover;
+                                z-index: 100;
+                                transform: translate(-50%, -50%);
+                                transition: .5s;
+                            }
+                        }
+                        a.content_outer {
+                            @include text($font11,
+                            $gray,
+                            16px,
+                            22px);
+                            display: inline-block;
+                            width: 100%;
+                            height: 44px;
+                            overflow: hidden;
+                            transition: 0.5s;
+                            margin-top: 12px;
+                        }
+                    }
+                }
+            }
+            
+            #doiTac {
+                padding-bottom: 60px;
+                span.title {
+                    @include text($font12,
+                    $nau,
+                    18px,
+                    24px);
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                }
+                .wrapper_item {
+                    padding: 0 40px;
+                    .slick-list {
+                        margin: 0 -8px;
+                        padding-right: 40px;
+                    }
+                    button {
+                        &.slick-prev {
+                            left: 0;
+                            &:before {
+                                color: #3b210a;
+                                font: normal normal normal 25px/1 FontAwesome;
+                                content: "\f104";
+                            }
+                        }
+                        &.slick-next {
+                            right: 0;
+                            &:before {
+                                font: normal normal normal 25px/1 FontAwesome;
+                                content: "\f105";
+                                color: #3b210a;
+                            }
+                        }
+                    }
+                    .item {
+                        border: solid 1px #e0e0e0;
+                        border-radius: 5px;
+                        padding: 6px;
+                        margin: 0 8px;
+                        height: 100px;
+                        img {
+                            max-width: 100%;
+                            margin: 0 auto;
+                            max-height: 100%;
+                        }
+                    }
+                }
+            }
+            
+            #footer {
+                .block_link {
+                    background: #ecedf0;
+                    padding: 35px 0 22px 0;
+                    .item {
+                        span.title {
+                            @include text($font22,
+                            $gray,
+                            14px,
+                            20px);
+                            margin-bottom: 23px;
+                            text-transform: uppercase;
+                        }
+                        ul {
+                            margin-bottom: 0;
+                            li {
+                                a {
+                                    display: inline-block;
+                                    @include text($font21,
+                                    $gray,
+                                    14px,
+                                    30px);
+                                    position: relative;
+                                    padding-left: 10px;
+                                    i {
+                                        color: #a58768;
+                                        font-size: 6px;
+                                        margin-right: 10px;
+                                        position: absolute;
+                                        top: 12px;
+                                        left: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .main_footer {
+                    background: #331b05 url(../css/images/bg_footer.png) no-repeat;
+                    background-size: 100% 100%;
+                    padding: 32px 0 36px 0;
+                    span.name {
+                        @include text($font22,
+                        $white,
+                        20px,
+                        28px);
+                        text-transform: uppercase;
+                        display: inline-block;
+                        margin-bottom: 18px;
+                        width: 100%;
+                    }
+                    .block1 {
+                        .item.truSo {
+                            ul {
+                                li {
+                                    &:first-child {
+                                        &:before {
+                                            content: "\f041";
+                                        }
+                                    }
+                                    &:nth-child(2) {
+                                        &:before {
+                                            content: "\f095";
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .item.vanPhong {
+                            ul {
+                                li {
+                                    &:first-child {
+                                        &:before {
+                                            content: "\f041";
+                                        }
+                                    }
+                                    &:nth-child(2) {
+                                        &:before {
+                                            content: "\f095";
+                                        }
+                                    }
+                                    &:nth-child(3) {
+                                        &:before {
+                                            content: "\f0e0";
+                                        }
+                                    }
+                                    &:nth-child(4) {
+                                        &:before {
+                                            content: "\f0ac";
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .item.daoTao {
+                            ul {
+                                li {
+                                    &:first-child {
+                                        &:before {
+                                            content: "\f041";
+                                        }
+                                    }
+                                    &:nth-child(2) {
+                                        &:before {
+                                            content: "\f095";
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .block2,
+                    .block3 {
+                        .item {
+                            ul {
+                                li {
+                                    &:before {
+                                        content: "\f111";
+                                        font: normal normal normal 6px/1 FontAwesome!important;
+                                        top: 8px!important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .block {
+                        span.title {
+                            @include text($font22,
+                            $white,
+                            18px,
+                            26px);
+                            text-transform: uppercase;
+                            display: block;
+                            width: 100%;
+                            margin-bottom: 12px;
+                        }
+                        .item {
+                            margin-bottom: 12px;
+                            span.title {
+                                @include text($font22,
+                                $white,
+                                18px,
+                                26px);
+                                text-transform: uppercase;
+                                display: block;
+                                width: 100%;
+                                margin-bottom: 12px;
+                            }
+                            ul {
+                                li {
+                                    @include text($font21,
+                                    #e1ba9a,
+                                    14px,
+                                    22px);
+                                    margin-bottom: 8px;
+                                    position: relative;
+                                    padding-left: 22px;
+                                    &:before {
+                                        position: absolute;
+                                        top: 5px;
+                                        left: 0;
+                                        font: normal normal normal 14px/1 FontAwesome;
+                                    }
+                                }
+                            }
+                            &.social {
+                                a {
+                                    width: 35px;
+                                    height: 35px;
+                                    display: inline-block;
+                                    margin-right: 5px;
+                                    transition: 0.7s linear;
+                                    border: solid 1px #675b50;
+                                    border-radius: 50%;
+                                    transition: 0.5s;
+                                    &:hover {
+                                        border-color: $cam;
+                                    }
+                                    &:first-child {
+                                        background: url(../css/images/fb.png) no-repeat center center;
+                                    }
+                                    &:nth-child(2) {
+                                        background: url(../css/images/twitter.png) no-repeat center center;
+                                    }
+                                    &:nth-child(3) {
+                                        background: url(../css/images/google.png) no-repeat center center;
+                                    }
+                                    &:nth-child(4) {
+                                        background: url(../css/images/intergram.png) no-repeat center center;
+                                    }
+                                    &:nth-child(5) {
+                                        background: url(../css/images/youtube.png) no-repeat center center;
+                                    }
+                                    &:nth-child(6) {
+                                        background: url(../css/images/zingme.png) no-repeat center center;
+                                    }
+                                    &:hover {
+                                        &:first-child {
+                                            background: url(../css/images/fb_hover.png) no-repeat center center;
+                                        }
+                                        &:nth-child(2) {
+                                            background: url(../css/images/twitter_hover.png) no-repeat center center;
+                                        }
+                                        &:nth-child(3) {
+                                            background: url(../css/images/google_hover.png) no-repeat center center;
+                                        }
+                                        &:nth-child(4) {
+                                            background: url(../css/images/intergram_hover.png) no-repeat center center;
+                                        }
+                                        &:nth-child(5) {
+                                            background: url(../css/images/youtube_hover.png) no-repeat center center;
+                                        }
+                                        &:nth-child(6) {
+                                            background: url(../css/images/zingme_hover.png) no-repeat center center;
+                                        }
+                                    }
+                                }
+                            }
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                    .block2 {
+                        .item {
+                            span.title {
+                                font-size: 15px;
+                            }
+                            ul {
+                                li {
+                                    i {
+                                        font-size: 6px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .block3 {
+                        .hotline_hoTro {
+                            padding-left: 58px;
+                            background: url(../css/images/hotline.png) no-repeat top left;
+                            background-size: 46px 50px;
+                            margin-bottom: 33px;
+                            span.first {
+                                @include text($font31,
+                                $white,
+                                16px,
+                                20px);
+                            }
+                            span.phone {
+                                @include text($font32,
+                                $cam,
+                                30px,
+                                30px);
+                            }
+                        }
+                        .item {
+                            span.title {
+                                font-size: 15px;
+                            }
+                            ul {
+                                li {
+                                    i {
+                                        font-size: 6px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            #copyright {
+                height: 42px;
+                background: #2e1e0f;
+                border-top: solid 1px #58381d;
+                position: relative;
+                .content {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                    justify-content: flex-start;
+                    -ms-flex-line-pack: center;
+                    align-content: center;
+                    p {
+                        @include text($font21,
+                        #fff,
+                        14px,
+                        42px);
+                        padding-right: 23px;
+                        margin-bottom: 0;
+                        a {
+                            @include text($font21,
+                            #fff,
+                            14px,
+                            42px);
+                        }
+                    }
+                    span {
+                        display: inline-block;
+                        height: 42px;
+                        line-height: 42px;
+                        @include text($font21,
+                        #fff,
+                        14px,
+                        42px);
+                        transition: 1s;
+                        &:nth-of-type(1) {
+                            background: url(../css/images/common/online.png) no-repeat left top 13px;
+                            margin-right: 37px;
+                            padding-left: 20px;
+                            margin-left: 50px;
+                        }
+                        &:nth-of-type(2) {
+                            padding-left: 26px;
+                            background: url(../css/images/common/all_online.png) no-repeat left top 13px;
+                        }
+                    }
+                    a.support_footer {
+                        position: absolute;
+                        bottom: 0;
+                        right: 10px;
+                        display: inline-block;
+                        height: 41px;
+                        line-height: 41px;
+                        @include text($font21,
+                        #fff,
+                        14px,
+                        42px);
+                        padding-left: 28px;
+                        background: url(../css/images/chat2.png) no-repeat top 10px left;
+                        background-size: 22px 22px;
+                    }
+                }
+            }
+            
+            .block_tinNoiBat {
+                margin-top: 30px;
+                background: $white;
+                a.title {
+                    display: block;
+                    background: $nau;
+                    height: 34px;
+                    @include text($font22,
+                    $white,
+                    14px,
+                    34px);
+                    padding: 0 15px;
+                    overflow: hidden;
+                    text-transform: uppercase;
+                }
+                .wrapper_item {
+                    .item {
+                        margin-top: 20px;
+                        &:last-child {
+                            border-bottom: 0;
+                        }
+                        &:hover {
+                            a.content_outer {
+                                color: $nau;
+                            }
+                        }
+                        .khungAnh {
+                            width: 130px;
+                            float: left;
+                            &:before {
+                                padding-bottom: 66.15%;
+                            }
+                        }
+                        a.content_outer {
+                            float: right;
+                            display: inline-block;
+                            width: calc(100% - 130px);
+                            padding-left: 10px;
+                            @include text($font21,
+                            $gray,
+                            14px,
+                            22px);
+                            max-height: 66px;
+                            overflow: hidden;
+                            transition: 1s;
+                        }
+                    }
+                }
+            }
+            
+            .block_menu {
+                width: 100%;
+                background: url(../css/images/bg_tinTuc.png) no-repeat;
+                background-size: 100% 100%;
+                a.title {
+                    display: block;
+                    background: $nau;
+                    height: 34px;
+                    @include text($font22,
+                    $white,
+                    14px,
+                    34px);
+                    padding: 0 15px;
+                    overflow: hidden;
+                    text-transform: uppercase;
+                }
+                ul {
+                    margin-bottom: 0;
+                }
+                li.main_menu {
+                    width: 300px;
+                    height: 40px;
+                    cursor: pointer;
+                    position: relative;
+                    overflow: hidden;
+                    margin-bottom: 2px;
+                    &:hover {
+                        position: relative;
+                        height: auto;
+                        a {
+                            background: #fff;
+                        }
+                        ul {
+                            display: block;
+                            li {
+                                &:hover {
+                                    a {
+                                        background: #fff;
+                                    }
+                                }
+                                a {
+                                    color: $cam;
+                                    background: transparent;
+                                }
+                            }
+                        }
+                        &:before {
+                            display: block;
+                            height: 40px;
+                        }
+                        a {
+                            color: $cam;
+                        }
+                    }
+                    a {
+                        @include text($font31,
+                        #666666,
+                        15px,
+                        40px);
+                        line-height: 40px;
+                        padding-left: 15px;
+                        display: block;
+                        height: 40px;
+                        width: 100%;
+                        overflow: hidden;
+                        transition: 0.7s;
+                        border-bottom: solid 1px #e8e8e8;
+                    }
+                    ul {
+                        display: none;
+                        list-style-type: none;
+                        li {
+                            &:hover {
+                                a {
+                                    color: $cam;
+                                }
+                            }
+                            a {
+                                @include text($font31,
+                                $gray2,
+                                15px,
+                                40px);
+                                height: 100%;
+                                width: 100%;
+                                line-height: 40px;
+                                margin: 0;
+                                padding-left: 35px;
+                                position: relative;
+                                border-bottom: solid 1px #e8e8e8;
+                                transition: 0.7s;
+                                &:hover,
+                                &:focus {
+                                    color: $cam;
+                                }
+                            }
+                        }
+                    }
+                }
+                li.main_menu.actived {
+                    color: $cam;
+                    a {
+                        color: $cam;
+                    }
+                    ul {
+                        li {
+                            &:hover {
+                                a {
+                                    color: $cam;
+                                }
+                            }
+                            a {
+                                color: $gray2;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .block_tinDocNhieu {
+                margin-top: 28px;
+                background: #fffbf8;
+                a.title {
+                    display: block;
+                    background: $nau;
+                    height: 34px;
+                    @include text($font22,
+                    $white,
+                    14px,
+                    34px);
+                    padding: 0 15px;
+                    overflow: hidden;
+                    text-transform: uppercase;
+                }
+                .contain {
+                    .item {
+                        position: relative;
+                        padding-bottom: 10px;
+                        margin: 0 18px 0 7px;
+                        &:last-child {
+                            &:after {
+                                display: none;
+                            }
+                        }
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            bottom: 0;
+                            width: 100%;
+                            height: 8px;
+                            background: url(../css/images/at-tinDocNhieu.png) no-repeat;
+                            background-size: 100% 100%;
+                        }
+                        a {
+                            @include text($font21,
+                            $gray,
+                            14px,
+                            22px);
+                            display: block;
+                            width: 100%;
+                            transition: 1s;
+                            position: relative;
+                            max-height: 44px;
+                            height: auto;
+                            overflow: hidden;
+                            position: relative;
+                            margin-top: 12px;
+                            padding-left: 12px;
+                            &:first-child {
+                                i {
+                                    top: 4px;
+                                }
+                            }
+                            &:hover {
+                                color: $nau;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .block_video {
+                margin-top: 10px;
+                padding: 26px 15px 45px 15px;
+                background: $nau;
+                a.title {
+                    display: block;
+                    background: $nau;
+                    height: 34px;
+                    @include text($font22,
+                    $white,
+                    14px,
+                    20px);
+                    overflow: hidden;
+                    text-transform: uppercase;
+                    margin-bottom: 15px;
+                }
+                .main_video {
+                    iframe {
+                        width: 100%;
+                        height: 180px!important;
+                    }
+                    a.name {
+                        @include text($font22,
+                        $white,
+                        16px,
+                        20px);
+                        height: auto;
+                        max-height: 40px;
+                        margin: 10px 0 14px 0;
+                        display: inline-block;
+                    }
+                }
+                .sub_video {
+                    .item {
+                        width: calc((100% - 10px)/2);
+                        margin-right: 10px;
+                        float: left;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                        .khungAnh {
+                            &:before {
+                                padding-bottom: 56.15%;
+                            }
+                            a.play_video {
+                                background: url(../css/images/common/video.play.png) no-repeat;
+                                background-size: cover;
+                                height: 35px;
+                                left: 50%;
+                                position: absolute;
+                                top: 50%;
+                                -webkit-transform: translate(-50%, -50%);
+                                transform: translate(-50%, -50%);
+                                width: 35px;
+                                z-index: 100;
+                            }
+                        }
+                    }
+                }
+                a.more {
+                    display: inline-block;
+                    margin-top: 10px;
+                    height: 40px;
+                    text-align: center;
+                    width: 100%;
+                    @include text($font22,
+                    $nau,
+                    15px,
+                    40px);
+                    background: $white;
+                    text-transform: uppercase;
+                }
+            }
+            
+            .block_ad {
+                margin-top: 30px;
+                .khungAnh {
+                    &:before {
+                        padding-bottom: 105%;
+                    }
+                }
+            }
+            
+            .block_fanpage {
+                margin-top: 18px;
+            }
+            
+            #gioiThieu_tcon {
+                padding: 48px 0;
+                .content_left {
+                    >span.title {
+                        @include text($font12,
+                        $nau,
+                        24px,
+                        29px); // border-bottom: solid 1px #eaeaea;
+                    }
+                    .bottom_chiTiet {
+                        span.title {
+                            @include text($font12,
+                            $nau,
+                            15px,
+                            20px);
+                            text-transform: uppercase;
+                            margin-bottom: 30px;
+                            display: block;
+                        }
+                        ul {
+                            li {
+                                @include text($font21,
+                                $nau,
+                                15px,
+                                20px);
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .thongke {
+                height: 27px;
+                background: #f7f7f7;
+                .thongke_ngay,
+                .thongke_luotxem {
+                    height: 27px;
+                    line-height: 27px;
+                    background-position: left center;
+                    font-family: $font21;
+                }
+                .thongke_luotxem {
+                    background: url(images/common/view_ct.png) no-repeat left center;
+                }
+                .thongke_ngay {
+                    background: url(images/common/date_ct.png) no-repeat left center;
+                }
+            }
+            
+            .noidung {
+                @include text($font21,
+                $gray,
+                15px,
+                22px);
+                img {
+                    max-width: 100%;
+                    height: auto!important;
+                }
+            }
+            
+            #tinTuc_tcon {
+                padding: 48px 0;
+                span.title {
+                    @include text($font12,
+                    $nau,
+                    24px,
+                    29px); // border-bottom: solid 1px #eaeaea;
+                }
+                .noidung {
+                    @include text($font21,
+                    $gray,
+                    15px,
+                    22px);
+                    img {
+                        max-width: 100%;
+                        height: auto!important;
+                    }
+                }
+                .block1,
+                .block3 {
+                    height: auto;
+                    min-height: 100%;
+                    overflow: hidden;
+                    margin-bottom: 40px;
+                    .block_left,
+                    .block_right {
+                        div.title {
+                            position: relative;
+                            height: 29px;
+                            &:after {
+                                content: "";
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                height: 3px;
+                                width: 100%;
+                                background: $cam;
+                            }
+                            p {
+                                @include text($font12,
+                                $nau,
+                                14px,
+                                20px);
+                                position: absolute;
+                                background: $white;
+                                text-transform: uppercase;
+                                float: left;
+                                padding-bottom: 9px;
+                                margin-bottom: 0;
+                            }
+                            a.control {
+                                @include text($font21,
+                                $nau,
+                                13px,
+                                20px);
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                            }
+                        }
+                        .content {
+                            height: auto;
+                            min-height: 100%;
+                            overflow: hidden;
+                            padding: 0;
+                            width: 100%;
+                            padding-top: 14px;
+                            .item {
+                                width: 100%;
+                                .khungAnh {
+                                    &:before {
+                                        padding-bottom: 66.75%;
+                                    }
+                                }
+                            }
+                            a.title {
+                                @include text($font21,
+                                $gray,
+                                15px,
+                                22px);
+                                padding-bottom: 15px;
+                                display: inline-block;
+                                width: 100%;
+                                margin-top: 20px;
+                                height: 44px;
+                                overflow: hidden;
+                                font-weight: bold;
+                            }
+                            .thongke {
+                                height: 14px;
+                                border-top: 0;
+                                background: #fff;
+                                margin-bottom: 18px;
+                                .thongke_ngay {
+                                    background: url(images/date.png) no-repeat left center;
+                                    height: 17px;
+                                    line-height: 17px;
+                                }
+                                .thongke_luotxem {
+                                    height: 17px;
+                                    line-height: 17px;
+                                    span {
+                                        @include text($font21,
+                                        #999,
+                                        12px,
+                                        17px);
+                                    }
+                                }
+                            }
+                            span {
+                                @include text($font12,
+                                #999999,
+                                13px,
+                                20px);
+                                padding-bottom: 15px;
+                                display: inline-block;
+                            }
+                            p {
+                                @include text($font21,
+                                $gray,
+                                15px,
+                                22px);
+                                height: 44px;
+                                overflow: hidden;
+                                margin-bottom: 30px;
+                            }
+                            ul {
+                                li {
+                                    border-top: solid 1px #efefef;
+                                    a {
+                                        @include text($font21,
+                                        $nau,
+                                        14px,
+                                        20px);
+                                        display: inline-block;
+                                        transition: 1s;
+                                        margin: 10px;
+                                        height: auto;
+                                        max-height: 40px;
+                                    }
+                                    &:last-child {
+                                        a {
+                                            margin-bottom: 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .block2 {
+                    margin-bottom: 40px;
+                    div.title {
+                        position: relative;
+                        height: 29px;
+                        margin-bottom: 13px;
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            height: 3px;
+                            width: 100%;
+                            background: $cam;
+                        }
+                        p {
+                            @include text($font12,
+                            $nau,
+                            14px,
+                            20px);
+                            position: absolute;
+                            background: $white;
+                            text-transform: uppercase;
+                            float: left;
+                            padding-bottom: 9px;
+                            margin-bottom: 0;
+                        }
+                        a.control {
+                            @include text($font21,
+                            $nau,
+                            13px,
+                            20px);
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                        }
+                    }
+                    .wrapper_item {
+                        .main_item {
+                            .item {
+                                width: 100%;
+                                .khungAnh {
+                                    &:before {
+                                        padding-bottom: 61.11%;
+                                    }
+                                }
+                            }
+                            a.title {
+                                @include text($font21,
+                                $gray,
+                                15px,
+                                22px);
+                                padding-bottom: 15px;
+                                display: inline-block;
+                                width: 100%;
+                                margin-top: 20px;
+                                height: 44px;
+                                overflow: hidden;
+                                font-weight: bold;
+                            }
+                            .thongke {
+                                height: 14px;
+                                border-top: 0;
+                                background: #fff;
+                                margin-bottom: 18px;
+                                .thongke_ngay {
+                                    background: url(images/date.png) no-repeat left center;
+                                    height: 17px;
+                                    line-height: 17px;
+                                }
+                                .thongke_luotxem {
+                                    height: 17px;
+                                    line-height: 17px;
+                                    span {
+                                        @include text($font21,
+                                        #999,
+                                        12px,
+                                        14px);
+                                    }
+                                }
+                            }
+                            span {
+                                @include text($font12,
+                                #999999,
+                                13px,
+                                20px);
+                                padding-bottom: 15px;
+                                display: inline-block;
+                            }
+                            p {
+                                @include text($font21,
+                                $gray,
+                                15px,
+                                22px);
+                                height: 44px;
+                                overflow: hidden;
+                                margin-bottom: 30px;
+                            }
+                        }
+                    }
+                    .block3 {
+                        .block_left,
+                        .block_right {
+                            .content {
+                                ul {
+                                    li {
+                                        a {
+                                            color: $gray2;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .header_tinTuc {
+                    margin-bottom: 40px;
+                    .header_left {
+                        .khungAnh {
+                            &:before {
+                                padding-bottom: 59.32%;
+                            }
+                        }
+                        a.title {
+                            @include text($font21,
+                            $nau,
+                            24px,
+                            40px);
+                            display: inline-block;
+                            width: 100%;
+                            margin-top: 20px;
+                            height: 44px;
+                            overflow: hidden;
+                            font-weight: bold;
+                            margin-top: 14px;
+                        }
+                        .thongke {
+                            height: 14px;
+                            border-top: 0;
+                            background: #fff;
+                            margin: 0;
+                            .thongke_ngay {
+                                background: url(images/date.png) no-repeat left center;
+                                height: 17px;
+                                line-height: 17px;
+                            }
+                            .thongke_luotxem {
+                                height: 17px;
+                                line-height: 17px;
+                                margin-bottom: 10px;
+                                span {
+                                    @include text($font21,
+                                    #999,
+                                    12px,
+                                    17px);
+                                    padding-left: 3px;
+                                }
+                            }
+                        }
+                        p {
+                            @include text($font21,
+                            $gray,
+                            15px,
+                            24px);
+                            height: 48px;
+                            overflow: hidden;
+                            margin-bottom: 30px;
+                            width: 100%;
+                        }
+                    }
+                    .header_right {
+                        .khungAnh {
+                            &:before {
+                                padding-bottom: 62.05%;
+                            }
+                        }
+                        a.title {
+                            @include text($font21,
+                            $nau,
+                            15px,
+                            24px);
+                            display: inline-block;
+                            width: 100%;
+                            margin-top: 20px;
+                            height: auto;
+                            max-height: 48px;
+                            overflow: hidden;
+                            font-weight: bold;
+                            margin-top: 12px;
+                        }
+                        .thongke {
+                            height: 14px;
+                            border-top: 0;
+                            background: #fff;
+                            margin-bottom: 15px;
+                            margin-top: 4px;
+                            .thongke_ngay {
+                                background: url(images/date.png) no-repeat left center;
+                                height: 17px;
+                                line-height: 17px;
+                            }
+                            .thongke_luotxem {
+                                height: 17px;
+                                line-height: 17px;
+                                span {
+                                    @include text($font21,
+                                    #999,
+                                    12px,
+                                    17px);
+                                    padding-left: 3px;
+                                }
+                            }
+                        }
+                        p {
+                            @include text($font21,
+                            $gray,
+                            15px,
+                            24px);
+                            height: auto;
+                            max-height: 216px;
+                            overflow: hidden;
+                        }
+                    }
+                }
+                .main_content {
+                    .item {
+                        margin-bottom: 20px;
+                        transition: 0.5s;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        &:hover {
+                            background: #fdefe2;
+                            cursor: pointer;
+                            .item_right {
+                                a.second {
+                                    background: $cam;
+                                    border-left: solid 2px #be7100;
+                                }
+                            }
+                        }
+                        .item_left {
+                            float: left;
+                            width: 280px;
+                            .khungAnh {
+                                &:before {
+                                    padding-bottom: 63.21%;
+                                }
+                                .khungAnhCrop {
+                                    img {}
+                                }
+                            }
+                        }
+                        .item_right {
+                            width: calc(100% - 280px);
+                            float: right;
+                            padding-left: 20px;
+                            padding-top: 20px;
+                            a.first {
+                                @include text($font22,
+                                $gray,
+                                18px,
+                                22px);
+                                display: inline-block;
+                                transition: 1s;
+                                margin-bottom: 9px;
+                                height: 22px;
+                                overflow: hidden;
+                                &:first-letter {
+                                    text-transform: uppercase;
+                                }
+                            }
+                            .thongke {
+                                height: 14px;
+                                border-top: 0;
+                                background: transparent;
+                                margin-bottom: 12px;
+                                margin-top: 0;
+                                .thongke_ngay {
+                                    background: url(images/date.png) no-repeat left center;
+                                    height: 17px;
+                                    line-height: 17px;
+                                }
+                                .thongke_luotxem {
+                                    height: 17px;
+                                    line-height: 17px;
+                                    span {
+                                        @include text($font21,
+                                        #999,
+                                        12px,
+                                        17px);
+                                        padding-left: 3px;
+                                    }
+                                }
+                            }
+                            p {
+                                @include text($font21,
+                                $gray,
+                                14px,
+                                22px);
+                                height: 66px;
+                                overflow: hidden;
+                                margin-bottom: 3px;
+                            }
+                            a.second {
+                                font-family: $font21;
+                                color: #fff;
+                                font-size: 14px;
+                                line-height: 27px;
+                                text-align: center;
+                                width: 92px;
+                                height: 27px;
+                                background: #bfbfbf;
+                                display: inline-block;
+                                transition: .5s;
+                                position: relative;
+                                float: right;
+                                &:first-letter {
+                                    text-transform: uppercase;
+                                }
+                                border-left: solid 2px #898989;
+                            }
+                        }
+                    }
+                }
+                >span.title {
+                    @include text($font12,
+                    $nau,
+                    24px,
+                    29px); // border-bottom: solid 1px #eaeaea;
+                    margin-bottom: 10px;
+                }
+                .baiVietNoiBat {
+                    padding-bottom: 30px;
+                    border-bottom: solid 1px #d7d7d7;
+                    .title {
+                        margin: 10px 0;
+                        a.name {
+                            display: inline-block;
+                            float: left;
+                            @include text($font22,
+                            $gray,
+                            15px,
+                            22px);
+                            text-transform: uppercase;
+                        }
+                        span.control {
+                            float: right;
+                            display: inline-block;
+                            a {
+                                display: inline-block;
+                                width: 18px;
+                                height: 20px;
+                                line-height: 20px;
+                                background-color: #c5c5c5;
+                                &:first-child {
+                                    margin-right: 3px;
+                                }
+                                i {
+                                    color: #4a4a4a;
+                                    display: inline-block;
+                                    width: 100%;
+                                    height: 100%;
+                                    text-align: center;
+                                    line-height: 20px;
+                                }
+                                &:hover {
+                                    background-color: $cam;
+                                    i {
+                                        color: $white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .wrapper_item {
+                        .click-list {
+                            margin: 0 -10px;
+                        }
+                        .item {
+                            margin: 0 10px;
+                            .khungAnh {
+                                &:before {
+                                    padding-bottom: 65%;
+                                }
+                            }
+                            .content_outer {
+                                p {
+                                    @include text($font21,
+                                    $gray,
+                                    14px,
+                                    22px);
+                                    height: 66px;
+                                    overflow: hidden;
+                                    margin-top: 15px;
+                                    margin-bottom: 10px;
+                                }
+                                a {
+                                    @include text($font21,
+                                    $cam,
+                                    13px,
+                                    22px);
+                                    padding-right: 12px;
+                                    display: inline-block;
+                                    background: url(../css/images/right3.png) no-repeat top 7px right;
+                                }
+                            }
+                        }
+                    }
+                }
+                .block_baiVietKhac {
+                    .title {
+                        margin: 10px 0;
+                        a.name {
+                            display: inline-block;
+                            float: left;
+                            @include text($font22,
+                            $gray,
+                            15px,
+                            22px);
+                            text-transform: uppercase;
+                        }
+                        span.control {
+                            float: right;
+                            display: inline-block;
+                            a {
+                                display: inline-block;
+                                width: 18px;
+                                height: 20px;
+                                line-height: 20px;
+                                background-color: #c5c5c5;
+                                &:first-child {
+                                    margin-right: 3px;
+                                }
+                                i {
+                                    color: #4a4a4a;
+                                    display: inline-block;
+                                    width: 100%;
+                                    height: 100%;
+                                    text-align: center;
+                                    line-height: 20px;
+                                }
+                                &:hover {
+                                    background-color: $cam;
+                                    i {
+                                        color: $white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    >.content {
+                        width: 100%;
+                        height: auto;
+                        min-height: 100%;
+                        overflow: hidden;
+                        padding-bottom: 0;
+                        padding-top: 24px;
+                        .item {
+                            height: auto;
+                            min-height: 100%;
+                            overflow: hidden;
+                            &:hover {
+                                .item_right {}
+                            }
+                            &:nth-of-type(1),
+                            &:nth-of-type(2) {
+                                margin-bottom: 20px;
+                            }
+                            .item_left {
+                                float: left;
+                                width: 130px;
+                                .khungAnh {
+                                    padding: solid 1px #a19e9d;
+                                    &:before {
+                                        padding-bottom: 65.15%;
+                                    }
+                                }
+                            }
+                            .item_right {
+                                width: calc(100% - 130px);
+                                float: right;
+                                padding-left: 12px;
+                                padding-top: 2px;
+                                a {
+                                    @include text($font21,
+                                    $gray,
+                                    14px,
+                                    22px);
+                                    height: auto;
+                                    max-height: 44px;
+                                    overflow: hidden;
+                                    transition: 1s;
+                                    display: inline-block;
+                                    margin-bottom: 8px;
+                                    &:first-letter {
+                                        text-transform: uppercase;
+                                    }
+                                }
+                                .thongke {
+                                    height: 14px;
+                                    border-top: 0;
+                                    background: #fff;
+                                    margin: 0;
+                                    .thongke_ngay {
+                                        background: url(images/date.png) no-repeat left center;
+                                        height: 17px;
+                                        line-height: 17px;
+                                        margin-left: 0;
+                                    }
+                                    .thongke_luotxem {
+                                        height: 17px;
+                                        line-height: 17px;
+                                        margin-bottom: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .binhluan_form {
+                textarea {
+                    margin-bottom: 0;
+                }
+            }
+            
+            #phantrang {
+                margin-top: 25px;
+                display: flex;
+                justify-content: center;
+                a {
+                    background: $white;
+                    border: 1px solid #dedede;
+                    height: 35px;
+                    line-height: 35px;
+                    width: 40px;
+                    padding: 0;
+                    text-align: center;
+                    font-size: 13px;
+                    font-family: $font21;
+                    &.dau {
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                    }
+                    &.cuoi {
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                    }
+                    &:hover {
+                        background: $cam;
+                    }
+                    &.hientai {
+                        background: $cam;
+                    }
+                }
+            }
+            
+            #comment_facebook {
+                span {
+                    text-decoration: none;
+                    display: inline-block;
+                    @include text($font31,
+                    $nau,
+                    20px,
+                    40px);
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                    text-transform: uppercase;
+                    &:first-letter {
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            
+            .hoi_dap {
+                margin-bottom: 26px;
+                padding: 20px 0 27px 0;
+                border-bottom: solid 1px #d7d7d7;
+                border-top: solid 1px #d7d7d7;
+            }
+            
+            #hinhAnh {
+                padding: 48px 0;
+                div.title {
+                    position: relative;
+                    height: 29px;
+                    margin-bottom: 20px;
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        height: 3px;
+                        width: 100%;
+                        background: $cam;
+                    }
+                    p {
+                        @include text($font12,
+                        $nau,
+                        14px,
+                        20px);
+                        position: absolute;
+                        background: $white;
+                        text-transform: uppercase;
+                        float: left;
+                        padding-bottom: 9px;
+                        margin-bottom: 0;
+                    }
+                    a.control {
+                        @include text($font21,
+                        $nau,
+                        13px,
+                        20px);
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                    }
+                }
+                .block_main {
+                    padding-bottom: 20px;
+                    border-bottom: solid 1px #d1d1d1;
+                    .title {
+                        margin-bottom: 20px;
+                    }
+                    .block_left {
+                        .khungAnh {
+                            &:before {
+                                padding-bottom: 66%;
+                            }
+                            a.view {
+                                display: inline-block;
+                                width: 80px;
+                                height: 60px;
+                                background: url(../css/images/img.png) no-repeat;
+                                background-size: 100% 100%;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                z-index: 100;
+                            }
+                        }
+                        a.content_outer {
+                            @include text($font22,
+                            #8e5522,
+                            15px,
+                            24px);
+                            height: 48px;
+                            overflow: hidden;
+                            display: inline-block;
+                            margin-top: 17px;
+                        }
+                    }
+                    .block_right {
+                        .wrapper_item {
+                            .item {
+                                margin-right: 22px;
+                                margin-bottom: 13px;
+                                float: left;
+                                width: calc((100% - 44px)/3);
+                                &:nth-child(3n+3) {
+                                    margin-right: 0;
+                                }
+                                .khungAnh {
+                                    &:before {
+                                        padding-bottom: 67.16%;
+                                    }
+                                    a.view {
+                                        display: inline-block;
+                                        width: 30px;
+                                        height: 22px;
+                                        background: url(../css/images/img.png) no-repeat;
+                                        background-size: 100% 100%;
+                                        position: absolute;
+                                        bottom: 9px;
+                                        left: 9px;
+                                        z-index: 100;
+                                    }
+                                }
+                                a.content_outer {
+                                    @include text($font21,
+                                    $nau,
+                                    14px,
+                                    18px);
+                                    height: 36px;
+                                    overflow: hidden;
+                                    display: inline-block;
+                                    margin-top: 17px;
+                                    margin-top: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .block_sub,
+                .list_img {
+                    margin-top: 17px;
+                    .wrapper_item {
+                        .item {
+                            margin-right: 30px;
+                            margin-bottom: 13px;
+                            float: left;
+                            width: calc((100% - 90px)/4);
+                            &:nth-child(4n+4) {
+                                margin-right: 0;
+                            }
+                            .khungAnh {
+                                &:before {
+                                    padding-bottom: 66.67%;
+                                }
+                                a.view {
+                                    display: inline-block;
+                                    width: 30px;
+                                    height: 22px;
+                                    background: url(../css/images/img.png) no-repeat;
+                                    background-size: 100% 100%;
+                                    position: absolute;
+                                    bottom: 9px;
+                                    left: 9px;
+                                    z-index: 100;
+                                }
+                            }
+                            a.content_outer {
+                                @include text($font21,
+                                $nau,
+                                14px,
+                                20px);
+                                height: 40px;
+                                overflow: hidden;
+                                display: inline-block;
+                                margin-top: 20px;
+                                margin-top: 12px;
+                            }
+                        }
+                    }
+                }
+                .list_img {
+                    margin-top: 25px;
+                }
+                span.title {
+                    @include text($font12,
+                    $nau,
+                    24px,
+                    29px); // border-bottom: solid 1px #eaeaea;
+                }
+                .thongke {
+                    height: 27px;
+                    background: #f7f7f7;
+                    .thongke_ngay,
+                    .thongke_luotxem {
+                        height: 27px;
+                        line-height: 27px;
+                        background-position: left center;
+                        font-family: $font21;
+                    }
+                    .thongke_luotxem {
+                        background: url(images/common/view_ct.png) no-repeat left center;
+                    }
+                    .thongke_ngay {
+                        background: url(images/common/date_ct.png) no-repeat left center;
+                    }
+                }
+                .noidung {
+                    @include text($font21,
+                    $nau,
+                    15px,
+                    22px);
+                    img {
+                        max-width: 100%;
+                        height: auto!important;
+                    }
+                }
+                .list_img_detail {
+                    .wrapper_item {
+                        .item {
+                            margin-bottom: 13px;
+                            &:hover {
+                                .khungAnh {
+                                    .khungAnhCrop {
+                                        &:before {
+                                            width: 100%;
+                                            margin-top: 0;
+                                            margin-left: 0;
+                                            height: 100%;
+                                        }
+                                    }
+                                    a.view {
+                                        display: block;
+                                    }
+                                }
+                            }
+                            .khungAnh {
+                                &:before {
+                                    padding-bottom: 67.28%;
+                                }
+                                .khungAnhCrop {
+                                    &:before {
+                                        background-color: rgba(116, 76, 40, .37);
+                                        content: "";
+                                        display: block;
+                                        height: 0;
+                                        left: 0;
+                                        position: absolute;
+                                        top: 0;
+                                        -webkit-transition: 1s;
+                                        transition: .4s;
+                                        width: 0;
+                                        z-index: 2;
+                                        margin-top: 100px;
+                                        margin-left: 100px;
+                                    }
+                                }
+                                a.view {
+                                    background: url(../css/images/plus2.png) no-repeat;
+                                    background-size: cover;
+                                    height: 25px;
+                                    left: 50%;
+                                    position: absolute;
+                                    top: 50%;
+                                    -webkit-transform: translate(-50%, -50%);
+                                    transform: translate(-50%, -50%);
+                                    width: 25px;
+                                    z-index: 100;
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+                .tinLienQuan {
+                    padding-bottom: 35px;
+                    border-bottom: solid 1px #dfdfdf;
+                    .wrapper_item {
+                        .item {
+                            margin-right: 20px;
+                            width: calc((100% - 80px)/5);
+                            float: left;
+                            &:nth-of-type(5n+5) {
+                                margin-right: 0;
+                            }
+                            .khungAnh {
+                                &:before {
+                                    padding-bottom: 65%;
+                                }
+                            }
+                            .content_outer {
+                                p {
+                                    @include text($font31,
+                                    $gray,
+                                    14px,
+                                    22px);
+                                    height: 44px;
+                                    overflow: hidden;
+                                    margin-top: 17px;
+                                    margin-bottom: 24px;
+                                }
+                                a {
+                                    @include text($font21,
+                                    $cam,
+                                    13px,
+                                    22px);
+                                    padding-right: 12px;
+                                    display: inline-block;
+                                    background: url(../css/images/right3.png) no-repeat top 7px right;
+                                }
+                            }
+                        }
+                    }
+                }
+                .albumKhac {
+                    .title {
+                        margin: 10px 0;
+                        a.name {
+                            display: inline-block;
+                            float: left;
+                            @include text($font22,
+                            $gray,
+                            15px,
+                            22px);
+                            text-transform: uppercase;
+                        }
+                        span.control {
+                            float: right;
+                            display: inline-block;
+                            a {
+                                display: inline-block;
+                                width: 18px;
+                                height: 20px;
+                                line-height: 20px;
+                                background-color: #c5c5c5;
+                                &:first-child {
+                                    margin-right: 3px;
+                                }
+                                i {
+                                    color: #4a4a4a;
+                                    display: inline-block;
+                                    width: 100%;
+                                    height: 100%;
+                                    text-align: center;
+                                    line-height: 20px;
+                                }
+                                &:hover {
+                                    background-color: $cam;
+                                    i {
+                                        color: $white;
+                                    }
+                                }
+                            }
+                        }
+                        &:after {
+                            display: none;
+                        }
+                    }
+                    .wrapper_item {
+                        .slick-list {
+                            margin: 0 -15px;
+                        }
+                        button {
+                            visibility: hidden;
+                        }
+                        .item {
+                            margin: 0 15px;
+                            .khungAnh {
+                                &:before {
+                                    padding-bottom: 66.67%;
+                                }
+                            }
+                            a.content_outer {
+                                @include text($font31,
+                                #744c28,
+                                14px,
+                                20px);
+                                display: inline-block;
+                                height: 40px;
+                                overflow: hidden;
+                                margin-top: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            #lienHe {
+                padding: 48px 0;
+                .content {
+                    .content_left {
+                        span.title {
+                            @include text($font22,
+                            $nau,
+                            24px,
+                            30px);
+                            display: inline-block;
+                            text-transform: uppercase;
+                            margin-bottom: 20px;
+                        }
+                        ul {
+                            margin-bottom: 0;
+                            li {
+                                @include text($font21,
+                                $nau,
+                                15px,
+                                30px);
+                                &:first-child {
+                                    color: $gray;
+                                    a {
+                                        color: $cam;
+                                        padding-left: 4px;
+                                    }
+                                }
+                            }
+                        }
+                        #map {
+                            padding: 5px;
+                            border: solid 1px #dfdfdf;
+                        }
+                        p.description {
+                            @include text($font21,
+                            $gray,
+                            15px,
+                            24px);
+                            height: auto;
+                            min-height: 72px;
+                        }
+                        select {
+                            margin-bottom: 12px;
+                            height: 30px;
+                            line-height: 30px;
+                            @include text($font21,
+                            $gray2,
+                            14px,
+                            30px);
+                        }
+                    }
+                    .content_right {
+                        p.title {
+                            @include text($font21,
+                            $gray,
+                            14px,
+                            24px);
+                        }
+                        input {
+                            @include text($font21,
+                            #888888,
+                            14px,
+                            30px);
+                            height: 30px;
+                            border: solid 1px #dfdfdf;
+                            padding-left: 10px;
+                            width: 100%;
+                            margin-bottom: 10px;
+                            border-radius: 5px;
+                            &.maBaoVe {
+                                width: 118px;
+                                float: left;
+                                margin-right: 12px;
+                            }
+                        }
+                        textarea {
+                            padding: 10px;
+                            height: 265px;
+                            border: solid 1px #dfdfdf;
+                            border-radius: 5px;
+                            margin-bottom: 10px;
+                        }
+                        img {
+                            width: 70px;
+                            height: 27px;
+                            float: left;
+                            margin-right: 12px;
+                        }
+                        a.change {
+                            display: inline-block;
+                            width: 22px;
+                            height: 12px;
+                            margin-right: 12px;
+                            background: url(../css/images/change.png) no-repeat;
+                            background-size: 100% 100%;
+                        }
+                        a.guiYeucau {
+                            display: inline-block;
+                            width: 107px;
+                            height: 30px;
+                            @include text($font21,
+                            $white,
+                            14px,
+                            30px);
+                            text-align: center;
+                            background: #4463b4;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+            
+            #timKiem {
+                padding: 48px 0;
+                .content_left {
+                    p.title {
+                        margin-bottom: 24px;
+                        @include text($font21,
+                        $gray,
+                        15px,
+                        30px);
+                        span {
+                            color: #c1392c;
+                        }
+                    }
+                    .main_content {
+                        .item {
+                            margin-bottom: 20px;
+                            transition: 0.5s;
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+                            &:hover {
+                                background: #fdefe2;
+                                cursor: pointer;
+                                .item_right {
+                                    a.second {
+                                        background: $cam;
+                                        border-left: solid 2px #be7100;
+                                    }
+                                }
+                            }
+                            .item_left {
+                                float: left;
+                                width: 280px;
+                                .khungAnh {
+                                    &:before {
+                                        padding-bottom: 63.21%;
+                                    }
+                                    .khungAnhCrop {
+                                        img {}
+                                    }
+                                }
+                            }
+                            .item_right {
+                                width: calc(100% - 280px);
+                                float: right;
+                                padding-left: 20px;
+                                padding-top: 20px;
+                                a.first {
+                                    @include text($font22,
+                                    $gray,
+                                    18px,
+                                    22px);
+                                    display: inline-block;
+                                    transition: 1s;
+                                    margin-bottom: 9px;
+                                    height: 22px;
+                                    overflow: hidden;
+                                    &:first-letter {
+                                        text-transform: uppercase;
+                                    }
+                                }
+                                .thongke {
+                                    height: 14px;
+                                    border-top: 0;
+                                    background: transparent;
+                                    margin-bottom: 12px;
+                                    margin-top: 0;
+                                    .thongke_ngay {
+                                        background: url(images/date.png) no-repeat left center;
+                                        height: 17px;
+                                        line-height: 17px;
+                                    }
+                                    .thongke_luotxem {
+                                        height: 17px;
+                                        line-height: 17px;
+                                    }
+                                }
+                                p {
+                                    @include text($font21,
+                                    $gray,
+                                    14px,
+                                    22px);
+                                    height: 66px;
+                                    overflow: hidden;
+                                    margin-bottom: 3px;
+                                }
+                                a.second {
+                                    font-family: $font21;
+                                    color: #fff;
+                                    font-size: 14px;
+                                    line-height: 27px;
+                                    text-align: center;
+                                    width: 92px;
+                                    height: 27px;
+                                    background: #bfbfbf;
+                                    display: inline-block;
+                                    transition: .5s;
+                                    position: relative;
+                                    float: right;
+                                    &:first-letter {
+                                        text-transform: uppercase;
+                                    }
+                                    border-left: solid 2px #898989;
+                                }
+                            }
+                        }
+                    }
+                    .themKetQua {
+                        margin-top: 50px;
+                        margin-left: 260px;
+                        display: inline-block;
+                        height: 35px;
+                        width: auto;
+                        padding: 0 68px;
+                        @include text($font21,
+                        $white,
+                        14px,
+                        35px);
+                        background-color: #744c28;
+                        border-radius: 25px;
+                        span {
+                            font-family: $font22;
+                            padding: 0 3px;
+                        }
+                    }
+                }
+            }

@@ -1,0 +1,1495 @@
+    $font11:'sfu_futuraregular';
+    $font12:'sfu_futuraheavy';
+    $font13:'sfu_futurabold';
+    $font21:'open_sansregular';
+    $font22:'open_sansbold';
+    $blue:#2a83d5;
+    $white: #fff;
+    $black:#000;
+    $gray: #333333;
+    $gray2: #666666;
+    $white: #fff;
+    $nau:#744c28;
+    $cam:#f8a638;
+    @mixin text($font, $color, $font-size, $line-height) {
+        font-family: $font;
+        color: $color;
+        font-size: $font-size;
+        line-height: $line-height;
+    }
+    
+    @media(min-width:1200px) {
+        #gioiThieu {
+            .content_left {
+                width: 750px;
+                float: left;
+            }
+            .content_right {
+                width: calc(100% - 750px);
+                float: right;
+            }
+        }
+        #info {
+            .newz {
+                width: 873px;
+                float: left;
+                .block_left {
+                    width: 582px;
+                    float: left;
+                }
+                .block_right {
+                    width: calc(100% - 582px);
+                    float: right;
+                    padding-left: 30px;
+                }
+            }
+            .video {
+                width: calc(100% - 873px);
+                float: right;
+                padding-left: 28px;
+            }
+        }
+        #thuVien {
+            .wrapper_item {
+                .item {
+                    width: calc((100% - 90px)/4);
+                    float: left;
+                    margin-right: 30px;
+                    &:nth-of-type(4n+4) {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        #footer {
+            .main_footer {
+                .block1 {
+                    width: 468px;
+                    float: left;
+                }
+                .block2 {
+                    width: 404px;
+                    float: left;
+                }
+                .block3 {
+                    width: calc(100% - 468px - 404px);
+                    float: left;
+                }
+            }
+        }
+        #gioiThieu_tcon {
+            .content {
+                .content_left {
+                    width: calc(100% - 320px);
+                    float: left;
+                }
+                .content_right {
+                    width: 320px;
+                    float: right;
+                    padding-left: 20px;
+                }
+            }
+        }
+        #tinTuc_tcon {
+            .content {
+                .content_left {
+                    width: calc(100% - 320px);
+                    float: left;
+                    .block1,
+                    .block3 {
+                        .block_left {
+                            width: calc((100% - 25px)/2);
+                            margin-right: 25px;
+                        }
+                        .block_right {
+                            width: calc((100% - 25px)/2);
+                        }
+                    }
+                    .block2 {
+                        .wrapper_item {
+                            .main_item {
+                                float: left;
+                                width: calc((100% - 40px)/3);
+                                margin-right: 20px;
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                    }
+                    .header_tinTuc {
+                        .header_left {
+                            width: calc(100% - 253px);
+                            float: left;
+                        }
+                        .header_right {
+                            width: 253px;
+                            float: right;
+                            padding-left: 12px;
+                        }
+                    }
+                }
+                .content_right {
+                    width: 320px;
+                    float: right;
+                    padding-left: 20px;
+                }
+            }
+        }
+        #hinhAnh {
+            .block_main {
+                .block_left {
+                    width: 500px;
+                    float: left;
+                }
+                .block_right {
+                    width: calc(100% - 500px);
+                    float: right;
+                    padding-left: 20px;
+                }
+            }
+            .list_img_detail {
+                .wrapper_item {
+                    .item {
+                        margin-right: 20px;
+                        margin-bottom: 13px;
+                        float: left;
+                        width: calc((100% - 80px)/5);
+                        &:nth-child(5n+5) {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+            .tinLienQuan {
+                .wrapper_item {
+                    .item {
+                        margin-right: 20px;
+                        margin-bottom: 13px;
+                        float: left;
+                        width: calc((100% - 80px)/5);
+                        &:nth-child(5n+5) {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+        #lienHe {
+            .content_left {
+                width: 783px;
+                float: left;
+            }
+            .content_right {
+                width: calc(100% - 783px);
+                float: right;
+                padding-left: 28px;
+            }
+        }
+        #timKiem {
+            .content {
+                .content_left {
+                    width: calc(100% - 320px);
+                    float: left;
+                }
+                .content_right {
+                    width: 320px;
+                    float: right;
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+    
+    @media(max-width: 1199px) {
+        .container {
+            width: calc(100% - 40px);
+        }
+        .thongke {
+            height: auto;
+            min-height: 100%;
+            overflow: hidden;
+            .thongke_luotxem {
+                margin-left: 10px;
+            }
+        }
+        #header {
+            .top_header {
+                height: 0;
+                .content {
+                    justify-content: flex-end;
+                    .block1,
+                    .block2 {
+                        display: none;
+                    }
+                    .block3 {
+                        margin-right: 30px;
+                        margin-top: 27px;
+                        position: relative;
+                        a.openSearch {
+                            display: inline-block;
+                            position: absolute;
+                            right: 105px;
+                        }
+                        ul {
+                            position: relative;
+                            z-index: 103;
+                            height: 17px;
+                            li {
+                                a {
+                                    height: 17px!important;
+                                    line-height: 17px!important;
+                                }
+                                &:first-child {
+                                    a {
+                                        background: url(../css/images/VN.png) no-repeat top left;
+                                    }
+                                }
+                                &:nth-child(2) {
+                                    a {
+                                        background: url(../css/images/CN.png) no-repeat top left;
+                                    }
+                                }
+                                &:nth-child(3) {
+                                    a {
+                                        background: url(../css/images/EN.png) no-repeat top left;
+                                    }
+                                }
+                                &:last-child {
+                                    a {
+                                        background: url(../css/images/CN2.png) no-repeat top left;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .middle_header {
+                height: 80px;
+                position: relative;
+                z-index: 100;
+                .container {
+                    .row {
+                        background: #fff;
+                        .block1 {
+                            .logo {
+                                position: relative;
+                                z-index: 102;
+                                width: 115px;
+                                img {
+                                    margin: 20px 0 15px 0;
+                                }
+                            }
+                            .name_company {
+                                float: left;
+                                margin-top: 10px;
+                                p {
+                                    &:first-child {
+                                        font-size: 14px;
+                                    }
+                                    &:last-child {
+                                        font-size: 15px;
+                                        padding-left: 18px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .bottom_header {
+                border-bottom: 0;
+                position: relative;
+                top: -55px;
+                z-index: 100;
+                height: 5px;
+                #menu {
+                    background: transparent;
+                    position: absolute;
+                    left: 20px;
+                    z-index: 101;
+                    width: calc(100% - 40px);
+                    #menu-button {
+                        float: right;
+                    }
+                    ul {
+                        margin-top: 60px;
+                        li {
+                            width: 100%;
+                            background: $white;
+                            border-top: 0;
+                            height: auto;
+                            padding: 0;
+                            &:before {
+                                display: none;
+                            }
+                            &:after {
+                                display: none;
+                            }
+                            &:first-child {
+                                background: $white;
+                                &.actived {
+                                    background: #f7f7f7;
+                                }
+                            }
+                            &:last-child {
+                                &.actived {
+                                    background: #f7f7f7;
+                                }
+                            }
+                            &.actived {
+                                background: #f7f7f7;
+                            }
+                            a {
+                                color: $nau;
+                                margin: 0 12px;
+                                width: calc(100% - 24px);
+                                height: 40px;
+                                line-height: 40px;
+                                background: #f7f7f7;
+                                border-bottom: solid 1px #e6e6e6;
+                                text-transform: unset;
+                                padding-left: 16px;
+                            }
+                            ul {
+                                margin: 0;
+                                padding: 0;
+                                width: 100%;
+                                li {
+                                    background: #fff;
+                                    height: auto;
+                                    &:hover {
+                                        background: #fff;
+                                    }
+                                    a {
+                                        background: #fff;
+                                        padding-left: 20px;
+                                        border-bottom: solid 1px #e6e6e6;
+                                        color: $gray;
+                                        &:before {
+                                            display: none;
+                                        }
+                                        &:after {
+                                            display: none;
+                                        }
+                                    }
+                                    ul {
+                                        li {
+                                            a {
+                                                padding-left: 25px;
+                                                background: #f7f7f7;
+                                                border-bottom: solid 1px #e6e6e6;
+                                                color: $gray2;
+                                                &:before {
+                                                    display: none;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                #box_search {
+                    display: none;
+                    position: absolute;
+                    top: 50px;
+                    background: #fff;
+                    border: solid 1px #dfdfdf;
+                    width: 100%;
+                    margin: 0 0 0 0;
+                    left: 20px;
+                    width: calc(100% - 40px);
+                    input {
+                        width: 100%;
+                        color: $gray;
+                        top: 0;
+                        left: 0;
+                    }
+                    a.search {
+                        i {
+                            color: $gray;
+                        }
+                    }
+                }
+            }
+        }
+        .margintop30 {
+            margin-top: 30px;
+        }
+        #banner {
+            .banner_tchu {
+                .slick-dots {
+                    li {
+                        width: 14px;
+                        height: 14px;
+                        button {
+                            width: 14px;
+                            height: 14px;
+                            &:before {
+                                width: 14px;
+                                height: 14px;
+                                font-size: 8px;
+                                font: normal normal normal 8px/12px FontAwesome;
+                                text-align: center;
+                                left: -1px;
+                            }
+                        }
+                    }
+                }
+                .khungAnh {
+                    &:before {
+                        padding-bottom: 44.27%;
+                    }
+                    .content_banner {
+                        width: 430px;
+                        height: 156px;
+                        left: unset;
+                        right: 7.3%;
+                        top: 24.41%;
+                        p.first {
+                            font-size: 18px;
+                            line-height: 24px;
+                            height: 24px;
+                            overflow: hidden;
+                        }
+                        p.second {
+                            font-size: 14px;
+                            margin-bottom: 15px;
+                            height: 24px;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+            .banner_tcon {
+                .khungAnh {
+                    &:before {
+                        padding-bottom: 25%;
+                    }
+                }
+            }
+        }
+        #gioiThieu {
+            padding-top: 0;
+            background: $white;
+            border-bottom: 0;
+            padding-bottom: 40px;
+            .header {
+                span.title {
+                    width: 100%;
+                    display: block;
+                    text-align: center;
+                }
+            }
+            .content_left {
+                width: 336px;
+                float: left;
+                .contain {
+                    .item {
+                        margin-bottom: 15px;
+                        a.name {
+                            margin-bottom: 0;
+                        }
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        p.info {
+                            height: 44px;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+            .content_right {
+                width: calc(100% - 336px);
+                float: right;
+                padding: 20px 0;
+            }
+        }
+        #doiTac {
+            .wrapper_item {
+                .slick-list {
+                    padding-right: 0;
+                }
+                button {
+                    &:hover {
+                        &:before {
+                            color: $cam;
+                        }
+                    }
+                }
+            }
+        }
+        #thuVien {
+            .wrapper_item {
+                .item {
+                    width: calc((100% - 20px)/3);
+                    float: left;
+                    margin-right: 10px;
+                    &:nth-of-type(3n+3) {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        #dangKy {
+            display: none;
+        }
+        #info {
+            .newz {
+                .block_left {
+                    margin-bottom: 20px;
+                    .item {
+                        &:first-child {
+                            margin-top: 10px;
+                        }
+                        .content_outer {
+                            a.title {
+                                height: 44px;
+                                line-height: 21px;
+                            }
+                        }
+                    }
+                }
+            }
+            .video {
+                .title {
+                    a.xemThem {
+                        display: none;
+                    }
+                }
+                .wrapper_video {
+                    width: 275px;
+                    float: left;
+                }
+                .ad2 {
+                    width: calc(100% - 275px);
+                    float: right;
+                    padding-left: 28px;
+                    margin-top: 0;
+                }
+            }
+            .ad2 {
+                .khungAnh {
+                    &:before {
+                        padding-bottom: 64.0%;
+                    }
+                }
+            }
+        }
+        #doiTac {
+            .wrapper_item {
+                .item {
+                    height: 78px;
+                }
+                .slick-list {
+                    padding-right: 0;
+                }
+            }
+        }
+        #footer {
+            .block_link {
+                .item {
+                    ul {
+                        li {
+                            a {
+                                font-size: 13px;
+                                i {
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-child(1) {
+                        width: 146px;
+                    }
+                    &:nth-child(2) {
+                        width: 223px;
+                    }
+                    &:nth-child(3) {
+                        width: 210px;
+                    }
+                    &:nth-child(4) {
+                        width: calc(100% - 146px - 223px - 210px);
+                    }
+                }
+            }
+            .main_footer {
+                background: #331b05;
+                .block1 {
+                    margin-bottom: 20px;
+                }
+                .block3 {
+                    padding-left: 70px;
+                }
+            }
+        }
+        #copyright {
+            .content {
+                span {
+                    display: none;
+                }
+            }
+        }
+        #backtop {
+            display: none;
+        }
+        #gioiThieu_tcon {
+            .content {
+                .content_left {
+                    width: calc(100% - 300px);
+                    float: left;
+                }
+                .content_right {
+                    width: 300px;
+                    float: right;
+                    padding-left: 10px;
+                }
+            }
+        }
+        #hinhAnh {
+            padding: 20px 0;
+        }
+        #tinTuc_tcon {
+            padding: 20px 0;
+            .content {
+                .content_left {
+                    width: calc(100% - 300px);
+                    float: left;
+                    .block1,
+                    .block3 {
+                        .block_left {
+                            width: 100%;
+                            margin-right: 0;
+                            float: none;
+                        }
+                        .block_right {
+                            width: 100%;
+                            float: none;
+                        }
+                    }
+                    .block3 {
+                        margin-bottom: 0;
+                    }
+                    .block2 {
+                        .wrapper_item {
+                            .main_item {
+                                float: left;
+                                width: calc((100% - 10px)/2);
+                                margin-right: 10px;
+                                &:nth-child(2n+2) {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                    }
+                    .header_tinTuc {
+                        .header_left {
+                            width: 100%;
+                            float: none;
+                        }
+                        .header_right {
+                            width: 100%;
+                            float: none;
+                            padding-left: 0;
+                        }
+                    }
+                    .main_content {
+                        .item {
+                            .item_left {
+                                width: 200px;
+                                .khungAnh {
+                                    &:before {
+                                        padding-bottom: 90%;
+                                    }
+                                }
+                            }
+                            .item_right {
+                                width: calc(100% - 200px);
+                                padding-left: 10px;
+                            }
+                        }
+                    }
+                    .thongke {
+                        .left {
+                            height: auto;
+                            min-height: 100%;
+                            overflow: hidden;
+                            .thongke_ngay {
+                                width: auto;
+                                float: left;
+                                margin: 0;
+                                display: inline-block;
+                                margin-right: 20px;
+                                span {
+                                    display: none;
+                                }
+                            }
+                            .thongke_luotxem {
+                                width: auto;
+                                float: left;
+                                margin: 0;
+                                display: inline-block;
+                                margin-right: 20px;
+                                span {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                    .block_baiVietKhac {
+                        .baiVietKhac {
+                            .slick-list {
+                                margin: 0 -5px;
+                            }
+                        }
+                        >.content {
+                            .item {
+                                margin: 0 5px 10px 5px;
+                                .item_left {
+                                    width: 100%;
+                                    float: none;
+                                }
+                                .item_right {
+                                    width: 100%;
+                                    float: none;
+                                    padding: 0;
+                                    .thongke {
+                                        height: auto;
+                                        min-height: 100%;
+                                        overflow: hidden;
+                                        .thongke_ngay {
+                                            width: auto;
+                                            float: left;
+                                            margin: 0;
+                                            display: inline-block;
+                                            margin-right: 20px;
+                                            span {
+                                                display: none;
+                                            }
+                                        }
+                                        .thongke_luotxem {
+                                            width: auto;
+                                            float: left;
+                                            margin: 0;
+                                            display: inline-block;
+                                            margin-right: 20px;
+                                            span {
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .content_right {
+                    width: 300px;
+                    float: right;
+                    padding-left: 10px;
+                }
+            }
+        }
+        .binhluan_form {
+            input.hoten {
+                width: calc((100% - 7px)/2);
+            }
+            input.email {
+                width: calc((100% - 7px)/2);
+                margin-left: 7px;
+            }
+            input.code {
+                width: calc((100% - 7px)/2);
+                margin-left: 0;
+            }
+            a.refresh {
+                float: left;
+                margin-left: 7px;
+            }
+        }
+        #hinhAnh {
+            padding: 20px 0;
+            .block_main {
+                .block_left {
+                    width: 400px;
+                    float: left;
+                }
+                .block_right {
+                    width: calc(100% - 400px);
+                    float: right;
+                    padding-left: 10px;
+                    .wrapper_item {
+                        .item {
+                            margin-right: 10px;
+                            margin-bottom: 13px;
+                            float: left;
+                            width: calc((100% - 10px)/2);
+                            &:nth-of-type(2n+2) {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .block_sub,
+            .list_img,
+            .list_img_detail {
+                .wrapper_item {
+                    .item {
+                        margin-right: 10px;
+                        width: calc((100% - 20px)/3);
+                        float: left;
+                        &:nth-of-type(3n+3) {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+            .albumKhac {
+                .slider_albumKhac {
+                    button {
+                        &.slick-prev {
+                            left: 0;
+                        }
+                        &.slick-next {
+                            right: 0;
+                        }
+                    }
+                }
+            }
+            .tinLienQuan {
+                .wrapper_item {
+                    .item {
+                        margin-right: 10px;
+                        margin-bottom: 13px;
+                        float: left;
+                        width: calc((100% - 30px)/3);
+                        &:nth-child(3n+3) {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+        #timKiem {
+            .content {
+                .content_left {
+                    width: calc(100% - 300px);
+                    float: left;
+                    .main_content {
+                        .item {
+                            .item_left {
+                                width: 200px;
+                                .khungAnh {
+                                    &:before {
+                                        padding-bottom: 90%;
+                                    }
+                                }
+                            }
+                            .item_right {
+                                width: calc(100% - 200px);
+                                padding-left: 10px;
+                            }
+                        }
+                    }
+                    .themKetQua {
+                        margin: 40px auto 0 auto;
+                    }
+                }
+                .content_right {
+                    width: 300px;
+                    float: right;
+                    padding-left: 10px;
+                }
+            }
+        }
+        #ad {
+            .khungAnh {
+                &:before {
+                    padding-bottom: 16.67%;
+                }
+            }
+        }
+        #lienHe,
+        #timKiem {
+            padding: 20px 0;
+        }
+    }
+    
+    @media(max-width: 767px) {
+        .container {
+            width: calc(100% - 20px);
+        }
+        #header {
+            .top_header {
+                .content {
+                    .block3 {
+                        margin-right: 40px;
+                    }
+                }
+            }
+            .middle_header {
+                .container {
+                    .row {
+                        .block1 {
+                            .name_company {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #banner {
+            .banner_tchu {
+                .slick-dots {
+                    bottom: 15px;
+                }
+                .khungAnh {
+                    &:before {
+                        padding-bottom: 81.81%;
+                    }
+                    .content_banner {
+                        width: calc(100% - 20px);
+                        left: 10px;
+                        padding: 15px 23px 17px 23px;
+                        height: auto;
+                        top: 37%;
+                        p.first {
+                            margin-bottom: 0;
+                        }
+                        p.second {
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+            .banner_tcon {
+                .menu_banner {
+                    padding-bottom: 5px;
+                    span {
+                        font-size: 18px;
+                        line-height: 24px;
+                        margin-bottom: 0;
+                    }
+                    ul {
+                        li {
+                            a {
+                                font-size: 14px;
+                                line-height: 16px;
+                                &:after {
+                                    top: 4px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #gioiThieu {
+            background: url(../css/images/bg_gt2.png) no-repeat top 0 right 0;
+            background-size: 300px 180px;
+            padding-bottom: 0;
+            span.title {
+                font-size: 18px;
+            }
+            .content_left {
+                width: 100%;
+                float: none;
+                margin-bottom: 10px;
+                height: auto;
+                min-height: 100%;
+                overflow: hidden;
+            }
+            .content_right {
+                width: 100%;
+                float: none;
+                padding: 0;
+            }
+        }
+        #info {
+            .newz {
+                .block_left {
+                    margin-bottom: 0;
+                    .item {
+                        .khungAnh {
+                            width: 100%;
+                            float: none;
+                            margin-bottom: 20px;
+                        }
+                        .content_outer {
+                            width: 100%;
+                            float: none;
+                            padding-left: 0;
+                            .thongke {
+                                .thongke_ngay {
+                                    width: auto;
+                                    margin: 0 24px 0 0;
+                                    float: left;
+                                }
+                                .thongke_luotxem {
+                                    width: auto;
+                                    margin: 0;
+                                    float: left;
+                                }
+                            }
+                            p.description {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+                .block_right {
+                    a.item {
+                        i {
+                            font-size: 7px;
+                            top: 7px;
+                        }
+                    }
+                }
+            }
+            .video {
+                .wrapper_video {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    .main_video {
+                        margin-top: 10px;
+                    }
+                }
+                .ad2 {
+                    width: 100%;
+                    padding-left: 0;
+                }
+            }
+        }
+        #doiTac {
+            padding-bottom: 20px;
+        }
+        #footer {
+            .block_link {
+                .item {
+                    width: 100%!important;
+                    margin-bottom: 20px;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            .main_footer {
+                .block1 {
+                    .item {
+                        ul {
+                            li {
+                                &:nth-child(4) {}
+                            }
+                        }
+                    }
+                }
+                .block3 {
+                    padding-left: 0;
+                }
+                .block2,
+                .block3 {
+                    .item {
+                        ul {
+                            li {
+                                padding-left: 16px!important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #thuVien {
+            margin-bottom: 0;
+            .title {
+                margin-bottom: 10px;
+            }
+            .wrapper_item {
+                .item {
+                    width: 100%;
+                    float: none;
+                    margin-right: 0;
+                }
+            }
+        }
+        #ad {
+            display: none;
+        }
+        #copyright {
+            height: auto;
+            padding: 24px 0 16px 0;
+            .content {
+                display: block;
+                p {
+                    font-size: 13px;
+                    line-height: 15px;
+                    padding: 0;
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                }
+                a.support_footer {
+                    display: inline-block;
+                    width: auto;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+        #gioiThieu_tcon {
+            .content {
+                .content_left {
+                    width: 100%;
+                    float: none;
+                    span.title {
+                        font-size: 18px;
+                    }
+                }
+                .content_right {
+                    display: none;
+                }
+            }
+        }
+        .thongke {
+            .left {
+                width: 100%;
+                float: none;
+                height: auto;
+                min-height: 100%;
+                overflow: hidden;
+                .thongke_ngay {
+                    width: 50%;
+                    float: left;
+                    margin: 0;
+                    span {
+                        display: none;
+                    }
+                }
+                .thongke_luotxem {
+                    width: 50%;
+                    float: right;
+                    margin: 0;
+                    span {
+                        display: none;
+                    }
+                }
+            }
+        }
+        #tinTuc_tcon {
+            padding: 20px 0;
+            .content {
+                .content_left {
+                    width: 100%;
+                    float: none;
+                    .block1,
+                    .block3 {
+                        .block_left {
+                            width: 100%;
+                            margin-right: 0;
+                            float: none;
+                            .content {
+                                .thongke {
+                                    .thongke_ngay {
+                                        width: auto;
+                                        float: left;
+                                        margin: 0;
+                                        display: inline-block;
+                                        margin-right: 20px;
+                                    }
+                                    .thongke_luotxem {
+                                        width: auto;
+                                        display: inline-block;
+                                        float: left;
+                                        margin: 0;
+                                    }
+                                }
+                            }
+                        }
+                        .block_right {
+                            width: 100%;
+                            float: none;
+                            .content {
+                                .thongke {
+                                    .thongke_ngay {
+                                        width: auto;
+                                        float: left;
+                                        margin: 0;
+                                        display: inline-block;
+                                        margin-right: 20px;
+                                    }
+                                    .thongke_luotxem {
+                                        width: auto;
+                                        display: inline-block;
+                                        float: left;
+                                        margin: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .block2 {
+                        .wrapper_item {
+                            .main_item {
+                                float: none;
+                                width: 100%;
+                                margin-right: 0;
+                                .thongke {
+                                    .thongke_ngay {
+                                        width: auto;
+                                        float: left;
+                                        margin: 0;
+                                        display: inline-block;
+                                        margin-right: 20px;
+                                    }
+                                    .thongke_luotxem {
+                                        width: auto;
+                                        display: inline-block;
+                                        float: left;
+                                        margin: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .header_tinTuc {
+                        .header_left {
+                            width: 100%;
+                            float: none;
+                            .thongke {
+                                .thongke_ngay {
+                                    width: auto;
+                                    float: left;
+                                    margin: 0;
+                                    display: inline-block;
+                                    margin-right: 20px;
+                                }
+                                .thongke_luotxem {
+                                    width: auto;
+                                    display: inline-block;
+                                    float: left;
+                                    margin: 0;
+                                }
+                            }
+                        }
+                        .header_right {
+                            width: 100%;
+                            float: none;
+                            padding-left: 0;
+                            .thongke {
+                                .thongke_ngay {
+                                    width: auto;
+                                    float: left;
+                                    margin: 0;
+                                    display: inline-block;
+                                    margin-right: 20px;
+                                }
+                                .thongke_luotxem {
+                                    width: auto;
+                                    display: inline-block;
+                                    float: left;
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                    .main_content {
+                        .item {
+                            .item_left {
+                                width: 100%;
+                                float: none;
+                            }
+                            .item_right {
+                                width: 100%;
+                                padding-left: 0;
+                                float: none;
+                                .thongke {
+                                    .thongke_ngay {
+                                        width: auto;
+                                        float: left;
+                                        margin: 0;
+                                        display: inline-block;
+                                        margin-right: 20px;
+                                    }
+                                    .thongke_luotxem {
+                                        width: auto;
+                                        display: inline-block;
+                                        float: left;
+                                        margin: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .baiVietNoiBat {
+                        .wrapper_item {
+                            .slick-list {
+                                margin: 0;
+                            }
+                            .item {
+                                margin: 0;
+                            }
+                        }
+                    }
+                    .block_baiVietKhac {
+                        .baiVietKhac {
+                            .slick-list {
+                                margin: 0;
+                            }
+                        }
+                        .content {
+                            .item {
+                                margin: 0;
+                            }
+                        }
+                    }
+                    span.title {
+                        font-size: 18px;
+                    }
+                }
+            }
+            .content_right {
+                display: none;
+            }
+            .block_baiVietKhac {
+                .baiVietKhac {
+                    button {
+                        visibility: hidden;
+                        &.slick-prev {
+                            left: 0;
+                        }
+                        &.slick-next {
+                            right: 0;
+                        }
+                    }
+                }
+            }
+        }
+        #hinhAnh {
+            padding: 20px 0;
+            span.title {
+                font-size: 18px;
+            }
+            .block_main {
+                div.title {
+                    margin-bottom: 10px;
+                }
+                .block_left {
+                    width: 100%;
+                    float: left;
+                }
+                .block_right {
+                    width: 100%;
+                    float: left;
+                    padding-left: 0;
+                    .wrapper_item {
+                        .item {
+                            margin-right: 0;
+                            margin-bottom: 13px;
+                            float: none;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .block_sub,
+            .list_img,
+            .list_img_detail {
+                .wrapper_item {
+                    .item {
+                        margin-right: 0;
+                        width: 100%;
+                    }
+                }
+            }
+            .tinLienQuan {
+                .wrapper_item {
+                    .item {
+                        margin-right: 0;
+                        margin-bottom: 13px;
+                        float: none;
+                        width: 100%;
+                    }
+                }
+            }
+            .albumKhac {
+                .slider_albumKhac {
+                    button {
+                        &.slick-prev {
+                            left: 0;
+                        }
+                        &.slick-next {
+                            right: 0;
+                        }
+                    }
+                }
+            }
+        }
+        #lienHe {
+            padding: 20px 0;
+            .content {
+                .content_left {
+                    span.title {
+                        font-size: 16px;
+                    }
+                    select {
+                        width: 100%;
+                    }
+                }
+                .content_right {
+                    margin-top: 20px;
+                    a.guiYeucau {
+                        margin-top: 20px;
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+        #timKiem {
+            .content {
+                .content_left {
+                    width: 100%;
+                    float: none;
+                    .main_content {
+                        .item {
+                            .item_left {
+                                width: 100%;
+                                float: none;
+                            }
+                            .item_right {
+                                width: 100%;
+                                float: none;
+                                .thongke {
+                                    .thongke_ngay {
+                                        width: auto;
+                                        float: left;
+                                        margin: 0;
+                                        display: inline-block;
+                                        margin-right: 20px;
+                                    }
+                                    .thongke_luotxem {
+                                        width: auto;
+                                        display: inline-block;
+                                        float: left;
+                                        margin: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .themKetQua {
+                        margin: 40px auto 0 auto;
+                    }
+                }
+                .content_right {
+                    display: none;
+                }
+            }
+        }
+    }

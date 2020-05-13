@@ -1,0 +1,1112 @@
+     $blue:#317631;
+     $white: #fff;
+     $gray: #333333;
+     $gray2: #666666;
+     $white: #fff;
+     $font: 20px;
+     $font-size:20px;
+     $line-height: 24px;
+     $orange:#ffa03b;
+     $blue_dark:#07173b;
+     $font1:'Roboto-Regular';
+     $font2: "Roboto-Light";
+     $font3: "Roboto-Bold";
+     $font4: "UTMBebas";
+     $font5: "SFUFuturaHeavy";
+     $font6:"Segoe UI Semilight";
+     $color:$white;
+     $line-height: 24px;
+     @mixin text($font, $color, $font-size, $line-height) {
+         font-family: $font;
+         color: $color;
+         font-size: $font-size;
+         line-height: $line-height;
+     }
+     
+     @media(min-width:1200px) {
+         #duAn {
+             .block {
+                 .wrapper_item {
+                     .item {
+                         width: calc((100% - 54px)/4);
+                         margin-right: 18px;
+                         float: left;
+                         &:nth-child(4n+4) {
+                             margin-right: 0;
+                         }
+                     }
+                 }
+             }
+         }
+                  #information {
+             .content_left {
+                 width: calc((100% - 30px)/2);
+                 margin-right: 30px;
+             }
+             .content_right {
+                 float: right;
+                 width: calc((100% - 30px)/2);
+                 margin-right: 0;
+                 .div.clear_both {
+                     display: none;
+                 }
+             }
+         }
+         #footer{
+            #info_footer{
+                width: 547px;
+                float: left;
+            }
+            #danhMuc{
+                  width: 250px;
+                float: left;
+            }
+            #fanpage{
+                       width: calc(100% - 547px - 250px);
+                float: left;
+            }
+         }
+     }
+     
+     @media(max-width:1199px) {
+         .container {
+             width: calc(100% - 40px);
+         }
+         .body_menu {
+             position: relative;
+             right: 270px;
+             transition: 1s;
+         }
+         #header {
+             .bottom_banner {
+                 display: none;
+             }
+             .menu_banner {
+                 width: 100%;
+                 ul {
+                     li {
+                         a {
+                             // font-size: 10px;
+                         }
+                     }
+                 }
+             }
+         }
+         #top_header {
+             .logo {
+                 width: 80px;
+                 height: 80px;
+                 float: left;
+             }
+             .search_content {
+                 position: absolute;
+                 right: 95px;
+                 margin-top: 43px;
+                 height: 28px;
+                 width: 28px;
+                 a.search {
+                     width: 28px;
+                     height: 28px;
+                 }
+                 #box_search {
+                     left: unset;
+                     right: -60px;
+                     &:before {
+                         display: none;
+                     }
+                 }
+             }
+             #menu {
+                 position: absolute;
+                 right: 20px;
+                 .submenu-button {
+                     height: 43px;
+                     line-height: 43px;
+                     &.submenu-opened {
+                         background: #246e25;
+                     }
+                 }
+                 >ul {
+                     position: fixed;
+                     top: 0;
+                     width: 270px;
+                     right: 0;
+                     background: #246e25;
+                     height: 100%;
+                     li {
+                         background: #267827;
+                         height: auto;
+                         line-height: 43px;
+                         a {
+                             color: $white;
+                             font-size: 20px;
+                             line-height: 43px;
+                         }
+                         &:after {
+                             display: none;
+                         }
+                         ul {
+                             li {
+                                 background: #267827;
+                                 height: 43px;
+                                 line-height: 43px;
+                                 a {
+                                     color: $white;
+                                     font-size: 20px;
+                                     line-height: 43px;
+                                     padding: 0 0 0 35px;
+                                 }
+                             }
+                         }
+                     }
+                 }
+             }
+         }
+         #menu {
+             float: right;
+         }
+         #banner {
+             .banner.banner_tcon {
+                 .khungAnh {
+                     &:before {
+                         padding-bottom: 28%!important;
+                     }
+                 }
+             }
+         }
+         #information {
+             .content_right {
+                 .main_item {
+                     .item {
+                         .item_right {
+                             a {
+                                 @include text($font3, $gray, 18px, 24px);
+                                 max-height: 48px;
+                                 overflow: hidden;
+                                 margin-bottom: 14px;
+                             }
+                             .thongKe {
+                                 height: 18px;
+                                 line-height: 18px;
+                             }
+                         }
+                     }
+                 }
+             }
+         }
+         #dichVu {
+             .wrapper_item {
+                 .item {
+                     width: calc((100% - 31px)/2);
+                     margin-right: 31px;
+                     float: left;
+                     &:nth-of-type(2n+2) {
+                         margin-right: 0;
+                     }
+                     .content_outer {}
+                 }
+             }
+         }
+         #lienHe {
+             padding: 40px 0;
+             .block2 {
+                 .block_left {
+                     width: 100%;
+                     float: none;
+                     height: auto;
+                     min-height: 100%;
+                     overflow: hidden;
+                 }
+                 .block_right {
+                     width: 100%;
+                     float: none;
+                     padding: 0;
+                     margin-top: 10px;
+                 }
+             }
+             .block3 {
+                 .item {
+                     width: 50%;
+                     margin-bottom: 10px;
+                 }
+             }
+         }
+         #footer {
+             #info_footer {
+                 width: calc((100% - 60px)/2);
+                 margin-right: 60px;
+             }
+             #map {
+                 width: calc((100% - 60px)/2);
+                 margin-right: 0;
+             }
+             #fanpage {
+                 width: 100%;
+                 float: none;
+                 margin-top: 43px;
+             }
+         }
+         #copyright {
+             .content {
+                 display: block;
+                 span {
+                     display: none;
+                 }
+                 p {
+                     float: left;
+                     display: inline-block;
+                     letter-spacing: -1px;
+                 }
+                 a.support_footer {
+                     float: right;
+                 }
+             }
+         }
+         #duAn {
+             .block {
+                 .wrapper_item {
+                     .item {
+                         width: calc((100% - 25px)/2);
+                         margin-right: 25px;
+                         float: left;
+                         &:nth-child(2n+2) {
+                             margin-right: 0;
+                         }
+                     }
+                 }
+             }
+         }
+         #gioiThieu {
+             .block1_gt {
+                 padding-bottom: 20px;
+                 .khungAnh {
+                     margin-bottom: 20px;
+                 }
+                 .content_right {
+                     p {
+                         &:nth-child(3) {
+                             text-align: justify;
+                         }
+                     }
+                     span {
+                         font-size: 28px;
+                     }
+                 }
+             }
+             .block2_gt {
+                 .item {
+                     margin-bottom: 30px;
+                 }
+             }
+         }
+         #gioiThieu_chiTiet {
+             .content {
+                 .content_left {
+                     width: 300px;
+                     float: left;
+                 }
+                 .content_right {
+                     width: calc(100% - 300px);
+                     float: right;
+                     padding-left: 20px;
+                     .block2 {
+                         .content {
+                             .item {
+                                 margin-right: 12px;
+                                 float: left;
+                                 height: auto;
+                                 min-height: 100px;
+                                 .item_left {
+                                     width: 100%;
+                                     float: none;
+                                 }
+                                 .item_right {
+                                     width: 100%;
+                                     float: none;
+                                     padding-left: 0;
+                                     padding-top: 10px;
+                                     a {
+                                         margin-bottom: 5px;
+                                     }
+                                 }
+                                 &:nth-of-type(2n+2) {
+                                     margin-right: 0;
+                                 }
+                             }
+                         }
+                     }
+                 }
+             }
+             #duAn_tcon {
+                 .content {
+                     .content_left {
+                         width: 300px;
+                         float: left;
+                     }
+                     .content_right {
+                         width: calc(100% - 300px);
+                         float: right;
+                         padding-left: 20px;
+                         .wrapper_item {
+                             .item {
+                                 width: calc((100% - 31px)/2);
+                                 margin-right: 31px;
+                                 float: left;
+                                 &:nth-child {
+                                     font-size: 16px;
+                                 }
+                                 &:nth-of-type(2n+2) {
+                                     margin-right: 0;
+                                 }
+                             }
+                         }
+                     }
+                 }
+             }
+         }
+         #CommonCuoiChiTietTin {
+             flex-direction: column;
+             height: auto;
+             div.fr {
+                 padding: 0 0 10px 0;
+                 justify-content: flex-start;
+                 .addthis_toolbox {
+                     justify-content: flex-start;
+                 }
+             }
+         }
+         #dichVu_tcon {
+             .content {
+                 .content_left {
+                     width: 300px;
+                     float: left;
+                 }
+                 .content_right,
+                 .content_right.dichVu_chiTiet {
+                     width: calc(100% - 300px);
+                     float: right;
+                     padding-left: 20px;
+                     .wrapper_item {
+                         .item {
+                             width: calc((100% - 31px)/2);
+                             margin-right: 31px;
+                             float: left;
+                             &:nth-of-type(2n+2) {
+                                 margin-right: 0;
+                             }
+                             .content_outer {
+                                 a {
+                                     height: 36px;
+                                     margin-bottom: 0;
+                                 }
+                             }
+                         }
+                     }
+                 }
+                 .content_right.dichVu_chiTiet {
+                     .block1 {
+                         .noidung {
+                             img {
+                                 max-width: 100%;
+                             }
+                         }
+                     }
+                     .binhluan_form {
+                         .form {
+                             input,
+                             textarea {
+                                 width: 100%;
+                                 float: none;
+                                 margin-left: 0;
+                             }
+                             a.refresh {
+                                 float: left;
+                                 margin-left: 10px;
+                             }
+                         }
+                     }
+                     .lienHe {
+                         background: #428842;
+                         .form_lienHe {
+                             margin-left: 0;
+                             padding: 20px;
+                             width: 100%;
+                             input {
+                                 width: 100%;
+                             }
+                             .uploadFile {
+                                 width: 100%;
+                                 float: none;
+                                 margin-top: 10px;
+                             }
+                             a.downLoadFile {
+                                 width: 100%;
+                                 margin-bottom: 10px;
+                             }
+                             .submit {
+                                 a {
+                                     width: calc((100% - 10px)/2);
+                                     padding: 0 20px;
+                                     margin-right: 0;
+                                     float: left;
+                                     &:first-child {
+                                         margin-right: 10px;
+                                     }
+                                 }
+                             }
+                         }
+                     }
+                 }
+             }
+         }
+         #duAn_tchinh {
+             .content {
+                 padding: 35px 0 45px 0;
+             }
+         }
+         #duAn_tcon {
+             .content {
+                 .content_left {
+                     width: 300px;
+                     float: left;
+                 }
+                 .content_right {
+                     width: calc(100% - 300px);
+                     float: right;
+                     padding-left: 20px;
+                     .wrapper_item {
+                         .item {
+                             width: calc((100% - 31px)/2);
+                             margin-right: 31px;
+                             float: left;
+                             &:nth-of-type(2n+2) {
+                                 margin-right: 0;
+                             }
+                             .content_outer {
+                                 a {
+                                     height: 36px;
+                                     overflow: hidden;
+                                     margin-bottom: 0;
+                                 }
+                             }
+                         }
+                     }
+                 }
+                 .content_right.duAn_chiTiet {
+                     width: calc(100% - 300px);
+                     float: right;
+                     padding-left: 20px;
+                     #CommonCuoiChiTietTin {
+                         div.fl.apd.dnmb {
+                             width: 100%;
+                         }
+                     }
+                     .lienHe {
+                         background: #428842;
+                         p {
+                             &:nth-child(1) {
+                                 font-size: 14px;
+                             }
+                             &:nth-of-type(2) {
+                                 font-size: 12px;
+                             }
+                         }
+                         .form_lienHe {
+                             margin-left: 0;
+                             padding: 20px;
+                             width: 100%;
+                             input {
+                                 width: 100%;
+                             }
+                             .submit {
+                                 a {
+                                     width: calc((100% - 10px)/2);
+                                     padding: 0 20px;
+                                     margin-right: 0;
+                                     float: left;
+                                     &:first-child {
+                                         margin-right: 10px;
+                                     }
+                                 }
+                             }
+                             .header_form {
+                                 .form_left {
+                                     width: 100%;
+                                     float: none;
+                                     input {
+                                         width: 100%;
+                                     }
+                                 }
+                                 .form_right {
+                                     textare {
+                                         width: 100%;
+                                     }
+                                     width: 100%;
+                                     float: none;
+                                 }
+                             }
+                         }
+                     }
+                     .block_duAnKhac {
+                         .content {
+                             .item {
+                                 margin-right: 12px;
+                                 float: left;
+                                 height: auto;
+                                 min-height: 100px;
+                                 .item_left {
+                                     width: 100%;
+                                     float: none;
+                                 }
+                                 .item_right {
+                                     width: 100%;
+                                     float: none;
+                                     padding-left: 0;
+                                     padding-top: 10px;
+                                     a {
+                                         margin-bottom: 5px;
+                                     }
+                                 }
+                                 &:nth-of-type(2n+2) {
+                                     margin-right: 0;
+                                 }
+                             }
+                         }
+                     }
+                 }
+             }
+         }
+         #tinTuc,
+         #thuVien {
+             .content {
+                 .content_left {
+                     width: 300px;
+                     float: left;
+                 }
+                 .content_right {
+                     width: calc(100% - 300px);
+                     float: right;
+                     padding-left: 20px;
+                     .wrapper_item {
+                         .item {
+                             width: calc((100% - 31px)/2);
+                             margin-right: 31px;
+                             float: left;
+                             &:nth-of-type(2n+2) {
+                                 margin-right: 0;
+                             }
+                         }
+                     }
+                 }
+             }
+         }
+         #tinTuc {
+             padding-bottom: 0;
+             padding-top: 20px;
+             .content_right.tinTuc_trangChu {
+                 .block1 {
+                     padding-bottom: 10px;
+                     .contain {
+                         .main_item {
+                             .item {
+                                 .item_left {
+                                     width: 100%;
+                                     float: none;
+                                     height: auto;
+                                 }
+                                 .item_right {
+                                     width: 100%;
+                                     float: none;
+                                     height: auto;
+                                     padding: 20px 0 0 0;
+                                     a {
+                                         margin-bottom: 0;
+                                     }
+                                     p.view {
+                                         margin-bottom: 0;
+                                     }
+                                     p.contain {
+                                         max-height: 100px;
+                                         height: auto;
+                                     }
+                                 }
+                             }
+                         }
+                         .sub_item {
+                             .item {
+                                 float: left;
+                                 .item_left {
+                                     width: 100%;
+                                     float: none;
+                                     height: auto;
+                                 }
+                                 .item_right {
+                                     width: 100%;
+                                     float: none;
+                                     height: auto;
+                                     padding: 20px 0 0 0;
+                                     a {
+                                         margin-bottom: 0;
+                                         height: 40px;
+                                         overflow: hidden;
+                                         display: inline-block;
+                                     }
+                                     p.view {
+                                         margin-bottom: 0;
+                                     }
+                                 }
+                             }
+                         }
+                     }
+                 }
+                 .block2 {
+                     .block_left,
+                     .block_right {
+                         width: 100%;
+                         float: none;
+                         padding-left: 0;
+                     }
+                 }
+             }
+             .content_right.tinTuc_danhSach {
+                 .item {
+                     .item_left {
+                         width: 100%;
+                         float: none;
+                         padding-left: 0;
+                     }
+                     .item_right {
+                         width: 100%;
+                         float: none;
+                         padding-left: 0;
+                         margin-top: 10px;
+                     }
+                 }
+             }
+             .content_right.tinTuc_chiTiet {
+                 .block1 {
+                     h1.title {
+                         font-size: 20px;
+                     }
+                 }
+                 .block2 {
+                     .content {
+                         .item {
+                             margin-right: 12px;
+                             float: left;
+                             height: auto;
+                             min-height: 100px;
+                             .item_left {
+                                 width: 100%;
+                                 float: none;
+                             }
+                             .item_right {
+                                 width: 100%;
+                                 float: none;
+                                 padding-left: 0;
+                                 padding-top: 10px;
+                                 a {
+                                     margin-bottom: 5px;
+                                 }
+                             }
+                             &:nth-of-type(2n+2) {
+                                 margin-right: 0;
+                             }
+                         }
+                     }
+                 }
+             }
+         }
+     }
+     
+     @media(max-width:767px) {
+         .container {
+             width: calc(100% - 20px);
+         }
+         .body_menu {
+             right: 200px;
+         }
+         #top_header .logo {
+             float: left;
+             width: 35px;
+             height: 35px;
+         }
+         #top_header {
+             .search_content {
+                 margin-top: 5px;
+                 right: 60px;
+                 a.search {
+                     width: 23px;
+                     height: 23px;
+                 }
+                 #box_search {
+                     width: 250px;
+                     right: -40px;
+                 }
+             }
+             #menu {
+                 float: right;
+                 margin-top: 5px;
+                 #menu-button {
+                     &:after {
+                         width: 27px;
+                         height: 21px;
+                         top: 5px;
+                         right: 0;
+                     }
+                     &:before {
+                         width: 27px;
+                         height: 21px;
+                         top: 5px;
+                         right: 0;
+                     }
+                 }
+                 >ul {
+                     width: 200px;
+                 }
+             }
+         }
+         #header {
+             .menu_banner {
+                 bottom: 10px;
+                 width: 100%;
+                 span {
+                     font-size: 18px;
+                     line-height: 20px;
+                 }
+                 ul {
+                     li {
+                         a {
+                             font-size: 8px;
+                             line-height: 14px;
+                             padding-right: 20px;
+                             &:after {
+                                 top: 2px;
+                                 font-size: 10px;
+                                 right: 8px;
+                             }
+                         }
+                     }
+                 }
+             }
+             .banner {
+                 .slick-dots {
+                     display: none!important;
+                 }
+             }
+         }
+         #information {
+             .content_right {
+                 .main_item {
+                     .item {
+                         .item_left {
+                             width: 100%;
+                             float: none;
+                             padding-left: 0;
+                         }
+                         .item_right {
+                             width: 100%;
+                             float: none;
+                             padding-left: 0;
+                         }
+                     }
+                 }
+             }
+         }
+         #introduction {
+             .content {
+                 padding-bottom: 30px;
+                 a {
+                     font-size: 20px;
+                     line-height: 20px;
+                 }
+                 p {
+                     padding: 0;
+                     padding-top: 20px;
+                 }
+             }
+         }
+         #duAn {
+             .block {
+                 &:first-child {
+                     margin-top: 0;
+                 }
+                 .title {
+                     margin: 16px 0 20px 0;
+                     a.second {
+                         display: none;
+                     }
+                 }
+                 .wrapper_item {
+                     .item {
+                         width: 100%;
+                         margin-right: 0;
+                         float: none;
+                         a.content_outer {
+                             line-height: 20px;
+                             height: 67px;
+                             overflow: hidden;
+                             padding-top: 16px;
+                             padding-bottom: 11px;
+                         }
+                     }
+                 }
+             }
+         }
+         #information {
+             padding-bottom: 50px;
+             .content_left {
+                 .main_video {
+                     a.content_outer {
+                         max-height: 52px;
+                         overflow: hidden;
+                         padding: 0;
+                         margin-top: 16px;
+                         margin-bottom: 12px;
+                     }
+                 }
+             }
+             .content_right {
+                 margin-top: 26px;
+                 .main_item {
+                     padding-bottom: 0;
+                     .item {
+                         .item_right {
+                             a {
+                                 margin-top: 26px;
+                             }
+                             .thongKe {
+                                 margin-bottom: 12px;
+                             }
+                         }
+                     }
+                 }
+                 .sub_item {
+                     .item {
+                         &:last-child {
+                             margin-bottom: 0;
+                         }
+                     }
+                 }
+             }
+         }
+         #dichVu {
+             .wrapper_item {
+                 .item {
+                     width: 100%;
+                     margin-right: 0;
+                     float: left;
+                 }
+             }
+         }
+         #duAn_tcon {
+             .content {
+                 .content_left {
+                     display: none;
+                     float: none;
+                 }
+                 .content_right {
+                     width: 100%;
+                     float: none;
+                 }
+             }
+         }
+         #footer {
+             #info_footer {
+                 width: 100%;
+                 margin-right: 0;
+             }
+             #map {
+                 width: 100%;
+                 margin-right: 0;
+                 margin-top: 28px;
+             }
+             #fanpage {
+                 width: 100%;
+                 float: none;
+                 margin-top: 40px;
+             }
+         }
+         #copyright {
+             height: auto;
+             padding-top: 16px;
+             padding-bottom: 9px;
+             .content {
+                 p {
+                     line-height: 17px;
+                     text-align: center;
+                 }
+                 a.support_footer {
+                     height: 20px;
+                     line-height: 20px;
+                 }
+             }
+         }
+         #gioiThieu {
+             .block1_gt {}
+             .block2_gt {
+                 padding-bottom: 0;
+                 .item {
+                     margin-bottom: 30px;
+                     .item_left {
+                         width: 100%;
+                         float: none;
+                     }
+                     .item_right {
+                         width: 100%;
+                         float: none;
+                         padding-left: 0;
+                         p {
+                             margin-bottom: 10px;
+                         }
+                     }
+                 }
+             }
+         }
+         #gioiThieu_chiTiet {
+             .content {
+                 .content_left {
+                     display: none;
+                 }
+                 .content_right {
+                     width: 100%;
+                     float: none;
+                     padding-left: 0;
+                 }
+             }
+         }
+         #duAn_tcon {
+             .content {
+                 .content_left {
+                     display: none;
+                 }
+                 .content_right {
+                     width: 100%;
+                     float: none;
+                     padding-left: 0;
+                     .wrapper_item {
+                         .item {
+                             width: 100%;
+                             margin-right: 0;
+                             float: none;
+                         }
+                     }
+                 }
+             }
+         }
+         #dichVu {
+             .content {
+                 .title {
+                     p.contain {
+                         text-align: justify;
+                     }
+                 }
+                 .item {
+                     margin-bottom: 20px;
+                     .content_outer {
+                         a {
+                             line-height: 20px;
+                             min-height: 40px;
+                             overflow: hidden;
+                             margin-bottom: 0;
+                         }
+                     }
+                 }
+             }
+         }
+         #dichVu_tcon {
+             .content {
+                 .content_left {
+                     display: none;
+                 }
+                 .content_right {
+                     width: 100%;
+                     float: none;
+                     padding-left: 0;
+                     .title {
+                         span.name {
+                             font-size: 24px;
+                         }
+                     }
+                     .wrapper_item {
+                         .item {
+                             width: 100%;
+                             margin-right: 0;
+                             float: none;
+                             margin-bottom: 10px;
+                             .content_outer {
+                                 a {
+                                     height: 18px;
+                                 }
+                                 p {
+                                     margin-bottom: 0;
+                                 }
+                             }
+                         }
+                     }
+                 }
+                 .content_right.dichVu_chiTiet {
+                     width: 100%;
+                     float: none;
+                     padding-left: 0;
+                 }
+             }
+         }
+         #duAn_tcon {
+             .content {
+                 .content_left {
+                     display: none;
+                 }
+                 .content_right {
+                     width: 100%;
+                     float: none;
+                     padding-left: 0;
+                     .wrapper_item {
+                         .item {
+                             width: 100%;
+                             margin-right: 0;
+                             float: none;
+                             .content_outer {
+                                 a {
+                                     max-height: 36px;
+                                     height: auto;
+                                 }
+                                 p.first {
+                                     max-height: 36px;
+                                     height: auto;
+                                 }
+                             }
+                         }
+                     }
+                 }
+                 .content_right.duAn_chiTiet {
+                     width: 100%;
+                     float: none;
+                     padding-left: 0;
+                 }
+             }
+         }
+         #tinTuc,
+         #thuVien {
+             .content {
+                 .content_left {
+                     display: none
+                 }
+                 .content_right {
+                     width: 100%;
+                     float: none;
+                     padding-left: 0;
+                     .wrapper_item {
+                         .item {
+                             width: 100%;
+                             margin-right: 0;
+                             float: none;
+                         }
+                     }
+                 }
+             }
+         }
+         #popup_map {
+             width: calc(100% - 20px);
+         }
+     }
