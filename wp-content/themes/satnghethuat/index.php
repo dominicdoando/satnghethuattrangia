@@ -6,55 +6,11 @@
     </a>
 </div>
 <div id="banner">
-    <div class="banner banner_tchu camera_wrap" id="banner_tchu">
-        <div data-src="<?php bloginfo('template_directory'); ?>/pics/pic1.jpg">
-            <div class="camera_caption fadeFromBottom">
-                <p>Thiết kế kiến trúc ĐẲNG CẤP, SANG TRỌNG</p>
-                <p>Nội thất đẹp - Nhà cũng đẹp</p>
-            </div>
-        </div>
-        <div data-src="<?php bloginfo('template_directory'); ?>/pics/pic2.jpg">
-            <div class="camera_caption fadeFromBottom">
-                <p>Thiết kế kiến trúc ĐẲNG CẤP, SANG TRỌNG</p>
-                <p>Nội thất đẹp - Nhà cũng đẹp</p>
-            </div>
-        </div>
-        <div data-src="<?php bloginfo('template_directory'); ?>/pics/banner3.jpg">
-            <div class="camera_caption fadeFromBottom">
-                <p>Thiết kế kiến trúc ĐẲNG CẤP, SANG TRỌNG</p>
-                <p>Nội thất đẹp - Nhà cũng đẹp</p>
-            </div>
-        </div>
-        <div data-src="<?php bloginfo('template_directory'); ?>/pics/pic3.jpg">
-            <div class="camera_caption fadeFromBottom">
-                <p>Thiết kế kiến trúc ĐẲNG CẤP, SANG TRỌNG</p>
-                <p>Nội thất đẹp - Nhà cũng đẹp</p>
-            </div>
-        </div>
-        <div data-src="<?php bloginfo('template_directory'); ?>/pics/khachhang.jpg">
-            <div class="camera_caption fadeFromBottom">
-                <p>Thiết kế kiến trúc ĐẲNG CẤP, SANG TRỌNG</p>
-                <p>Nội thất đẹp - Nhà cũng đẹp</p>
-            </div>
-        </div>
-        <div data-src="<?php bloginfo('template_directory'); ?>/pics/pic4.jpg">
-            <div class="camera_caption fadeFromBottom">
-                <p>Thiết kế kiến trúc ĐẲNG CẤP, SANG TRỌNG</p>
-                <p>Nội thất đẹp - Nhà cũng đẹp</p>
-            </div>
-        </div>
-        <div data-src="<?php bloginfo('template_directory'); ?>/pics/pic5.jpg">
-            <div class="camera_caption fadeFromBottom">
-                <p>Thiết kế kiến trúc ĐẲNG CẤP, SANG TRỌNG</p>
-                <p>Nội thất đẹp - Nhà cũng đẹp</p>
-            </div>
-        </div>
-        <div data-src="<?php bloginfo('template_directory'); ?>/pics/pic6.jpg">
-            <div class="camera_caption fadeFromBottom">
-                <p>Thiết kế kiến trúc ĐẲNG CẤP, SANG TRỌNG</p>
-                <p>Nội thất đẹp - Nhà cũng đẹp</p>
-            </div>
-        </div>
+    <div class="banner banner_tchu" id="banner_tchu">
+    <img src="<?php bloginfo('template_directory'); ?>/pics/pic1.jpg" data-thumb="<?php bloginfo('template_directory'); ?>/pics/pic1.jpg" alt="" />
+    <img src="<?php bloginfo('template_directory'); ?>/pics/pic2.jpg" data-thumb="<?php bloginfo('template_directory'); ?>/pics/pic1.jpg" alt="" />
+    <img src="<?php bloginfo('template_directory'); ?>/pics/pic3.jpg" data-thumb="<?php bloginfo('template_directory'); ?>/pics/pic1.jpg" alt="" />
+    <img src="<?php bloginfo('template_directory'); ?>/pics/pic4.jpg" data-thumb="<?php bloginfo('template_directory'); ?>/pics/pic1.jpg" alt="" />
     </div>
     <div class="bottom_banner">
         <i class="fa fa-phone" aria-hidden="true"></i>

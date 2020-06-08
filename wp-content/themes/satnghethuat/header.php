@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/global.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/animate.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/jquery.mCustomScrollbar.css">
-    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/camera.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/nivo-slider.css">
     <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/menu.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css">
@@ -23,16 +23,11 @@
     <script src="<?php bloginfo('template_directory'); ?>/js/jquery.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/slick.min.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/js/flux.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/jquery.mobile.customized.min.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/js/jquery.easing.1.3.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/js/camera.min.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/js/jquery.nivo.slider.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBd0CRmUEi0rqasieRwBmdjh1a8J9IkYLU"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/GoogleMapInit.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/js/jquery.mobile.customized.min.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/js/jquery.easing.1.3.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/js/camera.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/infobox.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/index.js"></script>
 </head>
@@ -56,7 +51,7 @@
                         </a>
                     </h1>
                     <marquee direction="left" behavior="”alternate”" scrollamount="”20″">
-                        <p class="title"> Kiến tạo không gian sống bền vững, <span>Một công trình mới</span>
+                        <p class="title"> Một thương hiệu mới <span>Một địa chỉ tin cậy</span>
                         </p>
                     </marquee>
 
@@ -64,26 +59,18 @@
             </div>
             <div class="header_right">
                 <div class="top">
-                    <p class="title">CÔNG TY TNHH ĐẦU TƯ XD & TV KIẾN TRÚC <span>VLC</span>
+                    <p class="title">Sắt nghệ thuật <span>TRẦN GIA</span>
                     </p>
-                    <p class="second">KIẾN TRÚC – NỘI THẤT – XÂY DỰNG</p>
+                    <p class="second">UY TÍN - CHẤT LƯỢNG - HÀI LÒNG</p>
                 </div>
                 <div class="bottom">
                     <div id="menu">
-                        <?php wp_nav_menu( 
-                        array( 
-                            'theme_location' => 'header-menu', 
-                            'container' => 'false', 
-                            'menu_id' => 'header-menu', 
-                            'menu_class' => 'menu'
-                        ) 
-                        ); ?>
 
                         <?php wp_nav_menu( 
                         array( 
                             'theme_location' => 'header-menu', 
                             'container' => 'false', 
-                            'menu_id' => 'menu', 
+                            'menu_id' => 'menu2', 
                             'menu_class' => 'menu'
                         ) 
                         ); ?>

@@ -182,11 +182,12 @@ $(document).ready(function(){
 })(jQuery);
 //=====================================MENU
 jQuery(function(){
-    jQuery('#banner_tchu').camera({
-        thumbnails: true,
-        time: 100,
-        navigation: false,
-        portrait: false,
-        playPause: false,
-    });
+    $(window).load(function() {
+        $('#banner_tchu').nivoSlider({
+            prevText:'',
+            nextText:'',
+            pauseOnHover:false,
+        });
+        });
+        
 });

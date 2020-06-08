@@ -5,11 +5,13 @@
     float: left; }
     #duAn .wrapper_item .item:nth-child(4n+4) {
       margin-right: 0; }
+
   #information .content_left {
     width: calc((100% - 30px)/2);
     margin-right: 30px; }
   #information .content_right {
     width: calc((100% - 30px)/2); }
+
   #footer #main_footer #info_footer {
     width: 547px;
     float: left;
@@ -21,6 +23,7 @@
   #footer #main_footer #fanpage {
     width: calc(100% - 547px - 248px);
     float: left; }
+
   #dichVu .content_left, #tinTuc .content_left, #timKiem .content_left, #video .content_left {
     width: 270px;
     float: left;
@@ -30,6 +33,7 @@
     padding-left: 30px;
     float: right;
     margin-top: 40px; }
+
   #duAn .wrapper_content .content_left {
     width: 270px;
     float: left;
@@ -39,24 +43,28 @@
     padding-left: 30px;
     float: right;
     margin-top: 40px; }
+
   #duAn .listDuAn.wrapper_item .item {
     width: calc((100% - 36px)/3);
     margin-right: 18px;
     float: left; }
     #duAn .listDuAn.wrapper_item .item:nth-child(3n+3) {
       margin-right: 0; }
+
   .duAnLienQuan .listDuAn .item {
     width: calc((100% - 60px)/3);
     margin-right: 30px;
     float: left; }
     .duAnLienQuan .listDuAn .item:nth-child(3n+3) {
       margin-right: 0; }
+
   .duAnKhac .listDuAn .item {
     width: calc((100% - 36px)/3);
     margin-right: 18px;
     float: left; }
     .duAnKhac .listDuAn .item:nth-child(3n+3) {
       margin-right: 0; }
+
   #tinTuc .itemFirst .left {
     width: 694px;
     margin-right: 20px;
@@ -70,6 +78,7 @@
     float: left; }
     #tinTuc .itemSecond .listTin .item:nth-child(4n+4) {
       margin-right: 0; }
+
   #timKiem .container .row {
     padding-top: 36px; }
   #timKiem .wrapper_item .item {
@@ -78,13 +87,13 @@
     float: left; }
     #timKiem .wrapper_item .item:nth-child(4n+4) {
       margin-right: 0; }
+
   #video .listVideo .item {
     width: calc((100% - 60px)/3);
     margin-right: 30px;
     float: left; }
     #video .listVideo .item:nth-child(3n+3) {
       margin-right: 0; } }
-
 @media (max-width: 1199px) {
   #duAn .wrapper_item .item {
     width: calc((100% - 36px)/3);
@@ -92,8 +101,11 @@
     float: left; }
     #duAn .wrapper_item .item:nth-child(3n+3) {
       margin-right: 0; }
+
   #information .content_left {
     width: calc((100% - 30px)/2);
     margin-right: 30px; }
   #information .content_right {
     width: calc((100% - 30px)/2); } }
+
+/*# sourceMappingURL=responsive.css.map */

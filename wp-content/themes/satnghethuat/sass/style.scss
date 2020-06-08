@@ -1,31 +1,36 @@
-    @font-face {
-    	font-family: 'sfu_futurabold';
-    	src: url('fonts/sfufuturabold-webfont.eot');
-    	src: url('fonts/sfufuturabold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/sfufuturabold-webfont.woff2') format('woff2'), url('fonts/sfufuturabold-webfont.woff') format('woff'), url('fonts/sfufuturabold-webfont.ttf') format('truetype'), url('fonts/sfufuturabold-webfont.svg#sfu_futurabold') format('svg');
-    	font-weight: normal;
-    	font-style: normal;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
     
     @font-face {
     	font-family: 'sfu_futuraheavy';
-    	src: url('fonts/sfufuturaheavy-webfont.eot');
-    	src: url('fonts/sfufuturaheavy-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/sfufuturaheavy-webfont.woff2') format('woff2'), url('fonts/sfufuturaheavy-webfont.woff') format('woff'), url('fonts/sfufuturaheavy-webfont.ttf') format('truetype'), url('fonts/sfufuturaheavy-webfont.svg#sfu_futuraheavy') format('svg');
+    	src: url('./fonts/sfufuturaheavy-webfont.eot');
+      src: url('./fonts/sfufuturaheavy-webfont.eot?#iefix') format('embedded-opentype'), 
+      url('./fonts/sfufuturaheavy-webfont.woff2') format('woff2'),
+       url('./fonts/sfufuturaheavy-webfont.woff') format('woff'), 
+       url('./fonts/sfufuturaheavy-webfont.ttf') format('truetype'), 
+       url('./fonts/sfufuturaheavy-webfont.svg#sfu_futuraheavy') format('svg');
     	font-weight: normal;
     	font-style: normal;
     }
     
     @font-face {
     	font-family: 'utm_bebasregular';
-    	src: url('fonts/utm_bebas-webfont.eot');
-    	src: url('fonts/utm_bebas-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/utm_bebas-webfont.woff2') format('woff2'), url('fonts/utm_bebas-webfont.woff') format('woff'), url('fonts/utm_bebas-webfont.ttf') format('truetype'), url('fonts/utm_bebas-webfont.svg#utm_bebasregular') format('svg');
+    	src: url('./fonts/utm_bebas-webfont.eot');
+      src: url('./fonts/utm_bebas-webfont.eot?#iefix') format('embedded-opentype'), 
+      url('./fonts/utm_bebas-webfont.woff2') format('woff2'),
+       url('./fonts/utm_bebas-webfont.woff') format('woff'),
+        url('./fonts/utm_bebas-webfont.ttf') format('truetype'),
+         url('./fonts/utm_bebas-webfont.svg#utm_bebasregular') format('svg');
     	font-weight: normal;
     	font-style: normal;
     }
     
     @font-face {
     	font-family: 'segoeui';
-    	src: url('fonts/segoeui.eot');
-    	src: local('☺'), url('fonts/segoeui.woff') format('woff'), url('fonts/segoeui.ttf') format('truetype'), url('fonts/segoeui.svg') format('svg');
+    	src: url('./fonts/segoeui.eot');
+      src: local('☺'),
+       url('./fonts/segoeui.woff') format('woff'),
+        url('./fonts/segoeui.ttf') format('truetype'),
+         url('./fonts/segoeui.svg') format('svg');
     	font-weight: normal;
     	font-style: normal;
     }
@@ -33,23 +38,33 @@
     @font-face {
     	font-family: 'segoeuibold';
     	src: url('fonts/segoeuibold.eot');
-    	src: local('☺'), url('fonts/segoeuibold.woff') format('woff'), url('fonts/segoeuibold.ttf') format('truetype'), url('fonts/segoeuibold.svg') format('svg');
+      src: local('☺'), url('fonts/segoeuibold.woff') format('woff'), 
+      url('fonts/segoeuibold.ttf') format('truetype'), 
+      url('fonts/segoeuibold.svg') format('svg');
     	font-weight: normal;
     	font-style: normal;
     }
     
     @font-face {
     	font-family: 'sfu_futuralightoblique';
-    	src: url('fonts/sfufuturalightoblique-webfont.eot');
-    	src: url('fonts/sfufuturalightoblique-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/sfufuturalightoblique-webfont.woff2') format('woff2'), url('fonts/sfufuturalightoblique-webfont.woff') format('woff'), url('fonts/sfufuturalightoblique-webfont.ttf') format('truetype'), url('fonts/sfufuturalightoblique-webfont.svg#sfu_futuralightoblique') format('svg');
+    	src: url('./fonts/sfufuturalightoblique-webfont.eot');
+      src: url('./fonts/sfufuturalightoblique-webfont.eot?#iefix') format('embedded-opentype'), 
+      url('./fonts/sfufuturalightoblique-webfont.woff2') format('woff2'), 
+      url('./fonts/sfufuturalightoblique-webfont.woff') format('woff'),
+       url('./fonts/sfufuturalightoblique-webfont.ttf') format('truetype'), 
+       url('./fonts/sfufuturalightoblique-webfont.svg#sfu_futuralightoblique') format('svg');
     	font-weight: normal;
     	font-style: normal;
     }
     
     @font-face {
     	font-family: 'sfu_futura_book';
-    	src: url('fonts/sfufuturabook-webfont.eot');
-    	src: url('fonts/sfufuturabook-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/sfufuturabook-webfont.woff2') format('woff2'), url('fonts/sfufuturabook-webfont.woff') format('woff'), url('fonts/sfufuturabook-webfont.ttf') format('truetype'), url('fonts/sfufuturabook-webfont.svg#sfu_futura_book') format('svg');
+    	src: url('./fonts/sfufuturabook-webfont.eot');
+      src: url('./fonts/sfufuturabook-webfont.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/sfufuturabook-webfont.woff2') format('woff2'), 
+      url('./fonts/sfufuturabook-webfont.woff') format('woff'), 
+      url('./fonts/sfufuturabook-webfont.ttf') format('truetype'),
+       url('./fonts/sfufuturabook-webfont.svg#sfu_futura_book') format('svg');
     	font-weight: normal;
     	font-style: normal;
     }
@@ -62,7 +77,7 @@
     $gray2: #666666;
     $white: #fff;
     $red:#f50c0d;
-    $font1:'sfu_futurabold';
+    $font1:'Roboto', sans-serif;
     $font2: "sfu_futuraheavy";
     $font3: "utm_bebasregular";
     $font4: "segoeui";
@@ -196,6 +211,7 @@
          $white,
          18px,
          20px);
+         font-weight: 900;
         text-transform: uppercase;
         text-align: right;
         span {
@@ -204,10 +220,11 @@
        margin-bottom: 15px;
      }
      p.second {
-      @include text($font7,
+      @include text($font1,
        $blue,
        18px,
        20px);
+       font-weight: 500;
       text-transform: uppercase;
       text-align: right;
     }
@@ -362,8 +379,11 @@ ul {
 #banner {
  position: relative;
  z-index: 2;
- margin-top: -145px;
-  display: flex;
+ &:after{
+   content:"";
+   display: block;
+   clear: both;
+ }
  .banner.banner_tchu {
    width:100%;
    margin-bottom: 0!important;
@@ -398,122 +418,28 @@ ul {
     }
   }
 }
-.camera_caption{
-        position: absolute;
-      bottom:50px!important;
-      left: 50%;
-      transform:translateX(-50%);
-            background:transparent;
-      z-index: 100;
-      >div{
-            background:transparent;
-      }
-  p{
-   &:first-child{
-    @include text($font2, $white, 26px, 34px);
-    height: 34px;
-    overflow: hidden;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    text-align: center;
-  }
-  &:last-child{
-    @include text($font7, $white, 27px, 30px);
-    height: 30px;
-    overflow: hidden;text-align: center;
-  }
+
 }
-}
-.camera_pag_ul{
+.nivo-controlNav{
   text-align: center;
-  margin-top: -45px;
-  li{
+  margin: 0;
+  bottom:30px;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  a{
     width: 20px;
     height: 2px;
-    background: transparent;
-    &.cameracurrent{
-      span{
+    margin: 0 5px;
+    font-size: 0;
+    display: inline-block;
+    background: #fff;
+    &.active{
         background: $blue;
-      }
-    }
-    span{
-      width: 20px;
-      height: 2px;
-      background: #fff;
     }
   }
-}
-// .slick-prev{
-//  left:calc((100% - 1170px)/2);
-//  width: 38px;
-//  height: 38px;
-//  z-index: 100;
-//  &:before{
-//   content: "\f053";
-//   font: normal normal normal 14px/1 FontAwesome;
-//   width: 38px;
-//   height: 38px;
-//   line-height: 38px;
-//   display: inline-block;
-//   color: #fff;
-//   background: rgba(0, 0, 0, 0.5);
-//   transition: 0.3s;
-// }
-// &:hover{
-//   &:before{
-//    background:#2a83d5;  
-//  }
-
-// }
-// }
-// .slick-next{
-//  right:calc((100% - 1170px)/2);
-//  width: 38px;
-//  height: 38px;
-//  z-index: 100;
-//  &:before{
-//   content: "\f054";
-//   font: normal normal normal 14px/1 FontAwesome;
-//   width: 38px;
-//   height: 38px;
-//   line-height: 38px;
-//   display: inline-block;
-//   color: #fff;
-//   background: rgba(0, 0, 0, 0.5);
-//   transition: 0.3s;
-// }
-// &:hover{
-//   &:before{
-//    background:#2a83d5;  
-//  }
-
-// }
-// }
-// .slick-dots {
-//  position: absolute;
-//  bottom: 0;
-//  li {
-//   width: 20px;
-//   height: 2px;
-//   box-sizing: border-box;
-//   border: 0;
-//   background: $white;
-//   position: relative;
-//   button {
-//    &:before {
-//     display: none;
-//   }
-// }
-// }
-// li.slick-active {
-//   background: $blue;
-//   button {
-//    &:before {
-//     color: $blue;
-//   }
-// }
-// }
-// }
 }
 .banner_tcon {
   .khungAnh {
