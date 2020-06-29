@@ -24,7 +24,7 @@
 <div class="row content">
 <div class="block">
     <div class="row title">
-        <a href="#" class="first" title="Thiết kế- thi công kiến trúc">Thiết kế kiến trúc nhà phố</a>
+        <a href="#" class="first" title="Thiết kế- thi công kiến trúc">Thiết kế cổng nghệ thuật</a>
         <a href="#" class="second" title="Xem thêm">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
     </div>
     <div class="wrapper_item">
@@ -33,7 +33,7 @@
 		'post_status' => 'publish', // Chỉ lấy những bài viết được publish
 		'post_type' => 'post', // Lấy những bài viết thuộc post, nếu lấy những bài trong 'trang' thì để là page 
 		'showposts' => 8, // số lượng bài viết
-		'cat' => 1, // lấy bài viết trong chuyên mục có id là 1
+		'cat' => 5, // lấy bài viết trong chuyên mục có id là 1
 	);
 ?>
 <?php $getposts = new WP_query($args); ?>
@@ -45,7 +45,7 @@
                     <a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="khungAnhCrop">
                     <?php echo get_the_post_thumbnail( get_the_id(), 'full', array( 'class' =>'thumnail') ); ?>
                     </a>
-                    <a href="<?php the_permalink(); ?> " class="detail " title="<?php the_title(); ?> "><?php the_title(); ?></a>
+                    <a href="<?php the_permalink(); ?> " class="detail " title="<?php the_title(); ?> "></a>
 
                 </div>
             </div>
@@ -55,842 +55,76 @@
         </div>
 <?php endwhile; wp_reset_postdata(); ?>
 
-
-        <!-- <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop">
-                        <img class="" src="<?php bloginfo('template_directory'); ?>/pics/sp1.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà phố mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/p2.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp3.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp4.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp1.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/p2.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp3.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp4.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div> -->
     </div>
 </div>
 <div class="block">
 <div class="row title">
-    <a href="#" class="first" title="Thiết kế- thi công kiến trúc">Thiết kế kiến trúc biệt thự</a>
+    <a href="#" class="first" title="Thiết kế- thi công kiến trúc">Thiết kế cầu thang nghệ thuật</a>
     <a href="#" class="second" title="Xem thêm">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 </div>
 <div class="wrapper_item">
-    <div class="item">
-        <div class="wrapper_img">
-            <div class="khungAnh">
-                <a href="#" title="item" class="khungAnhCrop">
-                    <img class="" src="<?php bloginfo('template_directory'); ?>/pics/sp1.jpg" alt="du an">
-                </a>
-                <a href="# " class="detail " title="View "></a>
+<?php 
+	$args = array(
+		'post_status' => 'publish', // Chỉ lấy những bài viết được publish
+		'post_type' => 'post', // Lấy những bài viết thuộc post, nếu lấy những bài trong 'trang' thì để là page 
+		'showposts' => 8, // số lượng bài viết
+		'cat' => 6, // lấy bài viết trong chuyên mục có id là 2
+	);
+?>
+<?php $getposts = new WP_query($args); ?>
+<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+      <div class="item">
+            <div class="wrapper_img">
+                <div class="khungAnh">
+                    <a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="khungAnhCrop">
 
-            </div>
-        </div>
-        <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-            Dự án nhà kiến trúc nhà phố mặt đường trong phố A
-        </a>
-    </div>
-    <div class="item">
-        <div class="wrapper_img">
-            <div class="khungAnh">
-                <a href="#" title="item" class="khungAnhCrop ">
-                    <img src="<?php bloginfo('template_directory'); ?>/pics/p2.jpg" alt="du an">
-                </a>
-                <a href="# " class="detail " title="View "></a>
+                    <?php echo get_the_post_thumbnail( get_the_id(), 'thumbnail', array( 'class' =>'thumnail') ); ?>
+                    </a>
+                    <a href="<?php the_permalink(); ?> " class="detail " ></a>
 
+                </div>
             </div>
+            <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="content_outer">
+            <?php the_title(); ?>
+            </a>
         </div>
-        <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-            Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-        </a>
-    </div>
-    <div class="item">
-        <div class="wrapper_img">
-            <div class="khungAnh">
-                <a href="#" title="item" class="khungAnhCrop ">
-                    <img src="<?php bloginfo('template_directory'); ?>/pics/sp3.jpg" alt="du an">
-                </a>
-                <a href="# " class="detail " title="View "></a>
-
-            </div>
-        </div>
-        <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-            Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-        </a>
-    </div>
-    <div class="item">
-        <div class="wrapper_img">
-            <div class="khungAnh">
-                <a href="#" title="item" class="khungAnhCrop ">
-                    <img src="<?php bloginfo('template_directory'); ?>/pics/sp4.jpg" alt="du an">
-                </a>
-                <a href="# " class="detail " title="View "></a>
-
-            </div>
-        </div>
-        <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-            Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-        </a>
-    </div>
-    <div class="item">
-        <div class="wrapper_img">
-            <div class="khungAnh">
-                <a href="#" title="item" class="khungAnhCrop">
-                    <img class="" src="<?php bloginfo('template_directory'); ?>/pics/sp1.jpg" alt="du an">
-                </a>
-                <a href="# " class="detail " title="View "></a>
-
-            </div>
-        </div>
-        <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-            Dự án nhà kiến trúc nhà phố mặt đường trong phố A
-        </a>
-    </div>
-    <div class="item">
-        <div class="wrapper_img">
-            <div class="khungAnh">
-                <a href="#" title="item" class="khungAnhCrop ">
-                    <img src="<?php bloginfo('template_directory'); ?>/pics/p2.jpg" alt="du an">
-                </a>
-                <a href="# " class="detail " title="View "></a>
-
-            </div>
-        </div>
-        <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-            Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-        </a>
-    </div>
-    <div class="item">
-        <div class="wrapper_img">
-            <div class="khungAnh">
-                <a href="#" title="item" class="khungAnhCrop ">
-                    <img src="<?php bloginfo('template_directory'); ?>/pics/sp3.jpg" alt="du an">
-                </a>
-                <a href="# " class="detail " title="View "></a>
-
-            </div>
-        </div>
-        <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-            Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-        </a>
-    </div>
-    <div class="item">
-        <div class="wrapper_img">
-            <div class="khungAnh">
-                <a href="#" title="item" class="khungAnhCrop ">
-                    <img src="<?php bloginfo('template_directory'); ?>/pics/sp4.jpg" alt="du an">
-                </a>
-                <a href="# " class="detail " title="View "></a>
-
-            </div>
-        </div>
-        <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-            Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-        </a>
-    </div>
+<?php endwhile; wp_reset_postdata(); ?>
 </div>
 </div>
 <div class="block">
 <div class="row title">
-    <a href="#" class="first" title="Thiết kế- thi công kiến trúc">Thiết kế nội thất</a>
+    <a href="#" class="first" title="Thiết kế- thi công kiến trúc">Thiết kế sắt nghệ thuật theo yêu cầu</a>
     <a href="#" class="second" title="Xem thêm">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 </div>
 <div class="wrapper_item">
-    <div class="item">
-        <div class="wrapper_img">
-            <div class="khungAnh">
-                <a href="#" title="item" class="khungAnhCrop">
-                    <img class="" src="<?php bloginfo('template_directory'); ?>/pics/sp1.jpg" alt="du an">
-                </a>
-                <a href="# " class="detail " title="View "></a>
-
+<?php 
+	$args = array(
+		'post_status' => 'publish', // Chỉ lấy những bài viết được publish
+		'post_type' => 'post', // Lấy những bài viết thuộc post, nếu lấy những bài trong 'trang' thì để là page 
+		'showposts' => 8, // số lượng bài viết
+		'cat' => 7, // lấy bài viết trong chuyên mục có id là 3
+	);
+?>
+<?php $getposts = new WP_query($args); ?>
+<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+      <div class="item">
+            <div class="wrapper_img">
+                <div class="khungAnh">
+                    <a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="khungAnhCrop">
+                    <?php echo get_the_post_thumbnail( get_the_id(), 'full', array( 'class' =>'thumnail') ); ?>
+                    </a>
+                    <a href="<?php the_permalink(); ?> " class="detail "></a>
+                </div>
             </div>
+            <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="content_outer">
+            <?php the_title(); ?>
+            </a>
         </div>
-        <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-            Dự án nhà kiến trúc nhà phố mặt đường trong phố A
-        </a>
-    </div>
-    <div class="item">
-        <div class="wrapper_img">
-            <div class="khungAnh">
-                <a href="#" title="item" class="khungAnhCrop ">
-                    <img src="<?php bloginfo('template_directory'); ?>/pics/p2.jpg" alt="du an">
-                </a>
-                <a href="# " class="detail " title="View "></a>
-
-            </div>
-        </div>
-        <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-            Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-        </a>
-    </div>
-    <div class="item">
-        <div class="wrapper_img">
-            <div class="khungAnh">
-                <a href="#" title="item" class="khungAnhCrop ">
-                    <img src="<?php bloginfo('template_directory'); ?>/pics/sp3.jpg" alt="du an">
-                </a>
-                <a href="# " class="detail " title="View "></a>
-
-            </div>
-        </div>
-        <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-            Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-        </a>
-    </div>
-    <div class="item">
-        <div class="wrapper_img">
-            <div class="khungAnh">
-                <a href="#" title="item" class="khungAnhCrop ">
-                    <img src="<?php bloginfo('template_directory'); ?>/pics/sp4.jpg" alt="du an">
-                </a>
-                <a href="# " class="detail " title="View "></a>
-
-            </div>
-        </div>
-        <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-            Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-        </a>
-    </div>
-    <div class="item">
-        <div class="wrapper_img">
-            <div class="khungAnh">
-                <a href="#" title="item" class="khungAnhCrop">
-                    <img class="" src="<?php bloginfo('template_directory'); ?>/pics/sp1.jpg" alt="du an">
-                </a>
-                <a href="# " class="detail " title="View "></a>
-
-            </div>
-        </div>
-        <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-            Dự án nhà kiến trúc nhà phố mặt đường trong phố A
-        </a>
-    </div>
-    <div class="item">
-        <div class="wrapper_img">
-            <div class="khungAnh">
-                <a href="#" title="item" class="khungAnhCrop ">
-                    <img src="<?php bloginfo('template_directory'); ?>/pics/p2.jpg" alt="du an">
-                </a>
-                <a href="# " class="detail " title="View "></a>
-
-            </div>
-        </div>
-        <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-            Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-        </a>
-    </div>
-    <div class="item">
-        <div class="wrapper_img">
-            <div class="khungAnh">
-                <a href="#" title="item" class="khungAnhCrop ">
-                    <img src="<?php bloginfo('template_directory'); ?>/pics/sp3.jpg" alt="du an">
-                </a>
-                <a href="# " class="detail " title="View "></a>
-
-            </div>
-        </div>
-        <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-            Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-        </a>
-    </div>
-    <div class="item">
-        <div class="wrapper_img">
-            <div class="khungAnh">
-                <a href="#" title="item" class="khungAnhCrop ">
-                    <img src="<?php bloginfo('template_directory'); ?>/pics/sp4.jpg" alt="du an">
-                </a>
-                <a href="# " class="detail " title="View "></a>
-
-            </div>
-        </div>
-        <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-            Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-        </a>
-    </div>
+<?php endwhile; wp_reset_postdata(); ?>
 </div>
 </div>
-<div class="block">
-    <div class="row title">
-        <a href="#" class="first" title="Thiết kế- thi công kiến trúc">Kiến trúc khách sạn</a>
-        <a href="#" class="second" title="Xem thêm">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-    </div>
-    <div class="wrapper_item">
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop">
-                        <img class="" src="<?php bloginfo('template_directory'); ?>/pics/sp1.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà phố mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/p2.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp3.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp4.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop">
-                        <img class="" src="<?php bloginfo('template_directory'); ?>/pics/sp1.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà phố mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/p2.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp3.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp4.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-    </div>
-</div>
-<div class="block">
-    <div class="row title">
-        <a href="#" class="first" title="Thiết kế- thi công kiến trúc">Kiến trúc nhà vườn</a>
-        <a href="#" class="second" title="Xem thêm">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-    </div>
-    <div class="wrapper_item">
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop">
-                        <img class="" src="<?php bloginfo('template_directory'); ?>/pics/sp1.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà phố mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/p2.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp3.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp4.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop">
-                        <img class="" src="<?php bloginfo('template_directory'); ?>/pics/sp1.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà phố mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/p2.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp3.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp4.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-    </div>
-</div>
-<div class="block">
-    <div class="row title">
-        <a href="#" class="first" title="Thiết kế- thi công kiến trúc">Kiến trúc văn phòng</a>
-        <a href="#" class="second" title="Xem thêm">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-    </div>
-    <div class="wrapper_item">
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop">
-                        <img class="" src="<?php bloginfo('template_directory'); ?>/pics/sp1.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà phố mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/p2.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp3.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp4.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop">
-                        <img class="" src="<?php bloginfo('template_directory'); ?>/pics/sp1.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà phố mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/p2.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp3.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp4.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-    </div>
-</div>
-<div class="block">
-    <div class="row title">
-        <a href="#" class="first" title="Thiết kế- thi công kiến trúc">Kiến trúc khác</a>
-        <a href="#" class="second" title="Xem thêm">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-    </div>
-    <div class="wrapper_item">
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop">
-                        <img class="" src="<?php bloginfo('template_directory'); ?>/pics/sp1.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà phố mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/p2.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp3.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp4.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop">
-                        <img class="" src="<?php bloginfo('template_directory'); ?>/pics/sp1.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà phố mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/p2.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp3.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-        <div class="item">
-            <div class="wrapper_img">
-                <div class="khungAnh">
-                    <a href="#" title="item" class="khungAnhCrop ">
-                        <img src="<?php bloginfo('template_directory'); ?>/pics/sp4.jpg" alt="du an">
-                    </a>
-                    <a href="# " class="detail " title="View "></a>
-
-                </div>
-            </div>
-            <a href="#" title="Dự án nhà kiến trúc nhà vườn mặt đường trong phố A" class="content_outer">
-                Dự án nhà kiến trúc nhà vườn mặt đường trong phố A
-            </a>
-        </div>
-    </div>
-</div>
-</section>
 <section id="khachHang">
     <div class="khungAnh">
         <a href="#" class="khungAnhCrop">
@@ -912,67 +146,73 @@
                     <a href="#" title="Xem thêm" class="more">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                 </div>
                 <div class="main_newz col-lg-12">
-                    <div class="wrapper_img">
+                <?php 
+                    $args = array(
+                        'post_status' => 'publish', // Chỉ lấy những bài viết được publish
+                        'post_type' => 'post', // Lấy những bài viết thuộc post, nếu lấy những bài trong 'trang' thì để là page 
+                        'showposts' => 1, // số lượng bài viết
+                        'cat' => 9, // lấy bài viết trong chuyên mục có id là 3
+                       
+                    );
+                     ?>
+                <?php $getposts = new WP_query($args); ?>
+                <?php global $wp_query; $wp_query->in_the_loop = true; ?>
+                <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+                <div class="wrapper_img">
                         <div class="khungAnh">
-                            <a href="#" title="Video" class="khungAnhCrop">
-                                <img src="<?php bloginfo('template_directory'); ?>/pics/video1.jpg" alt="Video">
+                            <a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="khungAnhCrop">
+                                <?php echo get_the_post_thumbnail( get_the_id(), 'full', array( 'class' =>'thumnail') ); ?>
                             </a>
                         </div>
                     </div>
-                    <a href="#" title="   Những yếu tố đặc trưng làm nên thương hiệu tin cậy và uy tín của chúng tôi trong suốt 14 năm hoạt động" class="content_outer">
-                        Những yếu tố đặc trưng làm nên thương hiệu tin cậy và uy tín của chúng tôi trong suốt 14 năm hoạt động
+                    <a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="content_outer">
+                        <?php the_title(); ?>
                     </a>
                     <div class="thongKe">
                         <span class="date">
-                            11/7/2016
+                        <?php echo get_the_date(); ?>
                         </span>
                         <span class="luotXem">
-                            2.658 lượt xem
+                            <?= gt_get_post_view(); ?>
                         </span>
                     </div>
-                    <div class="description">Công ty TNHH Thương Mại Dịch Vụ Phú Sơn được thành lập năm 2006, ra đời và hoạt động trong điều kiện ...</div>
+                    <div class="description"><?php the_excerpt(); ?></div>
+                <?php endwhile; wp_reset_postdata(); ?>
                 </div>
                 <div class="sub_newz col-xs-12">
-                    <div class="wrapper_img item col-xs-12">
+                <?php 
+                    $args = array(
+                        'post_status' => 'publish', // Chỉ lấy những bài viết được publish
+                        'post_type' => 'post', // Lấy những bài viết thuộc post, nếu lấy những bài trong 'trang' thì để là page 
+                        'showposts' => 2, // số lượng bài viết
+                        'cat' => 9, // lấy bài viết trong chuyên mục có id là 3,
+                        'offset' => 1
+                    );
+                     ?>
+                <?php $getposts = new WP_query($args); ?>
+                <?php global $wp_query; $wp_query->in_the_loop = true; ?>
+                <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+                <div class="wrapper_img item col-xs-12">
                         <div class="khungAnh">
-                            <a href="#" title="Video" class="khungAnhCrop">
-                                <img src="<?php bloginfo('template_directory'); ?>/pics/video2.jpg" alt="Video">
+                            <a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="khungAnhCrop">
+                                <?php echo get_the_post_thumbnail( get_the_id(), 'full', array( 'class' =>'thumnail') ); ?>
                             </a>
                         </div>
                         <div class="content_outer">
-                            <a href="#" title="   Những yếu tố đặc trưng làm nên thương hiệu tin cậy và uy tín của chúng tôi trong suốt 14 năm hoạt động" class="name">
-                                Những yếu tố đặc trưng làm nên thương hiệu tin cậy và uy tín của chúng tôi trong suốt 14 năm hoạt động
+                            <a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="name">
+                                <?php the_title(); ?>
                             </a>
                             <div class="thongKe">
                                 <span class="date">
-                                    11/7/2016
+                                <?php echo get_the_date(); ?>
                                 </span>
                                 <span class="luotXem">
-                                    2.658 lượt xem
+                                <?= gt_get_post_view(); ?>
                                 </span>
                             </div>
                         </div>
                     </div>
-                    <div class="wrapper_img item col-xs-12">
-                        <div class="khungAnh">
-                            <a href="#" title="Video" class="khungAnhCrop">
-                                <img src="<?php bloginfo('template_directory'); ?>/pics/video2.jpg" alt="Video">
-                            </a>
-                        </div>
-                        <div class="content_outer">
-                            <a href="#" title="   Những yếu tố đặc trưng làm nên thương hiệu tin cậy và uy tín của chúng tôi trong suốt 14 năm hoạt động" class="name">
-                                Những yếu tố đặc trưng làm nên thương hiệu tin cậy và uy tín của chúng tôi trong suốt 14 năm hoạt động
-                            </a>
-                            <div class="thongKe">
-                                <span class="date">
-                                    11/7/2016
-                                </span>
-                                <span class="luotXem">
-                                    2.658 lượt xem
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+                <?php endwhile; wp_reset_postdata(); ?>
                 </div>
             </div>
             <div class="content_right col-xs-12 col-lg-6">
@@ -981,94 +221,77 @@
                     <a href="#" title="Xem thêm" class="more">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                 </div>
                 <div class="main_newz col-lg-12">
-                    <div class="wrapper_img">
+                <?php 
+                    $args = array(
+                        'post_status' => 'publish', // Chỉ lấy những bài viết được publish
+                        'post_type' => 'post', // Lấy những bài viết thuộc post, nếu lấy những bài trong 'trang' thì để là page 
+                        'showposts' => 2, // số lượng bài viết
+                        'cat' => 8, // lấy bài viết trong chuyên mục có id là 3
+                       
+                    );
+                     ?>
+                <?php $getposts = new WP_query($args); ?>
+                <?php global $wp_query; $wp_query->in_the_loop = true; ?>
+                <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+                <div class="wrapper_img">
                         <div class="khungAnh">
-                            <a href="#" title="Video" class="khungAnhCrop">
-                                <img src="<?php bloginfo('template_directory'); ?>/pics/video1.jpg" alt="Video">
-                            </a>
+                            <a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="khungAnhCrop">
+                                <?php echo get_the_post_thumbnail( get_the_id(), 'full', array( 'class' =>'thumnail') ); ?>
                             </a>
                         </div>
                     </div>
                     <div class="content_outer">
-                        <a href="#" title="   Những yếu tố đặc trưng làm nên thương hiệu tin cậy và uy tín của chúng tôi trong suốt 14 năm hoạt động" class="name">
-                            Những yếu tố đặc trưng làm nên thương hiệu tin cậy và uy tín của chúng tôi trong suốt 14 năm hoạt động
+                        <a href<?php bloginfo( 'url' ); ?> title="<?php bloginfo( 'name' ); ?>" class="name">
+                        <?php the_title(); ?>
                         </a>
                         <div class="thongKe">
                             <span class="date">
-                                11/7/2016
+                            <?php echo get_the_date(); ?>
                             </span>
                             <span class="luotXem">
-                                2.658 lượt xem
+                            <?= gt_get_post_view(); ?>
                             </span>
                         </div>
-                        <div class="description">Đồ ăn cung cấp đầy đủ dinh dưỡng nếu chúng được chế biến lành mạnh và ăn đúng giờ. Nếu bạn ăn sai giờ có thể làm mất đến sức khỏe tổng thể</div>
+                        <div class="description"><?php the_excerpt(); ?></div>
                     </div>
-                </div>
-                <div class="main_newz col-lg-12">
-                    <div class="wrapper_img">
-                        <div class="khungAnh">
-                            <a href="#" title="Video" class="khungAnhCrop">
-                                <img src="<?php bloginfo('template_directory'); ?>/pics/video1.jpg" alt="Video">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="content_outer">
-                        <a href="#" title="   Những yếu tố đặc trưng làm nên thương hiệu tin cậy và uy tín của chúng tôi trong suốt 14 năm hoạt động" class="name">
-                            Những yếu tố đặc trưng làm nên thương hiệu tin cậy và uy tín của chúng tôi trong suốt 14 năm hoạt động
-                        </a>
-                        <div class="thongKe">
-                            <span class="date">
-                                11/7/2016
-                            </span>
-                            <span class="luotXem">
-                                2.658 lượt xem
-                            </span>
-                        </div>
-                        <div class="description">Đồ ăn cung cấp đầy đủ dinh dưỡng nếu chúng được chế biến lành mạnh và ăn đúng giờ. Nếu bạn ăn sai giờ có thể làm mất đến sức khỏe tổng thể</div>
-                    </div>
+                <?php endwhile; wp_reset_postdata(); ?>
+               
                 </div>
                 <div class="clear_both"></div>
                 <div class="sub_newz col-xs-12">
-                    <div class="wrapper_img item col-xs-12">
+                <?php 
+                    $args = array(
+                        'post_status' => 'publish', // Chỉ lấy những bài viết được publish
+                        'post_type' => 'post', // Lấy những bài viết thuộc post, nếu lấy những bài trong 'trang' thì để là page 
+                        'showposts' => 2, // số lượng bài viết
+                        'cat' => 8, // lấy bài viết trong chuyên mục có id là 3,
+                        'offset' => 2
+                    );
+                     ?>
+                <?php $getposts = new WP_query($args); ?>
+                <?php global $wp_query; $wp_query->in_the_loop = true; ?>
+                <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+                <div class="wrapper_img item col-xs-12">
                         <div class="khungAnh">
-                            <a href="#" title="Video" class="khungAnhCrop">
-                                <img src="<?php bloginfo('template_directory'); ?>/pics/video2.jpg" alt="Video">
+                            <a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="khungAnhCrop">
+                                <?php echo get_the_post_thumbnail( get_the_id(), 'full', array( 'class' =>'thumnail') ); ?>
                             </a>
                         </div>
                         <div class="content_outer">
-                            <a href="#" title="   Những yếu tố đặc trưng làm nên thương hiệu tin cậy và uy tín của chúng tôi trong suốt 14 năm hoạt động" class="name">
-                                Những yếu tố đặc trưng làm nên thương hiệu tin cậy và uy tín của chúng tôi trong suốt 14 năm hoạt động
+                            <a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="name">
+                                <?php the_title(); ?>
                             </a>
                             <div class="thongKe">
                                 <span class="date">
-                                    11/7/2016
+                                <?php echo get_the_date(); ?>
                                 </span>
                                 <span class="luotXem">
-                                    2.658 lượt xem
+                                <?= gt_get_post_view(); ?>
                                 </span>
                             </div>
                         </div>
                     </div>
-                    <div class="wrapper_img item col-xs-12">
-                        <div class="khungAnh">
-                            <a href="#" title="Video" class="khungAnhCrop">
-                                <img src="<?php bloginfo('template_directory'); ?>/pics/video2.jpg" alt="Video">
-                            </a>
-                        </div>
-                        <div class="content_outer">
-                            <a href="#" title="   Những yếu tố đặc trưng làm nên thương hiệu tin cậy và uy tín của chúng tôi trong suốt 14 năm hoạt động" class="name">
-                                Những yếu tố đặc trưng làm nên thương hiệu tin cậy và uy tín của chúng tôi trong suốt 14 năm hoạt động
-                            </a>
-                            <div class="thongKe">
-                                <span class="date">
-                                    11/7/2016
-                                </span>
-                                <span class="luotXem">
-                                    2.658 lượt xem
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+                <?php endwhile; wp_reset_postdata(); ?>
                 </div>
             </div>
         </div>

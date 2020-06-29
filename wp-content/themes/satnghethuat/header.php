@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KIẾN TRÚC VLC</title>
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css">
-    <link rel="stylesheet" href="c<?php bloginfo('template_directory'); ?>/css/font-awesome.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/font-awesome.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/slick.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/hover-min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/slick-theme.css">
@@ -35,11 +35,6 @@
 <body>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59d76b2f7e18756b"></script>
-<div class="icon_right">
-    <a title="Skype" href="#"></a>
-    <a title="Zalo" href="#"></a>
-    <a title="phone" href="#"></a>
-</div>
 <header id="header">
     <div class="container autoheight">
         <div class="row autoheight">
@@ -74,35 +69,6 @@
                             'menu_class' => 'menu'
                         ) 
                         ); ?>
-                        <!-- <ul>
-                            <li class="actived">
-                                <a href="#" title="Trang chủ">Trang chủ</a>
-                            </li>
-                            <li>
-                                <a href="#" title="Giới thiệu">Giới thiệu </a>
-                            </li>
-                            <li>
-                                <a href="#" title="Dịch vụ">Dịch vụ</a>
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Trang chủ">Sub1</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Giới thiệu">Sub2 </a>
-                                    </li>
-                                    <li><a href="#" title="Dịch vụ">Sub3</a>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#" title="Dự án">Dự án</a>
-                            </li>
-                            <li>
-                                <a href="#" title="Tin tức">Tin tức</a>
-                            </li>
-                            <li>
-                                <a href="#" title="Liên hệ"> Liên hệ</a>
-                            </li>
-                        </ul> -->
                     </div>
                     <div class="search_content">
                         <input type="text" placeholder="Từ khóa tìm kiếm">
