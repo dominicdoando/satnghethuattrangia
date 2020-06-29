@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KIẾN TRÚC VLC</title>
+    <title>SẮT NGHỆ THUẬT TRẦN GIA</title>
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/font-awesome.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/slick.css">

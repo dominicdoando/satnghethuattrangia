@@ -7,16 +7,31 @@
 </div>
 <div id="banner">
     <div class="banner banner_tchu" id="banner_tchu">
-    <img src="<?php bloginfo('template_directory'); ?>/pics/pic1.jpg" data-thumb="<?php bloginfo('template_directory'); ?>/pics/pic1.jpg" alt="" />
-    <img src="<?php bloginfo('template_directory'); ?>/pics/pic2.jpg" data-thumb="<?php bloginfo('template_directory'); ?>/pics/pic1.jpg" alt="" />
-    <img src="<?php bloginfo('template_directory'); ?>/pics/pic3.jpg" data-thumb="<?php bloginfo('template_directory'); ?>/pics/pic1.jpg" alt="" />
-    <img src="<?php bloginfo('template_directory'); ?>/pics/pic4.jpg" data-thumb="<?php bloginfo('template_directory'); ?>/pics/pic1.jpg" alt="" />
-    </div>
-    <div class="bottom_banner">
+        <?php 
+            $args = array(
+                'post_per_page'	=> -1,
+                'post_type'		=> 'slider',
+            );
+            // query
+            $the_query = new WP_Query( $args );
+    ?>
+    <?php if( $the_query->have_posts() ): ?>
+	<ul>
+	<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
+		<li class="khungAnh">
+            <span class="khungAnhCrop">
+            <?php echo get_the_post_thumbnail( get_the_ID(), 'full', array( 'class' =>'thumnail') ); ?>
+            </span>
+		</li>
+	<?php endwhile; ?>
+	</ul>
+<?php endif; ?>
+    <?php wp_reset_query();	 // Restore global post data stomped by the_post(). ?>
+    <!-- <div class="bottom_banner">
         <i class="fa fa-phone" aria-hidden="true"></i>
         <span>Hotline:&nbsp; </span>
-        <p>098.866.888</p>
-    </div>
+        <p><a href="tel:0971003388">0971003388</a></p>
+    </div> -->
 </div>
 
 <section id="duAn">
@@ -134,7 +149,7 @@
     <div class="content">
         <p class="first">Chúng tôi đã làm hài lòng hơn <span> 500+</span> khách hàng. Liên hệ với chúng tôi để được tư vấn ngay.
         </p>
-        <p class="second">0947.215.986</p>
+        <p class="second"><a href="tel:0971003388">0971003388</a></p>
     </div>
 </section>
 <section id="information">

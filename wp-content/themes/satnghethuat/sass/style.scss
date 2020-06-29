@@ -387,13 +387,19 @@ ul {
  .banner.banner_tchu {
    width:100%;
    margin-bottom: 0!important;
+   img{
+    display: block;
+    width: 100%;
+  }
    .khungAnh {
      &:before {
-      padding-bottom: 46.12%;
+      padding-bottom: 34%;
     }
     .khungAnhCrop {
-      width: 101%;
+      width: 100%;
+      object-fit: cover;
     }
+    
     .content_banner{
       position: absolute;
       bottom:50px!important;
@@ -409,6 +415,7 @@ ul {
         margin-bottom: 15px;
         text-transform: uppercase;
         text-align: center;
+        color:inherit
       }
       &:last-child{
         @include text($font7, $white, 27px, 30px);
@@ -604,6 +611,9 @@ p {
   27px,
   51px);
  margin-bottom: 0;
+ a{
+   color:inherit;
+ }
 }
 }
 }
@@ -821,6 +831,9 @@ p.second {
  text-align: center;
  width: auto;
  display: inline-block;
+ a{
+   color:inherit;
+ }
 }
 }
 
@@ -2720,14 +2733,11 @@ p.note{
     .khungAnh {
      .khungAnhCrop {
       &:before {
-       width: 100%;
-       height: 100%;
-       margin-top: 0;
-       margin-left: 0;
+      opacity: 1;
      }
    }
    a.detail {
-    width: 50px;
+    opacity: 1;
   }
 }
 }
@@ -2742,15 +2752,14 @@ p.note{
    &:before {
     content: "";
     display: block;
-    width: 0;
-    height: 0;
-    margin-top: 150px;
-    margin-left: 50px;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
     z-index: 2;
     top: 0;
     left: 0;
+    opacity: 0;
     transition: .3s;
   }
 }
@@ -2758,13 +2767,14 @@ a.detail {
  position: absolute;
  top: 50%;
  left: 50%;
- width: 0;
+ width: 50px;
  height: 50px;
  background: url(../css/images/plus.png) no-repeat;
  background-size: cover;
  z-index: 100;
  transform: translate(-50%, -50%);
  transition: .3s;
+ opacity: 0;
 }
 }
 }
@@ -3993,5 +4003,12 @@ a.content_outer {
     &:nth-child(3){
       background:url(../css/images/phone2.png) no-repeat;
     }
+  }
+}
+.khungAnhCrop{
+  img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
   }
 }

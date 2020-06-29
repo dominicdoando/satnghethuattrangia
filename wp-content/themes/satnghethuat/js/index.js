@@ -71,14 +71,14 @@ $(document).ready(function () {
 
     });
         // SLIDER
-    //     $('.banner_tchu').slick({
-    //     dots: true,
-    //     infinite: true,
-    //     autoplay: true,
-    //     speed: 1000,
-    //     slidesToShow: 1, ease:'ease-in-out',
-    //     arrows: true
-    // });
+        $('.banner_tchu ul').slick({
+        dots: false,
+        infinite: true,
+        autoplay: true,
+        speed: 1000,
+        slidesToShow: 1,
+        arrows: false
+    });
         $('.slider_partner').slick({
             dots: false,
             infinite: true,
@@ -142,19 +142,6 @@ $(document).ready(function () {
             arrows: true
         });
     });
-
-//=========================================IMG RESPONSIVE
-$(window)
-.load(function () {
-    $(".khungAnhCrop img")
-    .each(function () {
-        $(this)
-        .removeClass("wide tall")
-        .addClass((this.width / this.height > $(this).parent().width() / $(this).parent().height()) ?
-            "wide" :
-            "tall");
-    });
-});
 //===================================BACK TO TOP
 $(window).scroll(function () {
     if ($(this).scrollTop() >= 500) {
@@ -181,13 +168,3 @@ $(document).ready(function(){
     });
 })(jQuery);
 //=====================================MENU
-jQuery(function(){
-    $(window).load(function() {
-        $('#banner_tchu').nivoSlider({
-            prevText:'',
-            nextText:'',
-            pauseOnHover:false,
-        });
-        });
-        
-});

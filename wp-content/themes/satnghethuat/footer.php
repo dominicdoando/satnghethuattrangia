@@ -11,7 +11,7 @@
                     <li>
                         <span>Trụ sở:</span> Khu đô thị Việt Hưng, Long Biên, Hà Nội
                     </li>
-                    <li><span>Điện thoại: </span><a href="tel:0123456678">0123456678</a></li>
+                    <li><span>Điện thoại: </span><a href="tel:0971003388">0971003388</a></li>
                     <li><span>Email: </span><a href="mailto:satnghethuatrangia@gmail.com">satnghethuatrangia@gmail.com</a></li>
                     <li>Tư vấn trực tuyến: <span>0947215986</span> (Ks. Lâm)</li>
                 </ul>
