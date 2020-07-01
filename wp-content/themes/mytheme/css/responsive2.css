@@ -1,3 +1,687 @@
-@media (min-width: 1200px){#duAn .block .wrapper_item .item{width:calc((100% - 54px)/4);margin-right:18px;float:left}#duAn .block .wrapper_item .item:nth-child(4n+4){margin-right:0}#information .content_left{width:calc((100% - 30px)/2);margin-right:30px}#information .content_right{float:right;width:calc((100% - 30px)/2);margin-right:0}#information .content_right .div.clear_both{display:none}#footer #info_footer{width:547px;float:left}#footer #danhMuc{width:250px;float:left}#footer #fanpage{width:calc(100% - 547px - 250px);float:left}}@media (max-width: 1199px){.container{width:calc(100% - 40px)}.body_menu{position:relative;right:270px;-webkit-transition:1s;transition:1s}#header .bottom_banner{display:none}#header .menu_banner{width:100%}#top_header .logo{width:80px;height:80px;float:left}#top_header .search_content{position:absolute;right:95px;margin-top:43px;height:28px;width:28px}#top_header .search_content a.search{width:28px;height:28px}#top_header .search_content #box_search{left:unset;right:-60px}#top_header .search_content #box_search:before{display:none}#top_header #menu{position:absolute;right:20px}#top_header #menu .submenu-button{height:43px;line-height:43px}#top_header #menu .submenu-button.submenu-opened{background:#246e25}#top_header #menu>ul{position:fixed;top:0;width:270px;right:0;background:#246e25;height:100%}#top_header #menu>ul li{background:#267827;height:auto;line-height:43px}#top_header #menu>ul li a{color:#fff;font-size:20px;line-height:43px}#top_header #menu>ul li:after{display:none}#top_header #menu>ul li ul li{background:#267827;height:43px;line-height:43px}#top_header #menu>ul li ul li a{color:#fff;font-size:20px;line-height:43px;padding:0 0 0 35px}#menu{float:right}#banner .banner.banner_tcon .khungAnh:before{padding-bottom:28% !important}#information .content_right .main_item .item .item_right a{font-family:"Roboto-Bold";color:#333;font-size:18px;line-height:24px;max-height:48px;overflow:hidden;margin-bottom:14px}#information .content_right .main_item .item .item_right .thongKe{height:18px;line-height:18px}#dichVu .wrapper_item .item{width:calc((100% - 31px)/2);margin-right:31px;float:left}#dichVu .wrapper_item .item:nth-of-type(2n+2){margin-right:0}#lienHe{padding:40px 0}#lienHe .block2 .block_left{width:100%;float:none;height:auto;min-height:100%;overflow:hidden}#lienHe .block2 .block_right{width:100%;float:none;padding:0;margin-top:10px}#lienHe .block3 .item{width:50%;margin-bottom:10px}#footer #info_footer{width:calc((100% - 60px)/2);margin-right:60px}#footer #map{width:calc((100% - 60px)/2);margin-right:0}#footer #fanpage{width:100%;float:none;margin-top:43px}#copyright .content{display:block}#copyright .content span{display:none}#copyright .content p{float:left;display:inline-block;letter-spacing:-1px}#copyright .content a.support_footer{float:right}#duAn .block .wrapper_item .item{width:calc((100% - 25px)/2);margin-right:25px;float:left}#duAn .block .wrapper_item .item:nth-child(2n+2){margin-right:0}#gioiThieu .block1_gt{padding-bottom:20px}#gioiThieu .block1_gt .khungAnh{margin-bottom:20px}#gioiThieu .block1_gt .content_right p:nth-child(3){text-align:justify}#gioiThieu .block1_gt .content_right span{font-size:28px}#gioiThieu .block2_gt .item{margin-bottom:30px}#gioiThieu_chiTiet .content .content_left{width:300px;float:left}#gioiThieu_chiTiet .content .content_right{width:calc(100% - 300px);float:right;padding-left:20px}#gioiThieu_chiTiet .content .content_right .block2 .content .item{margin-right:12px;float:left;height:auto;min-height:100px}#gioiThieu_chiTiet .content .content_right .block2 .content .item .item_left{width:100%;float:none}#gioiThieu_chiTiet .content .content_right .block2 .content .item .item_right{width:100%;float:none;padding-left:0;padding-top:10px}#gioiThieu_chiTiet .content .content_right .block2 .content .item .item_right a{margin-bottom:5px}#gioiThieu_chiTiet .content .content_right .block2 .content .item:nth-of-type(2n+2){margin-right:0}#gioiThieu_chiTiet #duAn_tcon .content .content_left{width:300px;float:left}#gioiThieu_chiTiet #duAn_tcon .content .content_right{width:calc(100% - 300px);float:right;padding-left:20px}#gioiThieu_chiTiet #duAn_tcon .content .content_right .wrapper_item .item{width:calc((100% - 31px)/2);margin-right:31px;float:left}#gioiThieu_chiTiet #duAn_tcon .content .content_right .wrapper_item .item:nth-child{font-size:16px}#gioiThieu_chiTiet #duAn_tcon .content .content_right .wrapper_item .item:nth-of-type(2n+2){margin-right:0}#CommonCuoiChiTietTin{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:auto}#CommonCuoiChiTietTin div.fr{padding:0 0 10px 0;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}#CommonCuoiChiTietTin div.fr .addthis_toolbox{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}#dichVu_tcon .content .content_left{width:300px;float:left}#dichVu_tcon .content .content_right,#dichVu_tcon .content .content_right.dichVu_chiTiet{width:calc(100% - 300px);float:right;padding-left:20px}#dichVu_tcon .content .content_right .wrapper_item .item,#dichVu_tcon .content .content_right.dichVu_chiTiet .wrapper_item .item{width:calc((100% - 31px)/2);margin-right:31px;float:left}#dichVu_tcon .content .content_right .wrapper_item .item:nth-of-type(2n+2),#dichVu_tcon .content .content_right.dichVu_chiTiet .wrapper_item .item:nth-of-type(2n+2){margin-right:0}#dichVu_tcon .content .content_right .wrapper_item .item .content_outer a,#dichVu_tcon .content .content_right.dichVu_chiTiet .wrapper_item .item .content_outer a{height:36px;margin-bottom:0}#dichVu_tcon .content .content_right.dichVu_chiTiet .block1 .noidung img{max-width:100%}#dichVu_tcon .content .content_right.dichVu_chiTiet .binhluan_form .form input,#dichVu_tcon .content .content_right.dichVu_chiTiet .binhluan_form .form textarea{width:100%;float:none;margin-left:0}#dichVu_tcon .content .content_right.dichVu_chiTiet .binhluan_form .form a.refresh{float:left;margin-left:10px}#dichVu_tcon .content .content_right.dichVu_chiTiet .lienHe{background:#428842}#dichVu_tcon .content .content_right.dichVu_chiTiet .lienHe .form_lienHe{margin-left:0;padding:20px;width:100%}#dichVu_tcon .content .content_right.dichVu_chiTiet .lienHe .form_lienHe input{width:100%}#dichVu_tcon .content .content_right.dichVu_chiTiet .lienHe .form_lienHe .uploadFile{width:100%;float:none;margin-top:10px}#dichVu_tcon .content .content_right.dichVu_chiTiet .lienHe .form_lienHe a.downLoadFile{width:100%;margin-bottom:10px}#dichVu_tcon .content .content_right.dichVu_chiTiet .lienHe .form_lienHe .submit a{width:calc((100% - 10px)/2);padding:0 20px;margin-right:0;float:left}#dichVu_tcon .content .content_right.dichVu_chiTiet .lienHe .form_lienHe .submit a:first-child{margin-right:10px}#duAn_tchinh .content{padding:35px 0 45px 0}#duAn_tcon .content .content_left{width:300px;float:left}#duAn_tcon .content .content_right{width:calc(100% - 300px);float:right;padding-left:20px}#duAn_tcon .content .content_right .wrapper_item .item{width:calc((100% - 31px)/2);margin-right:31px;float:left}#duAn_tcon .content .content_right .wrapper_item .item:nth-of-type(2n+2){margin-right:0}#duAn_tcon .content .content_right .wrapper_item .item .content_outer a{height:36px;overflow:hidden;margin-bottom:0}#duAn_tcon .content .content_right.duAn_chiTiet{width:calc(100% - 300px);float:right;padding-left:20px}#duAn_tcon .content .content_right.duAn_chiTiet #CommonCuoiChiTietTin div.fl.apd.dnmb{width:100%}#duAn_tcon .content .content_right.duAn_chiTiet .lienHe{background:#428842}#duAn_tcon .content .content_right.duAn_chiTiet .lienHe p:nth-child(1){font-size:14px}#duAn_tcon .content .content_right.duAn_chiTiet .lienHe p:nth-of-type(2){font-size:12px}#duAn_tcon .content .content_right.duAn_chiTiet .lienHe .form_lienHe{margin-left:0;padding:20px;width:100%}#duAn_tcon .content .content_right.duAn_chiTiet .lienHe .form_lienHe input{width:100%}#duAn_tcon .content .content_right.duAn_chiTiet .lienHe .form_lienHe .submit a{width:calc((100% - 10px)/2);padding:0 20px;margin-right:0;float:left}#duAn_tcon .content .content_right.duAn_chiTiet .lienHe .form_lienHe .submit a:first-child{margin-right:10px}#duAn_tcon .content .content_right.duAn_chiTiet .lienHe .form_lienHe .header_form .form_left{width:100%;float:none}#duAn_tcon .content .content_right.duAn_chiTiet .lienHe .form_lienHe .header_form .form_left input{width:100%}#duAn_tcon .content .content_right.duAn_chiTiet .lienHe .form_lienHe .header_form .form_right{width:100%;float:none}#duAn_tcon .content .content_right.duAn_chiTiet .lienHe .form_lienHe .header_form .form_right textare{width:100%}#duAn_tcon .content .content_right.duAn_chiTiet .block_duAnKhac .content .item{margin-right:12px;float:left;height:auto;min-height:100px}#duAn_tcon .content .content_right.duAn_chiTiet .block_duAnKhac .content .item .item_left{width:100%;float:none}#duAn_tcon .content .content_right.duAn_chiTiet .block_duAnKhac .content .item .item_right{width:100%;float:none;padding-left:0;padding-top:10px}#duAn_tcon .content .content_right.duAn_chiTiet .block_duAnKhac .content .item .item_right a{margin-bottom:5px}#duAn_tcon .content .content_right.duAn_chiTiet .block_duAnKhac .content .item:nth-of-type(2n+2){margin-right:0}#tinTuc .content .content_left,#thuVien .content .content_left{width:300px;float:left}#tinTuc .content .content_right,#thuVien .content .content_right{width:calc(100% - 300px);float:right;padding-left:20px}#tinTuc .content .content_right .wrapper_item .item,#thuVien .content .content_right .wrapper_item .item{width:calc((100% - 31px)/2);margin-right:31px;float:left}#tinTuc .content .content_right .wrapper_item .item:nth-of-type(2n+2),#thuVien .content .content_right .wrapper_item .item:nth-of-type(2n+2){margin-right:0}#tinTuc{padding-bottom:0;padding-top:20px}#tinTuc .content_right.tinTuc_trangChu .block1{padding-bottom:10px}#tinTuc .content_right.tinTuc_trangChu .block1 .contain .main_item .item .item_left{width:100%;float:none;height:auto}#tinTuc .content_right.tinTuc_trangChu .block1 .contain .main_item .item .item_right{width:100%;float:none;height:auto;padding:20px 0 0 0}#tinTuc .content_right.tinTuc_trangChu .block1 .contain .main_item .item .item_right a{margin-bottom:0}#tinTuc .content_right.tinTuc_trangChu .block1 .contain .main_item .item .item_right p.view{margin-bottom:0}#tinTuc .content_right.tinTuc_trangChu .block1 .contain .main_item .item .item_right p.contain{max-height:100px;height:auto}#tinTuc .content_right.tinTuc_trangChu .block1 .contain .sub_item .item{float:left}#tinTuc .content_right.tinTuc_trangChu .block1 .contain .sub_item .item .item_left{width:100%;float:none;height:auto}#tinTuc .content_right.tinTuc_trangChu .block1 .contain .sub_item .item .item_right{width:100%;float:none;height:auto;padding:20px 0 0 0}#tinTuc .content_right.tinTuc_trangChu .block1 .contain .sub_item .item .item_right a{margin-bottom:0;height:40px;overflow:hidden;display:inline-block}#tinTuc .content_right.tinTuc_trangChu .block1 .contain .sub_item .item .item_right p.view{margin-bottom:0}#tinTuc .content_right.tinTuc_trangChu .block2 .block_left,#tinTuc .content_right.tinTuc_trangChu .block2 .block_right{width:100%;float:none;padding-left:0}#tinTuc .content_right.tinTuc_danhSach .item .item_left{width:100%;float:none;padding-left:0}#tinTuc .content_right.tinTuc_danhSach .item .item_right{width:100%;float:none;padding-left:0;margin-top:10px}#tinTuc .content_right.tinTuc_chiTiet .block1 h1.title{font-size:20px}#tinTuc .content_right.tinTuc_chiTiet .block2 .content .item{margin-right:12px;float:left;height:auto;min-height:100px}#tinTuc .content_right.tinTuc_chiTiet .block2 .content .item .item_left{width:100%;float:none}#tinTuc .content_right.tinTuc_chiTiet .block2 .content .item .item_right{width:100%;float:none;padding-left:0;padding-top:10px}#tinTuc .content_right.tinTuc_chiTiet .block2 .content .item .item_right a{margin-bottom:5px}#tinTuc .content_right.tinTuc_chiTiet .block2 .content .item:nth-of-type(2n+2){margin-right:0}}@media (max-width: 767px){.container{width:calc(100% - 20px)}.body_menu{right:200px}#top_header .logo{float:left;width:35px;height:35px}#top_header .search_content{margin-top:5px;right:60px}#top_header .search_content a.search{width:23px;height:23px}#top_header .search_content #box_search{width:250px;right:-40px}#top_header #menu{float:right;margin-top:5px}#top_header #menu #menu-button:after{width:27px;height:21px;top:5px;right:0}#top_header #menu #menu-button:before{width:27px;height:21px;top:5px;right:0}#top_header #menu>ul{width:200px}#header .menu_banner{bottom:10px;width:100%}#header .menu_banner span{font-size:18px;line-height:20px}#header .menu_banner ul li a{font-size:8px;line-height:14px;padding-right:20px}#header .menu_banner ul li a:after{top:2px;font-size:10px;right:8px}#header .banner .slick-dots{display:none !important}#information .content_right .main_item .item .item_left{width:100%;float:none;padding-left:0}#information .content_right .main_item .item .item_right{width:100%;float:none;padding-left:0}#introduction .content{padding-bottom:30px}#introduction .content a{font-size:20px;line-height:20px}#introduction .content p{padding:0;padding-top:20px}#duAn .block:first-child{margin-top:0}#duAn .block .title{margin:16px 0 20px 0}#duAn .block .title a.second{display:none}#duAn .block .wrapper_item .item{width:100%;margin-right:0;float:none}#duAn .block .wrapper_item .item a.content_outer{line-height:20px;height:67px;overflow:hidden;padding-top:16px;padding-bottom:11px}#information{padding-bottom:50px}#information .content_left .main_video a.content_outer{max-height:52px;overflow:hidden;padding:0;margin-top:16px;margin-bottom:12px}#information .content_right{margin-top:26px}#information .content_right .main_item{padding-bottom:0}#information .content_right .main_item .item .item_right a{margin-top:26px}#information .content_right .main_item .item .item_right .thongKe{margin-bottom:12px}#information .content_right .sub_item .item:last-child{margin-bottom:0}#dichVu .wrapper_item .item{width:100%;margin-right:0;float:left}#duAn_tcon .content .content_left{display:none;float:none}#duAn_tcon .content .content_right{width:100%;float:none}#footer #info_footer{width:100%;margin-right:0}#footer #map{width:100%;margin-right:0;margin-top:28px}#footer #fanpage{width:100%;float:none;margin-top:40px}#copyright{height:auto;padding-top:16px;padding-bottom:9px}#copyright .content p{line-height:17px;text-align:center}#copyright .content a.support_footer{height:20px;line-height:20px}#gioiThieu .block2_gt{padding-bottom:0}#gioiThieu .block2_gt .item{margin-bottom:30px}#gioiThieu .block2_gt .item .item_left{width:100%;float:none}#gioiThieu .block2_gt .item .item_right{width:100%;float:none;padding-left:0}#gioiThieu .block2_gt .item .item_right p{margin-bottom:10px}#gioiThieu_chiTiet .content .content_left{display:none}#gioiThieu_chiTiet .content .content_right{width:100%;float:none;padding-left:0}#duAn_tcon .content .content_left{display:none}#duAn_tcon .content .content_right{width:100%;float:none;padding-left:0}#duAn_tcon .content .content_right .wrapper_item .item{width:100%;margin-right:0;float:none}#dichVu .content .title p.contain{text-align:justify}#dichVu .content .item{margin-bottom:20px}#dichVu .content .item .content_outer a{line-height:20px;min-height:40px;overflow:hidden;margin-bottom:0}#dichVu_tcon .content .content_left{display:none}#dichVu_tcon .content .content_right{width:100%;float:none;padding-left:0}#dichVu_tcon .content .content_right .title span.name{font-size:24px}#dichVu_tcon .content .content_right .wrapper_item .item{width:100%;margin-right:0;float:none;margin-bottom:10px}#dichVu_tcon .content .content_right .wrapper_item .item .content_outer a{height:18px}#dichVu_tcon .content .content_right .wrapper_item .item .content_outer p{margin-bottom:0}#dichVu_tcon .content .content_right.dichVu_chiTiet{width:100%;float:none;padding-left:0}#duAn_tcon .content .content_left{display:none}#duAn_tcon .content .content_right{width:100%;float:none;padding-left:0}#duAn_tcon .content .content_right .wrapper_item .item{width:100%;margin-right:0;float:none}#duAn_tcon .content .content_right .wrapper_item .item .content_outer a{max-height:36px;height:auto}#duAn_tcon .content .content_right .wrapper_item .item .content_outer p.first{max-height:36px;height:auto}#duAn_tcon .content .content_right.duAn_chiTiet{width:100%;float:none;padding-left:0}#tinTuc .content .content_left,#thuVien .content .content_left{display:none}#tinTuc .content .content_right,#thuVien .content .content_right{width:100%;float:none;padding-left:0}#tinTuc .content .content_right .wrapper_item .item,#thuVien .content .content_right .wrapper_item .item{width:100%;margin-right:0;float:none}#popup_map{width:calc(100% - 20px)}}
+@media (min-width: 1200px) {
+  #duAn .block .wrapper_item .item {
+    width: calc((100% - 54px)/4);
+    margin-right: 18px;
+    float: left; }
+    #duAn .block .wrapper_item .item:nth-child(4n+4) {
+      margin-right: 0; }
+
+  #information .content_left {
+    width: calc((100% - 30px)/2);
+    margin-right: 30px; }
+  #information .content_right {
+    float: right;
+    width: calc((100% - 30px)/2);
+    margin-right: 0; }
+    #information .content_right .div.clear_both {
+      display: none; }
+
+  #footer #info_footer {
+    width: 547px;
+    float: left; }
+  #footer #danhMuc {
+    width: 250px;
+    float: left; }
+  #footer #fanpage {
+    width: calc(100% - 547px - 250px);
+    float: left; } }
+@media (max-width: 1199px) {
+  .container {
+    width: calc(100% - 40px); }
+
+  .body_menu {
+    position: relative;
+    right: 270px;
+    transition: 1s; }
+
+  #header .bottom_banner {
+    display: none; }
+  #header .menu_banner {
+    width: 100%; }
+
+  #top_header .logo {
+    width: 80px;
+    height: 80px;
+    float: left; }
+  #top_header .search_content {
+    position: absolute;
+    right: 95px;
+    margin-top: 43px;
+    height: 28px;
+    width: 28px; }
+    #top_header .search_content a.search {
+      width: 28px;
+      height: 28px; }
+    #top_header .search_content #box_search {
+      left: unset;
+      right: -60px; }
+      #top_header .search_content #box_search:before {
+        display: none; }
+  #top_header #menu {
+    position: absolute;
+    right: 20px; }
+    #top_header #menu .submenu-button {
+      height: 43px;
+      line-height: 43px; }
+      #top_header #menu .submenu-button.submenu-opened {
+        background: #246e25; }
+    #top_header #menu > ul {
+      position: fixed;
+      top: 0;
+      width: 270px;
+      right: 0;
+      background: #246e25;
+      height: 100%; }
+      #top_header #menu > ul li {
+        background: #267827;
+        height: auto;
+        line-height: 43px; }
+        #top_header #menu > ul li a {
+          color: #fff;
+          font-size: 20px;
+          line-height: 43px; }
+        #top_header #menu > ul li:after {
+          display: none; }
+        #top_header #menu > ul li ul li {
+          background: #267827;
+          height: 43px;
+          line-height: 43px; }
+          #top_header #menu > ul li ul li a {
+            color: #fff;
+            font-size: 20px;
+            line-height: 43px;
+            padding: 0 0 0 35px; }
+
+  #menu {
+    float: right; }
+
+  #banner .banner.banner_tcon .khungAnh:before {
+    padding-bottom: 28% !important; }
+
+  #information .content_right .main_item .item .item_right a {
+    font-family: "Roboto-Bold";
+    color: #333333;
+    font-size: 18px;
+    line-height: 24px;
+    max-height: 48px;
+    overflow: hidden;
+    margin-bottom: 14px; }
+  #information .content_right .main_item .item .item_right .thongKe {
+    height: 18px;
+    line-height: 18px; }
+
+  #dichVu .wrapper_item .item {
+    width: calc((100% - 31px)/2);
+    margin-right: 31px;
+    float: left; }
+    #dichVu .wrapper_item .item:nth-of-type(2n+2) {
+      margin-right: 0; }
+
+  #lienHe {
+    padding: 40px 0; }
+    #lienHe .block2 .block_left {
+      width: 100%;
+      float: none;
+      height: auto;
+      min-height: 100%;
+      overflow: hidden; }
+    #lienHe .block2 .block_right {
+      width: 100%;
+      float: none;
+      padding: 0;
+      margin-top: 10px; }
+    #lienHe .block3 .item {
+      width: 50%;
+      margin-bottom: 10px; }
+
+  #footer #info_footer {
+    width: calc((100% - 60px)/2);
+    margin-right: 60px; }
+  #footer #map {
+    width: calc((100% - 60px)/2);
+    margin-right: 0; }
+  #footer #fanpage {
+    width: 100%;
+    float: none;
+    margin-top: 43px; }
+
+  #copyright .content {
+    display: block; }
+    #copyright .content span {
+      display: none; }
+    #copyright .content p {
+      float: left;
+      display: inline-block;
+      letter-spacing: -1px; }
+    #copyright .content a.support_footer {
+      float: right; }
+
+  #duAn .block .wrapper_item .item {
+    width: calc((100% - 25px)/2);
+    margin-right: 25px;
+    float: left; }
+    #duAn .block .wrapper_item .item:nth-child(2n+2) {
+      margin-right: 0; }
+
+  #gioiThieu .block1_gt {
+    padding-bottom: 20px; }
+    #gioiThieu .block1_gt .khungAnh {
+      margin-bottom: 20px; }
+    #gioiThieu .block1_gt .content_right p:nth-child(3) {
+      text-align: justify; }
+    #gioiThieu .block1_gt .content_right span {
+      font-size: 28px; }
+  #gioiThieu .block2_gt .item {
+    margin-bottom: 30px; }
+
+  #gioiThieu_chiTiet .content .content_left {
+    width: 300px;
+    float: left; }
+  #gioiThieu_chiTiet .content .content_right {
+    width: calc(100% - 300px);
+    float: right;
+    padding-left: 20px; }
+    #gioiThieu_chiTiet .content .content_right .block2 .content .item {
+      margin-right: 12px;
+      float: left;
+      height: auto;
+      min-height: 100px; }
+      #gioiThieu_chiTiet .content .content_right .block2 .content .item .item_left {
+        width: 100%;
+        float: none; }
+      #gioiThieu_chiTiet .content .content_right .block2 .content .item .item_right {
+        width: 100%;
+        float: none;
+        padding-left: 0;
+        padding-top: 10px; }
+        #gioiThieu_chiTiet .content .content_right .block2 .content .item .item_right a {
+          margin-bottom: 5px; }
+      #gioiThieu_chiTiet .content .content_right .block2 .content .item:nth-of-type(2n+2) {
+        margin-right: 0; }
+  #gioiThieu_chiTiet #duAn_tcon .content .content_left {
+    width: 300px;
+    float: left; }
+  #gioiThieu_chiTiet #duAn_tcon .content .content_right {
+    width: calc(100% - 300px);
+    float: right;
+    padding-left: 20px; }
+    #gioiThieu_chiTiet #duAn_tcon .content .content_right .wrapper_item .item {
+      width: calc((100% - 31px)/2);
+      margin-right: 31px;
+      float: left; }
+      #gioiThieu_chiTiet #duAn_tcon .content .content_right .wrapper_item .item:nth-child {
+        font-size: 16px; }
+      #gioiThieu_chiTiet #duAn_tcon .content .content_right .wrapper_item .item:nth-of-type(2n+2) {
+        margin-right: 0; }
+
+  #CommonCuoiChiTietTin {
+    flex-direction: column;
+    height: auto; }
+    #CommonCuoiChiTietTin div.fr {
+      padding: 0 0 10px 0;
+      justify-content: flex-start; }
+      #CommonCuoiChiTietTin div.fr .addthis_toolbox {
+        justify-content: flex-start; }
+
+  #dichVu_tcon .content .content_left {
+    width: 300px;
+    float: left; }
+  #dichVu_tcon .content .content_right,
+  #dichVu_tcon .content .content_right.dichVu_chiTiet {
+    width: calc(100% - 300px);
+    float: right;
+    padding-left: 20px; }
+    #dichVu_tcon .content .content_right .wrapper_item .item,
+    #dichVu_tcon .content .content_right.dichVu_chiTiet .wrapper_item .item {
+      width: calc((100% - 31px)/2);
+      margin-right: 31px;
+      float: left; }
+      #dichVu_tcon .content .content_right .wrapper_item .item:nth-of-type(2n+2),
+      #dichVu_tcon .content .content_right.dichVu_chiTiet .wrapper_item .item:nth-of-type(2n+2) {
+        margin-right: 0; }
+      #dichVu_tcon .content .content_right .wrapper_item .item .content_outer a,
+      #dichVu_tcon .content .content_right.dichVu_chiTiet .wrapper_item .item .content_outer a {
+        height: 36px;
+        margin-bottom: 0; }
+  #dichVu_tcon .content .content_right.dichVu_chiTiet .block1 .noidung img {
+    max-width: 100%; }
+  #dichVu_tcon .content .content_right.dichVu_chiTiet .binhluan_form .form input,
+  #dichVu_tcon .content .content_right.dichVu_chiTiet .binhluan_form .form textarea {
+    width: 100%;
+    float: none;
+    margin-left: 0; }
+  #dichVu_tcon .content .content_right.dichVu_chiTiet .binhluan_form .form a.refresh {
+    float: left;
+    margin-left: 10px; }
+  #dichVu_tcon .content .content_right.dichVu_chiTiet .lienHe {
+    background: #428842; }
+    #dichVu_tcon .content .content_right.dichVu_chiTiet .lienHe .form_lienHe {
+      margin-left: 0;
+      padding: 20px;
+      width: 100%; }
+      #dichVu_tcon .content .content_right.dichVu_chiTiet .lienHe .form_lienHe input {
+        width: 100%; }
+      #dichVu_tcon .content .content_right.dichVu_chiTiet .lienHe .form_lienHe .uploadFile {
+        width: 100%;
+        float: none;
+        margin-top: 10px; }
+      #dichVu_tcon .content .content_right.dichVu_chiTiet .lienHe .form_lienHe a.downLoadFile {
+        width: 100%;
+        margin-bottom: 10px; }
+      #dichVu_tcon .content .content_right.dichVu_chiTiet .lienHe .form_lienHe .submit a {
+        width: calc((100% - 10px)/2);
+        padding: 0 20px;
+        margin-right: 0;
+        float: left; }
+        #dichVu_tcon .content .content_right.dichVu_chiTiet .lienHe .form_lienHe .submit a:first-child {
+          margin-right: 10px; }
+
+  #duAn_tchinh .content {
+    padding: 35px 0 45px 0; }
+
+  #duAn_tcon .content .content_left {
+    width: 300px;
+    float: left; }
+  #duAn_tcon .content .content_right {
+    width: calc(100% - 300px);
+    float: right;
+    padding-left: 20px; }
+    #duAn_tcon .content .content_right .wrapper_item .item {
+      width: calc((100% - 31px)/2);
+      margin-right: 31px;
+      float: left; }
+      #duAn_tcon .content .content_right .wrapper_item .item:nth-of-type(2n+2) {
+        margin-right: 0; }
+      #duAn_tcon .content .content_right .wrapper_item .item .content_outer a {
+        height: 36px;
+        overflow: hidden;
+        margin-bottom: 0; }
+  #duAn_tcon .content .content_right.duAn_chiTiet {
+    width: calc(100% - 300px);
+    float: right;
+    padding-left: 20px; }
+    #duAn_tcon .content .content_right.duAn_chiTiet #CommonCuoiChiTietTin div.fl.apd.dnmb {
+      width: 100%; }
+    #duAn_tcon .content .content_right.duAn_chiTiet .lienHe {
+      background: #428842; }
+      #duAn_tcon .content .content_right.duAn_chiTiet .lienHe p:nth-child(1) {
+        font-size: 14px; }
+      #duAn_tcon .content .content_right.duAn_chiTiet .lienHe p:nth-of-type(2) {
+        font-size: 12px; }
+      #duAn_tcon .content .content_right.duAn_chiTiet .lienHe .form_lienHe {
+        margin-left: 0;
+        padding: 20px;
+        width: 100%; }
+        #duAn_tcon .content .content_right.duAn_chiTiet .lienHe .form_lienHe input {
+          width: 100%; }
+        #duAn_tcon .content .content_right.duAn_chiTiet .lienHe .form_lienHe .submit a {
+          width: calc((100% - 10px)/2);
+          padding: 0 20px;
+          margin-right: 0;
+          float: left; }
+          #duAn_tcon .content .content_right.duAn_chiTiet .lienHe .form_lienHe .submit a:first-child {
+            margin-right: 10px; }
+        #duAn_tcon .content .content_right.duAn_chiTiet .lienHe .form_lienHe .header_form .form_left {
+          width: 100%;
+          float: none; }
+          #duAn_tcon .content .content_right.duAn_chiTiet .lienHe .form_lienHe .header_form .form_left input {
+            width: 100%; }
+        #duAn_tcon .content .content_right.duAn_chiTiet .lienHe .form_lienHe .header_form .form_right {
+          width: 100%;
+          float: none; }
+          #duAn_tcon .content .content_right.duAn_chiTiet .lienHe .form_lienHe .header_form .form_right textare {
+            width: 100%; }
+    #duAn_tcon .content .content_right.duAn_chiTiet .block_duAnKhac .content .item {
+      margin-right: 12px;
+      float: left;
+      height: auto;
+      min-height: 100px; }
+      #duAn_tcon .content .content_right.duAn_chiTiet .block_duAnKhac .content .item .item_left {
+        width: 100%;
+        float: none; }
+      #duAn_tcon .content .content_right.duAn_chiTiet .block_duAnKhac .content .item .item_right {
+        width: 100%;
+        float: none;
+        padding-left: 0;
+        padding-top: 10px; }
+        #duAn_tcon .content .content_right.duAn_chiTiet .block_duAnKhac .content .item .item_right a {
+          margin-bottom: 5px; }
+      #duAn_tcon .content .content_right.duAn_chiTiet .block_duAnKhac .content .item:nth-of-type(2n+2) {
+        margin-right: 0; }
+
+  #tinTuc .content .content_left,
+  #thuVien .content .content_left {
+    width: 300px;
+    float: left; }
+  #tinTuc .content .content_right,
+  #thuVien .content .content_right {
+    width: calc(100% - 300px);
+    float: right;
+    padding-left: 20px; }
+    #tinTuc .content .content_right .wrapper_item .item,
+    #thuVien .content .content_right .wrapper_item .item {
+      width: calc((100% - 31px)/2);
+      margin-right: 31px;
+      float: left; }
+      #tinTuc .content .content_right .wrapper_item .item:nth-of-type(2n+2),
+      #thuVien .content .content_right .wrapper_item .item:nth-of-type(2n+2) {
+        margin-right: 0; }
+
+  #tinTuc {
+    padding-bottom: 0;
+    padding-top: 20px; }
+    #tinTuc .content_right.tinTuc_trangChu .block1 {
+      padding-bottom: 10px; }
+      #tinTuc .content_right.tinTuc_trangChu .block1 .contain .main_item .item .item_left {
+        width: 100%;
+        float: none;
+        height: auto; }
+      #tinTuc .content_right.tinTuc_trangChu .block1 .contain .main_item .item .item_right {
+        width: 100%;
+        float: none;
+        height: auto;
+        padding: 20px 0 0 0; }
+        #tinTuc .content_right.tinTuc_trangChu .block1 .contain .main_item .item .item_right a {
+          margin-bottom: 0; }
+        #tinTuc .content_right.tinTuc_trangChu .block1 .contain .main_item .item .item_right p.view {
+          margin-bottom: 0; }
+        #tinTuc .content_right.tinTuc_trangChu .block1 .contain .main_item .item .item_right p.contain {
+          max-height: 100px;
+          height: auto; }
+      #tinTuc .content_right.tinTuc_trangChu .block1 .contain .sub_item .item {
+        float: left; }
+        #tinTuc .content_right.tinTuc_trangChu .block1 .contain .sub_item .item .item_left {
+          width: 100%;
+          float: none;
+          height: auto; }
+        #tinTuc .content_right.tinTuc_trangChu .block1 .contain .sub_item .item .item_right {
+          width: 100%;
+          float: none;
+          height: auto;
+          padding: 20px 0 0 0; }
+          #tinTuc .content_right.tinTuc_trangChu .block1 .contain .sub_item .item .item_right a {
+            margin-bottom: 0;
+            height: 40px;
+            overflow: hidden;
+            display: inline-block; }
+          #tinTuc .content_right.tinTuc_trangChu .block1 .contain .sub_item .item .item_right p.view {
+            margin-bottom: 0; }
+    #tinTuc .content_right.tinTuc_trangChu .block2 .block_left,
+    #tinTuc .content_right.tinTuc_trangChu .block2 .block_right {
+      width: 100%;
+      float: none;
+      padding-left: 0; }
+    #tinTuc .content_right.tinTuc_danhSach .item .item_left {
+      width: 100%;
+      float: none;
+      padding-left: 0; }
+    #tinTuc .content_right.tinTuc_danhSach .item .item_right {
+      width: 100%;
+      float: none;
+      padding-left: 0;
+      margin-top: 10px; }
+    #tinTuc .content_right.tinTuc_chiTiet .block1 h1.title {
+      font-size: 20px; }
+    #tinTuc .content_right.tinTuc_chiTiet .block2 .content .item {
+      margin-right: 12px;
+      float: left;
+      height: auto;
+      min-height: 100px; }
+      #tinTuc .content_right.tinTuc_chiTiet .block2 .content .item .item_left {
+        width: 100%;
+        float: none; }
+      #tinTuc .content_right.tinTuc_chiTiet .block2 .content .item .item_right {
+        width: 100%;
+        float: none;
+        padding-left: 0;
+        padding-top: 10px; }
+        #tinTuc .content_right.tinTuc_chiTiet .block2 .content .item .item_right a {
+          margin-bottom: 5px; }
+      #tinTuc .content_right.tinTuc_chiTiet .block2 .content .item:nth-of-type(2n+2) {
+        margin-right: 0; } }
+@media (max-width: 767px) {
+  .container {
+    width: calc(100% - 20px); }
+
+  .body_menu {
+    right: 200px; }
+
+  #top_header .logo {
+    float: left;
+    width: 35px;
+    height: 35px; }
+
+  #top_header .search_content {
+    margin-top: 5px;
+    right: 60px; }
+    #top_header .search_content a.search {
+      width: 23px;
+      height: 23px; }
+    #top_header .search_content #box_search {
+      width: 250px;
+      right: -40px; }
+  #top_header #menu {
+    float: right;
+    margin-top: 5px; }
+    #top_header #menu #menu-button:after {
+      width: 27px;
+      height: 21px;
+      top: 5px;
+      right: 0; }
+    #top_header #menu #menu-button:before {
+      width: 27px;
+      height: 21px;
+      top: 5px;
+      right: 0; }
+    #top_header #menu > ul {
+      width: 200px; }
+
+  #header .menu_banner {
+    bottom: 10px;
+    width: 100%; }
+    #header .menu_banner span {
+      font-size: 18px;
+      line-height: 20px; }
+    #header .menu_banner ul li a {
+      font-size: 8px;
+      line-height: 14px;
+      padding-right: 20px; }
+      #header .menu_banner ul li a:after {
+        top: 2px;
+        font-size: 10px;
+        right: 8px; }
+  #header .banner .slick-dots {
+    display: none !important; }
+
+  #information .content_right .main_item .item .item_left {
+    width: 100%;
+    float: none;
+    padding-left: 0; }
+  #information .content_right .main_item .item .item_right {
+    width: 100%;
+    float: none;
+    padding-left: 0; }
+
+  #introduction .content {
+    padding-bottom: 30px; }
+    #introduction .content a {
+      font-size: 20px;
+      line-height: 20px; }
+    #introduction .content p {
+      padding: 0;
+      padding-top: 20px; }
+
+  #duAn .block:first-child {
+    margin-top: 0; }
+  #duAn .block .title {
+    margin: 16px 0 20px 0; }
+    #duAn .block .title a.second {
+      display: none; }
+  #duAn .block .wrapper_item .item {
+    width: 100%;
+    margin-right: 0;
+    float: none; }
+    #duAn .block .wrapper_item .item a.content_outer {
+      line-height: 20px;
+      height: 67px;
+      overflow: hidden;
+      padding-top: 16px;
+      padding-bottom: 11px; }
+
+  #information {
+    padding-bottom: 50px; }
+    #information .content_left .main_video a.content_outer {
+      max-height: 52px;
+      overflow: hidden;
+      padding: 0;
+      margin-top: 16px;
+      margin-bottom: 12px; }
+    #information .content_right {
+      margin-top: 26px; }
+      #information .content_right .main_item {
+        padding-bottom: 0; }
+        #information .content_right .main_item .item .item_right a {
+          margin-top: 26px; }
+        #information .content_right .main_item .item .item_right .thongKe {
+          margin-bottom: 12px; }
+      #information .content_right .sub_item .item:last-child {
+        margin-bottom: 0; }
+
+  #dichVu .wrapper_item .item {
+    width: 100%;
+    margin-right: 0;
+    float: left; }
+
+  #duAn_tcon .content .content_left {
+    display: none;
+    float: none; }
+  #duAn_tcon .content .content_right {
+    width: 100%;
+    float: none; }
+
+  #footer #info_footer {
+    width: 100%;
+    margin-right: 0; }
+  #footer #map {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 28px; }
+  #footer #fanpage {
+    width: 100%;
+    float: none;
+    margin-top: 40px; }
+
+  #copyright {
+    height: auto;
+    padding-top: 16px;
+    padding-bottom: 9px; }
+    #copyright .content p {
+      line-height: 17px;
+      text-align: center; }
+    #copyright .content a.support_footer {
+      height: 20px;
+      line-height: 20px; }
+
+  #gioiThieu .block2_gt {
+    padding-bottom: 0; }
+    #gioiThieu .block2_gt .item {
+      margin-bottom: 30px; }
+      #gioiThieu .block2_gt .item .item_left {
+        width: 100%;
+        float: none; }
+      #gioiThieu .block2_gt .item .item_right {
+        width: 100%;
+        float: none;
+        padding-left: 0; }
+        #gioiThieu .block2_gt .item .item_right p {
+          margin-bottom: 10px; }
+
+  #gioiThieu_chiTiet .content .content_left {
+    display: none; }
+  #gioiThieu_chiTiet .content .content_right {
+    width: 100%;
+    float: none;
+    padding-left: 0; }
+
+  #duAn_tcon .content .content_left {
+    display: none; }
+  #duAn_tcon .content .content_right {
+    width: 100%;
+    float: none;
+    padding-left: 0; }
+    #duAn_tcon .content .content_right .wrapper_item .item {
+      width: 100%;
+      margin-right: 0;
+      float: none; }
+
+  #dichVu .content .title p.contain {
+    text-align: justify; }
+  #dichVu .content .item {
+    margin-bottom: 20px; }
+    #dichVu .content .item .content_outer a {
+      line-height: 20px;
+      min-height: 40px;
+      overflow: hidden;
+      margin-bottom: 0; }
+
+  #dichVu_tcon .content .content_left {
+    display: none; }
+  #dichVu_tcon .content .content_right {
+    width: 100%;
+    float: none;
+    padding-left: 0; }
+    #dichVu_tcon .content .content_right .title span.name {
+      font-size: 24px; }
+    #dichVu_tcon .content .content_right .wrapper_item .item {
+      width: 100%;
+      margin-right: 0;
+      float: none;
+      margin-bottom: 10px; }
+      #dichVu_tcon .content .content_right .wrapper_item .item .content_outer a {
+        height: 18px; }
+      #dichVu_tcon .content .content_right .wrapper_item .item .content_outer p {
+        margin-bottom: 0; }
+  #dichVu_tcon .content .content_right.dichVu_chiTiet {
+    width: 100%;
+    float: none;
+    padding-left: 0; }
+
+  #duAn_tcon .content .content_left {
+    display: none; }
+  #duAn_tcon .content .content_right {
+    width: 100%;
+    float: none;
+    padding-left: 0; }
+    #duAn_tcon .content .content_right .wrapper_item .item {
+      width: 100%;
+      margin-right: 0;
+      float: none; }
+      #duAn_tcon .content .content_right .wrapper_item .item .content_outer a {
+        max-height: 36px;
+        height: auto; }
+      #duAn_tcon .content .content_right .wrapper_item .item .content_outer p.first {
+        max-height: 36px;
+        height: auto; }
+  #duAn_tcon .content .content_right.duAn_chiTiet {
+    width: 100%;
+    float: none;
+    padding-left: 0; }
+
+  #tinTuc .content .content_left,
+  #thuVien .content .content_left {
+    display: none; }
+  #tinTuc .content .content_right,
+  #thuVien .content .content_right {
+    width: 100%;
+    float: none;
+    padding-left: 0; }
+    #tinTuc .content .content_right .wrapper_item .item,
+    #thuVien .content .content_right .wrapper_item .item {
+      width: 100%;
+      margin-right: 0;
+      float: none; }
+
+  #popup_map {
+    width: calc(100% - 20px); } }
 
 /*# sourceMappingURL=responsive2.css.map */

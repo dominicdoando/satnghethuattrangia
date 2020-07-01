@@ -1,299 +1,299 @@
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
-    
-    @font-face {
-    	font-family: 'sfu_futuraheavy';
-    	src: url('./fonts/sfufuturaheavy-webfont.eot');
-      src: url('./fonts/sfufuturaheavy-webfont.eot?#iefix') format('embedded-opentype'), 
-      url('./fonts/sfufuturaheavy-webfont.woff2') format('woff2'),
-       url('./fonts/sfufuturaheavy-webfont.woff') format('woff'), 
-       url('./fonts/sfufuturaheavy-webfont.ttf') format('truetype'), 
-       url('./fonts/sfufuturaheavy-webfont.svg#sfu_futuraheavy') format('svg');
-    	font-weight: normal;
-    	font-style: normal;
-    }
-    
-    @font-face {
-    	font-family: 'utm_bebasregular';
-    	src: url('./fonts/utm_bebas-webfont.eot');
-      src: url('./fonts/utm_bebas-webfont.eot?#iefix') format('embedded-opentype'), 
-      url('./fonts/utm_bebas-webfont.woff2') format('woff2'),
-       url('./fonts/utm_bebas-webfont.woff') format('woff'),
-        url('./fonts/utm_bebas-webfont.ttf') format('truetype'),
-         url('./fonts/utm_bebas-webfont.svg#utm_bebasregular') format('svg');
-    	font-weight: normal;
-    	font-style: normal;
-    }
-    
-    @font-face {
-    	font-family: 'segoeui';
-    	src: url('./fonts/segoeui.eot');
-      src: local('☺'),
-       url('./fonts/segoeui.woff') format('woff'),
-        url('./fonts/segoeui.ttf') format('truetype'),
-         url('./fonts/segoeui.svg') format('svg');
-    	font-weight: normal;
-    	font-style: normal;
-    }
-    
-    @font-face {
-    	font-family: 'segoeuibold';
-    	src: url('fonts/segoeuibold.eot');
-      src: local('☺'), url('fonts/segoeuibold.woff') format('woff'), 
-      url('fonts/segoeuibold.ttf') format('truetype'), 
-      url('fonts/segoeuibold.svg') format('svg');
-    	font-weight: normal;
-    	font-style: normal;
-    }
-    
-    @font-face {
-    	font-family: 'sfu_futuralightoblique';
-    	src: url('./fonts/sfufuturalightoblique-webfont.eot');
-      src: url('./fonts/sfufuturalightoblique-webfont.eot?#iefix') format('embedded-opentype'), 
-      url('./fonts/sfufuturalightoblique-webfont.woff2') format('woff2'), 
-      url('./fonts/sfufuturalightoblique-webfont.woff') format('woff'),
-       url('./fonts/sfufuturalightoblique-webfont.ttf') format('truetype'), 
-       url('./fonts/sfufuturalightoblique-webfont.svg#sfu_futuralightoblique') format('svg');
-    	font-weight: normal;
-    	font-style: normal;
-    }
-    
-    @font-face {
-    	font-family: 'sfu_futura_book';
-    	src: url('./fonts/sfufuturabook-webfont.eot');
-      src: url('./fonts/sfufuturabook-webfont.eot?#iefix') format('embedded-opentype'),
-      url('./fonts/sfufuturabook-webfont.woff2') format('woff2'), 
-      url('./fonts/sfufuturabook-webfont.woff') format('woff'), 
-      url('./fonts/sfufuturabook-webfont.ttf') format('truetype'),
-       url('./fonts/sfufuturabook-webfont.svg#sfu_futura_book') format('svg');
-    	font-weight: normal;
-    	font-style: normal;
-    }
-    @font-face {font-family:"Socialico";src:url("fonts/Socialico.eot?") format("eot"),url("fonts/Socialico.woff") format("woff"),url("fonts/Socialico.ttf") format("truetype"),url("fonts/Socialico.svg#Socialico") format("svg");font-weight:normal;font-style:normal;}
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+		
+		@font-face {
+			font-family: 'sfu_futuraheavy';
+			src: url('./fonts/sfufuturaheavy-webfont.eot');
+			src: url('./fonts/sfufuturaheavy-webfont.eot?#iefix') format('embedded-opentype'), 
+			url('./fonts/sfufuturaheavy-webfont.woff2') format('woff2'),
+			 url('./fonts/sfufuturaheavy-webfont.woff') format('woff'), 
+			 url('./fonts/sfufuturaheavy-webfont.ttf') format('truetype'), 
+			 url('./fonts/sfufuturaheavy-webfont.svg#sfu_futuraheavy') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		
+		@font-face {
+			font-family: 'utm_bebasregular';
+			src: url('./fonts/utm_bebas-webfont.eot');
+			src: url('./fonts/utm_bebas-webfont.eot?#iefix') format('embedded-opentype'), 
+			url('./fonts/utm_bebas-webfont.woff2') format('woff2'),
+			 url('./fonts/utm_bebas-webfont.woff') format('woff'),
+				url('./fonts/utm_bebas-webfont.ttf') format('truetype'),
+				 url('./fonts/utm_bebas-webfont.svg#utm_bebasregular') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		
+		@font-face {
+			font-family: 'segoeui';
+			src: url('./fonts/segoeui.eot');
+			src: local('☺'),
+			 url('./fonts/segoeui.woff') format('woff'),
+				url('./fonts/segoeui.ttf') format('truetype'),
+				 url('./fonts/segoeui.svg') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		
+		@font-face {
+			font-family: 'segoeuibold';
+			src: url('fonts/segoeuibold.eot');
+			src: local('☺'), url('fonts/segoeuibold.woff') format('woff'), 
+			url('fonts/segoeuibold.ttf') format('truetype'), 
+			url('fonts/segoeuibold.svg') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		
+		@font-face {
+			font-family: 'sfu_futuralightoblique';
+			src: url('./fonts/sfufuturalightoblique-webfont.eot');
+			src: url('./fonts/sfufuturalightoblique-webfont.eot?#iefix') format('embedded-opentype'), 
+			url('./fonts/sfufuturalightoblique-webfont.woff2') format('woff2'), 
+			url('./fonts/sfufuturalightoblique-webfont.woff') format('woff'),
+			 url('./fonts/sfufuturalightoblique-webfont.ttf') format('truetype'), 
+			 url('./fonts/sfufuturalightoblique-webfont.svg#sfu_futuralightoblique') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		
+		@font-face {
+			font-family: 'sfu_futura_book';
+			src: url('./fonts/sfufuturabook-webfont.eot');
+			src: url('./fonts/sfufuturabook-webfont.eot?#iefix') format('embedded-opentype'),
+			url('./fonts/sfufuturabook-webfont.woff2') format('woff2'), 
+			url('./fonts/sfufuturabook-webfont.woff') format('woff'), 
+			url('./fonts/sfufuturabook-webfont.ttf') format('truetype'),
+			 url('./fonts/sfufuturabook-webfont.svg#sfu_futura_book') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {font-family:"Socialico";src:url("fonts/Socialico.eot?") format("eot"),url("fonts/Socialico.woff") format("woff"),url("fonts/Socialico.ttf") format("truetype"),url("fonts/Socialico.svg#Socialico") format("svg");font-weight:normal;font-style:normal;}
 
-    $blue:#2a83d5;
-    $white: #fff;
-    $black:#000;
-    $gray: #333333;
-    $gray2: #666666;
-    $white: #fff;
-    $red:#f50c0d;
-    $font1:'Roboto', sans-serif;
-    $font2: "sfu_futuraheavy";
-    $font3: "utm_bebasregular";
-    $font4: "segoeui";
-    $font5: "segoeuibold";
-    $font6:'sfu_futuralightoblique';
-    $font7:'sfu_futura_book';
-    $font8:'Socialico';
-    $color:$white;
-    $line-height: 24px;
-    @mixin text($font,
-    	$color,
-    	$font-size,
-    	$line-height) {
-    	font-family: $font;
-    	color: $color;
-    	font-size: $font-size;
-    	line-height: $line-height;
-    }
-    h1,h2,h3{
-    	margin: 0;
-    }
-    body {
-      position: relative;
-    	@include text($font4,
-    		#dfdfdf,
-    		15px,
-    		24px);
-    }
-    .breadcrumb{
-    	margin: 0;
-    	padding: 0;
-    	border-radius: 0;
-    }
-    p {
-    	margin-bottom: 0;
-    }
-    .list-inline{
-    	>li{
-    		padding: 0;
-    	}
-    }
-    ul{
-    	margin: 0;
-    	li{
-    		padding-left: 0;
-    	}
-    }
-    * {
-    	margin: 0;
-    	padding: 0;
-    	box-sizing: border-box;
-    }
-    
-    a {
-    	text-decoration: none!important;
-    }
-    .clear{
-    	clear:both;
-    }
-    #backtop {
-    	height: 45px;
-    	width: 45px;
-    	display: inline-block;
-    	background-color: $blue;
-    	position: fixed;
-    	right: 30px;
-    	bottom: 235px;
-    	z-index: 1000;
-    	border-radius: 5px;
-    	i {
-    		display: inline-block;
-    		width: 100%;
-    		height: 100%;
-    		line-height: 45px;
-    		text-align: center;
-    		color: $white;
-    	}
-    }
-    
-    #header {
-    	height: 145px;
-    	background: rgba(0,0,0,.85);
-    	position: relative;
-    	z-index: 3;
-    	.container {
-    		height: inherit;
-    		.row {
-    			height: inherit;
-    		}
-    	}
-    	.header_left {
-    		width: 300px;
-    		float: left;
-    		padding: 27px 0;
-    		height: 100%;
-    		.logo {
-    			width: 100%;
-    			height: 62px;
-    			img {
-    				width: 100%;
-    				height: 100%;
-    				margin-bottom: 12px;
-    			}
-    			p.title {
-    				@include text($font7,
-    					#fff,
-    					12px,
-    					14px);
-            height: 16px;
-            font-style: italic;
-            &:first-letter {
-              color: #2a83d5;
-            }
-           span {
-             display: inline-block;
-             &:first-letter {
-              color: #2a83d5;
-            }
-          }
-        }
-      }
-    }
-    .header_right {
-      width: calc(100% - 300px);
-      float: right;
-      height: 100%;
-      padding-top: 20px;
-      .top {
-       p.title {
-        @include text($font1,
-         $white,
-         18px,
-         20px);
-         font-weight: 900;
-        text-transform: uppercase;
-        text-align: right;
-        span {
-         color: $blue;
-       }
-       margin-bottom: 15px;
-     }
-     p.second {
-      @include text($font1,
-       $blue,
-       18px,
-       20px);
-       font-weight: 500;
-      text-transform: uppercase;
-      text-align: right;
-    }
-  }
-  .bottom {
-   #menu {
-    margin-top: 0;
-    display: inline-block;
-    width: calc(100% - 190px);
-    ul {
-     >li {
-      position: relative;
-      padding: 0 19px;
-      &:after {
-       top: 30px;
-       height: 13px;
-     }
-     >a {
-       @include text($font7,
-        $white,
-        16px,
-        70px);
-       position: relative;
-       padding: 0;
-       &:after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        height: 4px;
-        width: 0;
-        background: $blue;
-        transition: 0.5s;
-        top:unset;
-      }
-    }
-    &:last-child {
-     &:after {
-      display: none;
-    }
-    a {
-      &:after {
-       content: "";
-       position: absolute;
-       bottom: 0;
-       left: 0;
-       height: 4px;
-       width: 0;
-       background: $blue;
-       transition: 0.5s;
-       display: block!important;
-     }
-   }
+		$blue:#2a83d5;
+		$white: #fff;
+		$black:#000;
+		$gray: #333333;
+		$gray2: #666666;
+		$white: #fff;
+		$red:#f50c0d;
+		$font1:'Roboto', sans-serif;
+		$font2: "sfu_futuraheavy";
+		$font3: "utm_bebasregular";
+		$font4: "segoeui";
+		$font5: "segoeuibold";
+		$font6:'sfu_futuralightoblique';
+		$font7:'sfu_futura_book';
+		$font8:'Socialico';
+		$color:$white;
+		$line-height: 24px;
+		@mixin text($font,
+			$color,
+			$font-size,
+			$line-height) {
+			font-family: $font;
+			color: $color;
+			font-size: $font-size;
+			line-height: $line-height;
+		}
+		h1,h2,h3{
+			margin: 0;
+		}
+		body {
+			position: relative;
+			@include text($font4,
+				#dfdfdf,
+				15px,
+				24px);
+		}
+		.breadcrumb{
+			margin: 0;
+			padding: 0;
+			border-radius: 0;
+		}
+		p {
+			margin-bottom: 0;
+		}
+		.list-inline{
+			>li{
+				padding: 0;
+			}
+		}
+		ul{
+			margin: 0;
+			li{
+				padding-left: 0;
+			}
+		}
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		
+		a {
+			text-decoration: none!important;
+		}
+		.clear{
+			clear:both;
+		}
+		#backtop {
+			height: 45px;
+			width: 45px;
+			display: inline-block;
+			background-color: $blue;
+			position: fixed;
+			right: 30px;
+			bottom: 235px;
+			z-index: 1000;
+			border-radius: 5px;
+			i {
+				display: inline-block;
+				width: 100%;
+				height: 100%;
+				line-height: 45px;
+				text-align: center;
+				color: $white;
+			}
+		}
+		
+		#header {
+			height: 145px;
+			background: rgba(0,0,0,.85);
+			position: relative;
+			z-index: 3;
+			.container {
+				height: inherit;
+				.row {
+					height: inherit;
+				}
+			}
+			.header_left {
+				width: 300px;
+				float: left;
+				padding: 27px 0;
+				height: 100%;
+				.logo {
+					width: 100%;
+					height: 62px;
+					img {
+						width: 100%;
+						height: 100%;
+						margin-bottom: 12px;
+					}
+					p.title {
+						@include text($font7,
+							#fff,
+							12px,
+							14px);
+						height: 16px;
+						font-style: italic;
+						&:first-letter {
+							color: #2a83d5;
+						}
+					 span {
+						 display: inline-block;
+						 &:first-letter {
+							color: #2a83d5;
+						}
+					}
+				}
+			}
+		}
+		.header_right {
+			width: calc(100% - 300px);
+			float: right;
+			height: 100%;
+			padding-top: 20px;
+			.top {
+			 p.title {
+				@include text($font1,
+				 $white,
+				 18px,
+				 20px);
+				 font-weight: 900;
+				text-transform: uppercase;
+				text-align: right;
+				span {
+				 color: $blue;
+			 }
+			 margin-bottom: 15px;
+		 }
+		 p.second {
+			@include text($font1,
+			 $blue,
+			 18px,
+			 20px);
+			 font-weight: 500;
+			text-transform: uppercase;
+			text-align: right;
+		}
+	}
+	.bottom {
+	 #menu {
+		margin-top: 0;
+		display: inline-block;
+		width: calc(100% - 190px);
+		ul {
+		 >li {
+			position: relative;
+			padding: 0 19px;
+			&:after {
+			 top: 30px;
+			 height: 13px;
+		 }
+		 >a {
+			 @include text($font7,
+				$white,
+				16px,
+				70px);
+			 position: relative;
+			 padding: 0;
+			 &:after {
+				content: "";
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				height: 4px;
+				width: 0;
+				background: $blue;
+				transition: 0.5s;
+				top:unset;
+			}
+		}
+		&:last-child {
+		 &:after {
+			display: none;
+		}
+		a {
+			&:after {
+			 content: "";
+			 position: absolute;
+			 bottom: 0;
+			 left: 0;
+			 height: 4px;
+			 width: 0;
+			 background: $blue;
+			 transition: 0.5s;
+			 display: block!important;
+		 }
+	 }
  }
  &.actived {
-   >a {
-    color: $blue;
-    &:after {
-     width: 100%;
-     display: block;
-   }
+	 >a {
+		color: $blue;
+		&:after {
+		 width: 100%;
+		 display: block;
+	 }
  }
 }
 &:hover {
  >a {
-  color: $blue;
-  &:after {
-   width: 100%;
-   display: block;
+	color: $blue;
+	&:after {
+	 width: 100%;
+	 display: block;
  }
 }
 ul {
@@ -302,19 +302,19 @@ ul {
  height: auto;
  justify-content: flex-start;
  li {
-  background: rgba(0,0,0,.6);
-  a {
-   height: 35px;
-   line-height: 35px;
-   &:after {
-    display: none!important;
-    width: 0;
-  }
+	background: rgba(0,0,0,.6);
+	a {
+	 height: 35px;
+	 line-height: 35px;
+	 &:after {
+		display: none!important;
+		width: 0;
+	}
 }
 &:last-child{
-  &:after{
-    display: none;
-  }
+	&:after{
+		display: none;
+	}
 }
 }
 }
@@ -325,18 +325,18 @@ ul {
  height: 100%;
  justify-content: flex-start;
  li {
-  background: rgba(0,0,0,.6);
-  a {
-   height: 35px;
-   line-height: 35px;
-   &:after {
-    display: none;
-  }
+	background: rgba(0,0,0,.6);
+	a {
+	 height: 35px;
+	 line-height: 35px;
+	 &:after {
+		display: none;
+	}
 }
 &:last-child{
-  &:after{
-    display: none;
-  }
+	&:after{
+		display: none;
+	}
 }
 }
 }
@@ -344,32 +344,38 @@ ul {
 }
 }
 .search_content {
-  display: inline-block;
-  width: 190px;
-  height: 20px;
-  float: right;
-  position: relative;
-  margin-top: 25px;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-  a {
-   display: inline-block;
-   width: 20px;
-   height: 20px;
-   background: url(../css/images/common/search.png) no-repeat;
-   background-size: 100% 100%;
+	display: inline-block;
+	width: 190px;
+	height: 20px;
+	float: right;
+	position: relative;
+	margin-top: 25px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	button {
+	 display: inline-block;
+	 width: 20px;
+	 height: 20px;
+	 background: url(../css/images/common/search.png) no-repeat;
+	 background-size: 100% 100%;
+	 border: 0;
+	 position: absolute;
+	 top: 5px;
+	 right: 10px;
+	 outline: none;
  }
  input{
-   width:calc(100% - 20px);
-   @include text($font7, #a0a0a0,13px, 20px);
-   height: 20px;
-   background:transparent;
-   border:0;
-   outline: none;  
-   &::placeholder{
-    @include text($font7, #a0a0a0,13px, 20px);
-  }  
+	 width:100%;
+	 @include text($font7, #a0a0a0,13px, 20px);
+	 height: 20px;
+	 background:transparent!important;
+	 box-shadow: none;
+	 border:0;
+	 outline: none;  
+	 &::placeholder{
+		@include text($font7, #a0a0a0,13px, 20px);
+	}  
 }
 }
 }
@@ -380,211 +386,211 @@ ul {
  position: relative;
  z-index: 2;
  &:after{
-   content:"";
-   display: block;
-   clear: both;
+	 content:"";
+	 display: block;
+	 clear: both;
  }
  .banner.banner_tchu {
-   width:100%;
-   margin-bottom: 0!important;
-   img{
-    display: block;
-    width: 100%;
-  }
-   .khungAnh {
-     &:before {
-      padding-bottom: 34%;
-    }
-    .khungAnhCrop {
-      width: 100%;
-      object-fit: cover;
-    }
-    
-    .content_banner{
-      position: absolute;
-      bottom:50px!important;
-      left: 50%;
-      transform:translateX(-50%);
-      background:transparent;
-      z-index: 100;
-      p{
-       &:first-child{
-        @include text($font2, $white, 26px, 34px);
-        height: 34px;
-        overflow: hidden;
-        margin-bottom: 15px;
-        text-transform: uppercase;
-        text-align: center;
-        color:inherit
-      }
-      &:last-child{
-        @include text($font7, $white, 27px, 30px);
-        height: 34px;
-        overflow: hidden;text-align: center;
-      }
-    }
-  }
+	 width:100%;
+	 margin-bottom: 0!important;
+	 img{
+		display: block;
+		width: 100%;
+	}
+	 .khungAnh {
+		 &:before {
+			padding-bottom: 34%;
+		}
+		.khungAnhCrop {
+			width: 100%;
+			object-fit: cover;
+		}
+		
+		.content_banner{
+			position: absolute;
+			bottom:50px!important;
+			left: 50%;
+			transform:translateX(-50%);
+			background:transparent;
+			z-index: 100;
+			p{
+			 &:first-child{
+				@include text($font2, $white, 26px, 34px);
+				height: 34px;
+				overflow: hidden;
+				margin-bottom: 15px;
+				text-transform: uppercase;
+				text-align: center;
+				color:inherit
+			}
+			&:last-child{
+				@include text($font7, $white, 27px, 30px);
+				height: 34px;
+				overflow: hidden;text-align: center;
+			}
+		}
+	}
 }
 
 }
 .nivo-controlNav{
-  text-align: center;
-  margin: 0;
-  bottom:30px;
-  position: absolute;
-  z-index: 10;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  a{
-    width: 20px;
-    height: 2px;
-    margin: 0 5px;
-    font-size: 0;
-    display: inline-block;
-    background: #fff;
-    &.active{
-        background: $blue;
-    }
-  }
+	text-align: center;
+	margin: 0;
+	bottom:30px;
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	a{
+		width: 20px;
+		height: 2px;
+		margin: 0 5px;
+		font-size: 0;
+		display: inline-block;
+		background: #fff;
+		&.active{
+				background: $blue;
+		}
+	}
 }
 .banner_tcon {
-  .khungAnh {
-   &:before {
-    padding-bottom: 26.94%;
-  }
+	.khungAnh {
+	 &:before {
+		padding-bottom: 26.94%;
+	}
 }
 }
 .breadcrumb{
-  position: absolute;
-  bottom:0;
-  height: 40px;
-  width: 100%;
-  padding-left: calc((100% - 1170px)/2);
-  background:rgba(0,0,0,.5);
-  ul{
-   li{
-    a{
-     display: inline-block;
-     padding-right: 24px;
-     @include text($font2, $white, 15px, 40px);
-     background:url(../css/images/right3.png) no-repeat center right 11px;
-   }
-   &:last-child{
-     a{
-      padding-right: 0;
-      background:transparent;
-    }
-  }
+	position: absolute;
+	bottom:0;
+	height: 40px;
+	width: 100%;
+	padding-left: calc((100% - 1170px)/2);
+	background:rgba(0,0,0,.5);
+	ul{
+	 li{
+		a{
+		 display: inline-block;
+		 padding-right: 24px;
+		 @include text($font2, $white, 15px, 40px);
+		 background:url(../css/images/right3.png) no-repeat center right 11px;
+	 }
+	 &:last-child{
+		 a{
+			padding-right: 0;
+			background:transparent;
+		}
+	}
 }
 }
 }
 .menu_banner {
-  position: absolute;
-  left: 0;
-  top: 54px;
-  z-index: 100;
-  left: calc((100% - 1170px)/2);
-  span {
-   @include text($font5,
-    $white,
-    24px,
-    28px);
-   text-transform: uppercase;
-   display: block;
-   width: 100%;
-   margin-bottom: 13px;
-   text-align: center;
+	position: absolute;
+	left: 0;
+	top: 54px;
+	z-index: 100;
+	left: calc((100% - 1170px)/2);
+	span {
+	 @include text($font5,
+		$white,
+		24px,
+		28px);
+	 text-transform: uppercase;
+	 display: block;
+	 width: 100%;
+	 margin-bottom: 13px;
+	 text-align: center;
  }
  ul {
-   height: auto;
-   min-height: 100%;
-   overflow: hidden;
-   display: flex;
-   justify-content: center;
-   li {
-    float: left;
-    a {
-     @include text($font4,
-      $white,
-      15px,
-      19px);
-     position: relative;
-     padding-right: 22px;
-     display: block;
-     width: 100%;
-     text-align: center;
-     &:first-letter {
-      text-transform: uppercase;
-    }
-    &:after {
-      content: "\f105";
-      position: absolute;
-      top: 4px;
-      font: normal normal normal 14px/1 FontAwesome;
-      color: $white;
-      right: 7px;
-    }
-  }
-  &:last-child {
-   a {
-    color: $blue;
-    &:after {
-     display: none;
-   }
+	 height: auto;
+	 min-height: 100%;
+	 overflow: hidden;
+	 display: flex;
+	 justify-content: center;
+	 li {
+		float: left;
+		a {
+		 @include text($font4,
+			$white,
+			15px,
+			19px);
+		 position: relative;
+		 padding-right: 22px;
+		 display: block;
+		 width: 100%;
+		 text-align: center;
+		 &:first-letter {
+			text-transform: uppercase;
+		}
+		&:after {
+			content: "\f105";
+			position: absolute;
+			top: 4px;
+			font: normal normal normal 14px/1 FontAwesome;
+			color: $white;
+			right: 7px;
+		}
+	}
+	&:last-child {
+	 a {
+		color: $blue;
+		&:after {
+		 display: none;
+	 }
  }
 }
 }
 }
 }
 .bottom_banner {
-  position: absolute;
-  left: 23px;
-  width: auto;
-  bottom: 0;
-  height: 51px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: $white;
-  background: transparent;
-  padding: 0 40px 0 30px;
-  cursor: pointer;
-  z-index: 1000;
-  &:before {
-   content: "";
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   background-color: $blue;
-   z-index: -1;
-   border-radius: 0;
-   transform: skew(-35deg);
+	position: absolute;
+	left: 23px;
+	width: auto;
+	bottom: 0;
+	height: 51px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: $white;
+	background: transparent;
+	padding: 0 40px 0 30px;
+	cursor: pointer;
+	z-index: 1000;
+	&:before {
+	 content: "";
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 background-color: $blue;
+	 z-index: -1;
+	 border-radius: 0;
+	 transform: skew(-35deg);
  }
  &:after {
-   content: "";
-   position: absolute;
-   width: 0;
-   height: 0;
-   border-top: 51px solid $blue;
-   border-right: 35px solid transparent;
-   z-index: -1;
-   left: -23px;
-   top: 0;
+	 content: "";
+	 position: absolute;
+	 width: 0;
+	 height: 0;
+	 border-top: 51px solid $blue;
+	 border-right: 35px solid transparent;
+	 z-index: -1;
+	 left: -23px;
+	 top: 0;
  }
  &:hover {
-   i {
-    -webkit-animation-name: hvr-pulse-grow;
-    animation-name: hvr-pulse-grow;
-    -webkit-animation-duration: 0.3s;
-    animation-duration: 0.3s;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
-  }
+	 i {
+		-webkit-animation-name: hvr-pulse-grow;
+		animation-name: hvr-pulse-grow;
+		-webkit-animation-duration: 0.3s;
+		animation-duration: 0.3s;
+		-webkit-animation-timing-function: linear;
+		animation-timing-function: linear;
+		-webkit-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+		-webkit-animation-direction: alternate;
+		animation-direction: alternate;
+	}
 }
 i {
  margin: 0 10px 0 30px;
@@ -601,18 +607,18 @@ i {
 }
 span {
  @include text($font4,
-  $white,
-  21px,
-  51px);
+	$white,
+	21px,
+	51px);
 }
 p {
  @include text($font4,
-  $white,
-  27px,
-  51px);
+	$white,
+	27px,
+	51px);
  margin-bottom: 0;
  a{
-   color:inherit;
+	 color:inherit;
  }
 }
 }
@@ -620,77 +626,77 @@ p {
 
 #duAn {
  .block {
-  margin-top: 8px;
-  &:first-child {
-   margin-top: 32px;
+	margin-top: 8px;
+	&:first-child {
+	 margin-top: 32px;
  }
  >.title {
-   position: relative;
-   height: 42px;
-   margin-bottom: 20px;
-   background: #fff url(../css/images/tripple_line.png) no-repeat bottom left 30px;
-   background-size: 100% 17px;
-   a.first {
-    height: 38px;
-    width: auto;
-    margin-left: 14px;
-    margin-top: 9px;
-    padding: 0 25px;
-    @include text($font2,
-     $white,
-     16px,
-     38px);
-    background: transparent;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    &:first-letter {
-     text-transform: uppercase;
-   }
-   &:before {
-     content: "";
-     position: absolute;
-     width: 100%;
-     height: 100%;
-     background-color: $blue;
-     z-index: -1;
-     border-radius: 0;
-     transform: skew(-35deg);
-     top: 0;
-     left: 0;
-   }
-   &:after {
-     content: "";
-     position: absolute;
-     width: 0;
-     height: 0;
-     border-top: 38px solid $blue;
-     border-right: 27px solid transparent;
-     z-index: -1;
-     left: -14px;
-     top: 0;
-   }
+	 position: relative;
+	 height: 42px;
+	 margin-bottom: 20px;
+	 background: #fff url(../css/images/tripple_line.png) no-repeat bottom left 30px;
+	 background-size: 100% 17px;
+	 a.first {
+		height: 38px;
+		width: auto;
+		margin-left: 14px;
+		margin-top: 9px;
+		padding: 0 25px;
+		@include text($font2,
+		 $white,
+		 16px,
+		 38px);
+		background: transparent;
+		display: inline-block;
+		position: relative;
+		z-index: 1;
+		&:first-letter {
+		 text-transform: uppercase;
+	 }
+	 &:before {
+		 content: "";
+		 position: absolute;
+		 width: 100%;
+		 height: 100%;
+		 background-color: $blue;
+		 z-index: -1;
+		 border-radius: 0;
+		 transform: skew(-35deg);
+		 top: 0;
+		 left: 0;
+	 }
+	 &:after {
+		 content: "";
+		 position: absolute;
+		 width: 0;
+		 height: 0;
+		 border-top: 38px solid $blue;
+		 border-right: 27px solid transparent;
+		 z-index: -1;
+		 left: -14px;
+		 top: 0;
+	 }
  }
  a.second {
-  float: right;
-  @include text($font4,
-   $blue,
-   14px,
-   10px);
-  display: inline-block;
-  height: 100%;
-  padding-top: 27px;
-  position: relative;
-  z-index: 10;
-  transition: 1s;
-  padding-left: 12px;
-  background-color: #fff;
-  &:first-letter {
-   text-transform: uppercase;
+	float: right;
+	@include text($font4,
+	 $blue,
+	 14px,
+	 10px);
+	display: inline-block;
+	height: 100%;
+	padding-top: 27px;
+	position: relative;
+	z-index: 10;
+	transition: 1s;
+	padding-left: 12px;
+	background-color: #fff;
+	&:first-letter {
+	 text-transform: uppercase;
  }
  i {
-   color: $blue;
-   margin-left: 4px;
+	 color: $blue;
+	 margin-left: 4px;
  }
 }
 }
@@ -699,48 +705,44 @@ p {
  min-height: 100%;
  overflow: hidden;
  .item {
-  &:hover {
-   a.content_outer {
-    color: $blue;
-    margin-left: 0.4px;
-  }
-  .wrapper_img {
-    .khungAnh {
-     .khungAnhCrop {
-      &:before {
-       width: 100%;
-       height: 100%;
-       margin-top: 0;
-       margin-left: 0;
-     }
-   }
-   a.detail {
-    width: 50px;
-  }
+	&:hover {
+	 a.content_outer {
+		color: $blue;
+		margin-left: 0.4px;
+	}
+	.wrapper_img {
+		.khungAnh {
+		 .khungAnhCrop {
+			&:before {
+				opacity: 1;
+		 }
+	 }
+	 a.detail {
+		width: 50px;
+	}
 }
 }
 }
 .wrapper_img {
  width: 100%;
  .khungAnh {
-  &:before {
-   padding-bottom: 61.29%;
+	&:before {
+	 padding-bottom: 61.29%;
  }
  .khungAnhCrop {
-   &:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    margin-top: 150px;
-    margin-left: 50px;
-    background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    transition: .3s;
-  }
+	 &:before {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		z-index: 2;
+		top: 0;
+		left: 0;
+		transition: .3s;
+		opacity: 0;
+	}
 }
 a.detail {
  position: absolute;
@@ -758,9 +760,9 @@ a.detail {
 }
 a.content_outer {
  @include text($font5,
-  $gray,
-  16px,
-  19px);
+	$gray,
+	16px,
+	19px);
  margin: 13px 0 23px 0;
  width: 100%;
  z-index: 100;
@@ -777,53 +779,53 @@ a.content_outer {
 #khachHang {
  position: relative;
  .khungAnh{
-  &:before{
-   padding-bottom:9.9% ;
+	&:before{
+	 padding-bottom:9.9% ;
  }
  .khungAnhCrop{
-   &:before{
-    content:"";
-    position: absolute;
-    z-index: 2;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0,0,0,.7);
-    pointer-events:none;
-  }
+	 &:before{
+		content:"";
+		position: absolute;
+		z-index: 2;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background: rgba(0,0,0,.7);
+		pointer-events:none;
+	}
 }
 }
 .content{
-  position: absolute;
-  z-index: 3;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  p.first {
-   @include text($font2,
-    $white,
-    20px,
-    20px);
-   text-align: center;
-   margin-bottom: 15px;
-   span {
-    font-size: 40px;
-    line-height: 40px;
-    color:$blue;
-  }
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	p.first {
+	 @include text($font2,
+		$white,
+		20px,
+		20px);
+	 text-align: center;
+	 margin-bottom: 15px;
+	 span {
+		font-size: 40px;
+		line-height: 40px;
+		color:$blue;
+	}
 }
 p.second {
  padding-left: 38px;
  @include text($font5,
-  $white,
-  30px,
-  22px);
+	$white,
+	30px,
+	22px);
  height: 30px;
  background: url(../css/images/phone.png) no-repeat;
  background-size: 30px 30px;
@@ -832,7 +834,7 @@ p.second {
  width: auto;
  display: inline-block;
  a{
-   color:inherit;
+	 color:inherit;
  }
 }
 }
@@ -842,41 +844,41 @@ p.second {
 #information {
  padding: 32px 0 44px 0;
  .title {
-  position: relative;
-  a.first {
-   display: block;
-   text-transform: uppercase;
-   @include text($font5,
-    $blue,
-    24px,
-    30px);
-   padding-bottom: 13px;
-   position: relative;
-   width: 100%;
-   border-bottom: solid 1px #eeeeee;
-   margin-bottom: 20px;
-   transition:0.3s;
-   &:hover{
-    color:$gray;
-    &:after{
-      background: $gray;
-    }
-  }
-  &:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 1px;
-    height: 1px;
-    width: 83px;
-    background: $blue;
-  }
+	position: relative;
+	a.first {
+	 display: block;
+	 text-transform: uppercase;
+	 @include text($font5,
+		$blue,
+		24px,
+		30px);
+	 padding-bottom: 13px;
+	 position: relative;
+	 width: 100%;
+	 border-bottom: solid 1px #eeeeee;
+	 margin-bottom: 20px;
+	 transition:0.3s;
+	 &:hover{
+		color:$gray;
+		&:after{
+			background: $gray;
+		}
+	}
+	&:after {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 1px;
+		height: 1px;
+		width: 83px;
+		background: $blue;
+	}
 }
 a.more {
  @include text($font4,
-  $blue,
-  14px,
-  10px);
+	$blue,
+	14px,
+	10px);
  display: inline-block;
  height: 100%;
  padding-top: 27px;
@@ -887,92 +889,92 @@ a.more {
  bottom: -5px;
  right: 0;
  &:hover{
-  color:$gray;
-  i{
-    color: $gray;
-  }
+	color:$gray;
+	i{
+		color: $gray;
+	}
 }
 &:first-letter {
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 i {
-  color: $blue;
-  margin-left: 4px;
+	color: $blue;
+	margin-left: 4px;
 }
 }
 }
 .content_left {
-  .main_newz {
-   &:hover {
-    a.content_outer {
-     color: $blue;
-     margin-left: 0.5px;
-   }
+	.main_newz {
+	 &:hover {
+		a.content_outer {
+		 color: $blue;
+		 margin-left: 0.5px;
+	 }
  }
  .wrapper_img {
-  width: 100%;
-  .khungAnh {
-   height: 100%;
-   &:before {
-    padding-bottom: 45.67%;
-  }
+	width: 100%;
+	.khungAnh {
+	 height: 100%;
+	 &:before {
+		padding-bottom: 45.67%;
+	}
 }
 }
 a.content_outer {
-  @include text($font5,
-   $gray,
-   18px,
-   22px);
-  margin-top: 16px;
-  margin-bottom: 10px;
-  display: inline-block;
-  overflow: hidden;
-  transition: .3s;
-  height: 22px;
-  &:hover {
-   color: $blue;
+	@include text($font5,
+	 $gray,
+	 18px,
+	 22px);
+	margin-top: 16px;
+	margin-bottom: 10px;
+	display: inline-block;
+	overflow: hidden;
+	transition: .3s;
+	height: 22px;
+	&:hover {
+	 color: $blue;
  }
 }
 .thongKe {
-  margin-bottom: 20px;
-  span {
-   @include text($font4,
-    #999,
-    13px,
-    16px);
-   font-weight: 400;
-   &:first-child {
-    padding-left: 24px;
-    background: url(../css/images/common/date.png) no-repeat left 4px top 4px;
-  }
-  &:last-child {
-    padding-left: 30px;
-    background: url(../css/images/common/view.png) no-repeat left 10px top 6px;
-  }
+	margin-bottom: 20px;
+	span {
+	 @include text($font4,
+		#999,
+		13px,
+		16px);
+	 font-weight: 400;
+	 &:first-child {
+		padding-left: 24px;
+		background: url(../css/images/common/date.png) no-repeat left 4px top 4px;
+	}
+	&:last-child {
+		padding-left: 30px;
+		background: url(../css/images/common/view.png) no-repeat left 10px top 6px;
+	}
 }
 }
 .description {
-  @include text($font4,
-   $gray,
-   14px,
-   22px);
-  height: 44px;
-  overflow: hidden;
-  margin-bottom: 17px;
+	@include text($font4,
+	 $gray,
+	 14px,
+	 22px);
+	height: 44px;
+	overflow: hidden;
+	margin-bottom: 17px;
 }
 }
 .sub_newz {
  .item.wrapper_img {}
  .wrapper_img {
-  padding-bottom: 13px;
-  border-bottom: solid 1px rgba(255, 255, 255, .41);
-  margin-bottom: 8px;
-  &:hover {
-   .content_outer {
-    a.name {
-     color: $blue;
-     margin-left: 0.5px;
-   }
+	padding-bottom: 13px;
+	border-bottom: solid 1px rgba(255, 255, 255, .41);
+	margin-bottom: 8px;
+	&:hover {
+	 .content_outer {
+		a.name {
+		 color: $blue;
+		 margin-left: 0.5px;
+	 }
  }
 }
 .khungAnh {
@@ -980,7 +982,7 @@ a.content_outer {
  width: 112px;
  float: left;
  &:before {
-  padding-bottom: 75.89%;
+	padding-bottom: 75.89%;
 }
 }
 .content_outer {
@@ -988,35 +990,35 @@ a.content_outer {
  padding-left: 28px;
  float: right;
  a.name {
-  @include text($font4,
-   $gray,
-   15px,
-   20px);
-  margin-top: 14px;
-  margin-bottom: 5px;
-  display: inline-block;
-  overflow: hidden;
-  transition: .3s;
-  height: 40px;
-  &:hover {
-   color: $blue;
+	@include text($font4,
+	 $gray,
+	 15px,
+	 20px);
+	margin-top: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+	overflow: hidden;
+	transition: .3s;
+	height: 40px;
+	&:hover {
+	 color: $blue;
  }
 }
 .thongKe {
-  span {
-   @include text($font4,
-    #999,
-    13px,
-    16px);
-   font-weight: 400;
-   &:first-child {
-    padding-left: 24px;
-    background: url(../css/images/common/date.png) no-repeat left 4px top 4px;
-  }
-  &:last-child {
-    padding-left: 30px;
-    background: url(../css/images/common/view.png) no-repeat left 10px top 6px;
-  }
+	span {
+	 @include text($font4,
+		#999,
+		13px,
+		16px);
+	 font-weight: 400;
+	 &:first-child {
+		padding-left: 24px;
+		background: url(../css/images/common/date.png) no-repeat left 4px top 4px;
+	}
+	&:last-child {
+		padding-left: 30px;
+		background: url(../css/images/common/view.png) no-repeat left 10px top 6px;
+	}
 }
 }
 }
@@ -1024,130 +1026,130 @@ a.content_outer {
 }
 }
 .content_right {
-  .main_newz {
-   margin-bottom: 22px;
-   &:hover {
-    .content_outer {
-     a.name {
-      color: $blue;
-      margin-left: 0.5px;
-    }
-  }
+	.main_newz {
+	 margin-bottom: 22px;
+	 &:hover {
+		.content_outer {
+		 a.name {
+			color: $blue;
+			margin-left: 0.5px;
+		}
+	}
 }
 .wrapper_img {
-  width: 267px;
-  float: left;
-  .khungAnh {
-   height: 100%;
-   &:before {
-    padding-bottom: 66.67%;
-  }
+	width: 267px;
+	float: left;
+	.khungAnh {
+	 height: 100%;
+	 &:before {
+		padding-bottom: 66.67%;
+	}
 }
 }
 .content_outer {
-  width: calc(100% - 267px);
-  float: right;
-  padding-left: 10px;
-  a.name {
-   @include text($font5,
-    $gray,
-    16px,
-    22px);
-   margin-top: 12px;
-   margin-bottom: 14px;
-   display: inline-block;
-   overflow: hidden;
-   transition: 0.5s;
-   height: 22px;
+	width: calc(100% - 267px);
+	float: right;
+	padding-left: 10px;
+	a.name {
+	 @include text($font5,
+		$gray,
+		16px,
+		22px);
+	 margin-top: 12px;
+	 margin-bottom: 14px;
+	 display: inline-block;
+	 overflow: hidden;
+	 transition: 0.5s;
+	 height: 22px;
  }
 }
 .thongKe {
-  margin-bottom: 15px;
-  span {
-   @include text($font4,
-    #999,
-    13px,
-    16px);
-   font-weight: 400;
-   &:first-child {
-    padding-left: 24px;
-    background: url(../css/images/common/date.png) no-repeat left 4px top 4px;
-  }
-  &:last-child {
-    padding-left: 30px;
-    background: url(../css/images/common/view.png) no-repeat left 10px top 6px;
-  }
+	margin-bottom: 15px;
+	span {
+	 @include text($font4,
+		#999,
+		13px,
+		16px);
+	 font-weight: 400;
+	 &:first-child {
+		padding-left: 24px;
+		background: url(../css/images/common/date.png) no-repeat left 4px top 4px;
+	}
+	&:last-child {
+		padding-left: 30px;
+		background: url(../css/images/common/view.png) no-repeat left 10px top 6px;
+	}
 }
 }
 .description {
-  @include text($font4,
-   $gray,
-   15px,
-   20px);
-  height: 80px;
-  overflow: hidden;
-  margin-bottom: 17px;
+	@include text($font4,
+	 $gray,
+	 15px,
+	 20px);
+	height: 80px;
+	overflow: hidden;
+	margin-bottom: 17px;
 }
 }
 }
 .sub_newz {
-  .item.wrapper_img {}
-  .wrapper_img {
-   &:hover {
-    .content_outer {
-     a.name {
-      color: $blue;
-      margin-left: 0.5px;
-    }
-  }
+	.item.wrapper_img {}
+	.wrapper_img {
+	 &:hover {
+		.content_outer {
+		 a.name {
+			color: $blue;
+			margin-left: 0.5px;
+		}
+	}
 }
 padding-bottom: 13px;
 border-bottom: solid 1px rgba(255,
-  255,
-  255,
-  .41);
+	255,
+	255,
+	.41);
 margin-bottom: 8px;
 .khungAnh {
-  height: 100%;
-  width: 112px;
-  float: left;
-  &:before {
-   padding-bottom: 75.89%;
+	height: 100%;
+	width: 112px;
+	float: left;
+	&:before {
+	 padding-bottom: 75.89%;
  }
 }
 .content_outer {
-  width: calc(100% - 112px);
-  padding-left: 28px;
-  float: right;
-  a.name {
-   @include text($font4,
-    $gray,
-    15px,
-    20px);
-   margin-top: 14px;
-   margin-bottom: 5px;
-   display: inline-block;
-   overflow: hidden;
-   transition: .3s;
-   height: 40px;
-   &:hover {
-    color: $blue;
-  }
+	width: calc(100% - 112px);
+	padding-left: 28px;
+	float: right;
+	a.name {
+	 @include text($font4,
+		$gray,
+		15px,
+		20px);
+	 margin-top: 14px;
+	 margin-bottom: 5px;
+	 display: inline-block;
+	 overflow: hidden;
+	 transition: .3s;
+	 height: 40px;
+	 &:hover {
+		color: $blue;
+	}
 }
 .thongKe {
  span {
-  @include text($font4,
-   #999,
-   13px,
-   16px);
-  font-weight: 400;
-  &:first-child {
-   padding-left: 24px;
-   background: url(../css/images/common/date.png) no-repeat left 4px top 4px;
+	@include text($font4,
+	 #999,
+	 13px,
+	 16px);
+	font-weight: 400;
+	&:first-child {
+	 padding-left: 24px;
+	 background: url(../css/images/common/date.png) no-repeat left 4px top 4px;
  }
  &:last-child {
-   padding-left: 30px;
-   background: url(../css/images/common/view.png) no-repeat left 10px top 6px;
+	 padding-left: 30px;
+	 background: url(../css/images/common/view.png) no-repeat left 10px top 6px;
  }
 }
 }
@@ -1163,51 +1165,51 @@ margin-bottom: 8px;
  width: 100%;
  border-bottom: solid 1px #106dcc;
  .content {
-  .left_content {
-   left: calc((100% - 1170px)/2);
-   position: absolute;
-   top: 50%;
-   transform: translateY(-50%);
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   span {
-    color: #fff;
-    display: inline-block;
-    font-family: $font2;
-    font-size: 20px;
-    line-height: 34px;
-    margin-right: 17px;
-    text-transform: uppercase;
-  }
-  input {
-    border: none;
-    border-left: 1px solid #8d8d8d;
-    height: 34px;
-    padding-left: 10px;
-    position: relative;
-    width: 230px;
-    border:solid 1px #fff;
-    background:transparent;
-    margin-right: 10px;
-    @include text($font4, $white, 15px, 34px);
-    &::placeholder{
-     @include text($font4, $white, 15px, 34px);
-   }
+	.left_content {
+	 left: calc((100% - 1170px)/2);
+	 position: absolute;
+	 top: 50%;
+	 transform: translateY(-50%);
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 span {
+		color: #fff;
+		display: inline-block;
+		font-family: $font2;
+		font-size: 20px;
+		line-height: 34px;
+		margin-right: 17px;
+		text-transform: uppercase;
+	}
+	input {
+		border: none;
+		border-left: 1px solid #8d8d8d;
+		height: 34px;
+		padding-left: 10px;
+		position: relative;
+		width: 230px;
+		border:solid 1px #fff;
+		background:transparent;
+		margin-right: 10px;
+		@include text($font4, $white, 15px, 34px);
+		&::placeholder{
+		 @include text($font4, $white, 15px, 34px);
+	 }
  }
  a {
-  background: #2a83d5;
-  color: #fff;
-  display: inline-block;
-  font-family: $font2;
-  font-size: 16px;
-  height: 34px;
-  line-height: 34px;
-  margin-bottom: -1px;
-  margin-left: -4px;
-  text-align: center;
-  width: 58px;
-  text-transform: uppercase;
+	background: #2a83d5;
+	color: #fff;
+	display: inline-block;
+	font-family: $font2;
+	font-size: 16px;
+	height: 34px;
+	line-height: 34px;
+	margin-bottom: -1px;
+	margin-left: -4px;
+	text-align: center;
+	width: 58px;
+	text-transform: uppercase;
 }
 }
 .right_content {
@@ -1220,135 +1222,135 @@ margin-bottom: 8px;
  justify-content: center;
  align-items: center;
  span {
-  color: #fff;
-  display: inline-block;
-  font-family: $font2;
-  font-size: 15px;
-  line-height: 34px;
-  margin-right: 20px;
-  text-transform: uppercase;
-  height: 34px;
+	color: #fff;
+	display: inline-block;
+	font-family: $font2;
+	font-size: 15px;
+	line-height: 34px;
+	margin-right: 20px;
+	text-transform: uppercase;
+	height: 34px;
 }
 .social {
-  display: inline-block;
-  width: auto;
-  a {
-   border-radius: 50%;
-   box-sizing: border-box;
-   display: inline-block;
-   height: 34px;
-   line-height: 34px;
-   margin-right: 11px;
-   width: 34px;
-   position: relative;
-   font-family: $font8;
-                // &:hover {
-                //     transform: scale(1.2);
-                //     transition: 0.5s;
-                //     background: $blue;
-                //     border: 0;
-                // }
-                p{
-                	font-size: 26px;
-                	color:#0a4179;
-                	background: #b4daff;
-                	border-radius: 50%;
-                	width: 35px;
-                	height: 35px;
-                	text-align: center;
-                	line-height: 35px;
-                	transition:0.4s;
-                	&:hover{
-                		transform:scale(1.05);
-                	}
-                }
-              }
-            }
-          }
-        }
-      }
+	display: inline-block;
+	width: auto;
+	a {
+	 border-radius: 50%;
+	 box-sizing: border-box;
+	 display: inline-block;
+	 height: 34px;
+	 line-height: 34px;
+	 margin-right: 11px;
+	 width: 34px;
+	 position: relative;
+	 font-family: $font8;
+								// &:hover {
+								//     transform: scale(1.2);
+								//     transition: 0.5s;
+								//     background: $blue;
+								//     border: 0;
+								// }
+								p{
+									font-size: 26px;
+									color:#0a4179;
+									background: #b4daff;
+									border-radius: 50%;
+									width: 35px;
+									height: 35px;
+									text-align: center;
+									line-height: 35px;
+									transition:0.4s;
+									&:hover{
+										transform:scale(1.05);
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 
-      #footer {
-       background: $black;
-       p.title {
-        @include text($font2,
-         $white,
-         16px,
-         20px);
-        text-transform: uppercase;
-        span {
-         color: $blue;
-       }
-     }
-     #main_footer {
-      padding: 32px 0 10px 0;
-    }
-    #info_footer {
-      p.second {
-       margin-top: 10px;
-       margin-bottom: 18px;
-       @include text($font7,
-        $white,
-        15px,
-        18px);
-     }
-     ul {
-       margin-bottom: 0;
-       li {
-        @include text($font4,
-         $white,
-         15px,
-         22px);
-        display: block;
-        width: 100%;
-        span{
-         padding-right: 5px;
-       }
-       &:nth-child(3) {
-         margin-bottom: 7px;
-       }
-       &:nth-child(4) {
-         margin-bottom: 4px;
-         span {
-          font-family: $font5;
-        }
-      }
-      &:nth-child(5) {
-       margin-bottom: 4px;
-     }
-     &:nth-child(6) {
-       margin-bottom: 4px;
-     }
-     &:nth-child(7) {
-       color: $blue;
-       span{
-        font-family:$font5;
-      }
-    }
-  }
+			#footer {
+			 background: $black;
+			 p.title {
+				@include text($font2,
+				 $white,
+				 16px,
+				 20px);
+				text-transform: uppercase;
+				span {
+				 color: $blue;
+			 }
+		 }
+		 #main_footer {
+			padding: 32px 0 10px 0;
+		}
+		#info_footer {
+			p.second {
+			 margin-top: 10px;
+			 margin-bottom: 18px;
+			 @include text($font7,
+				$white,
+				15px,
+				18px);
+		 }
+		 ul {
+			 margin-bottom: 0;
+			 li {
+				@include text($font4,
+				 $white,
+				 15px,
+				 22px);
+				display: block;
+				width: 100%;
+				span{
+				 padding-right: 5px;
+			 }
+			 &:nth-child(3) {
+				 margin-bottom: 7px;
+			 }
+			 &:nth-child(4) {
+				 margin-bottom: 4px;
+				 span {
+					font-family: $font5;
+				}
+			}
+			&:nth-child(5) {
+			 margin-bottom: 4px;
+		 }
+		 &:nth-child(6) {
+			 margin-bottom: 4px;
+		 }
+		 &:nth-child(7) {
+			 color: $blue;
+			 span{
+				font-family:$font5;
+			}
+		}
+	}
 }
 }
 #danhMuc {
-  ul {
-   margin-top: 22px;
-   margin-bottom: 0;
-   list-style: none;
-   li {
-    a {
-     display: block;
-     width: 100%;
-     @include text($font4,
-      $white,
-      15px,
-      15px);
-     margin-bottom: 18px;
-     padding-left: 16px;
-     background: url(../css/images/right2.png) no-repeat top 5px left;
-     transition:0.3s;
-     &:hover{
-      color:$blue;
-    }
-  }
+	ul {
+	 margin-top: 22px;
+	 margin-bottom: 0;
+	 list-style: none;
+	 li {
+		a {
+		 display: block;
+		 width: 100%;
+		 @include text($font4,
+			$white,
+			15px,
+			15px);
+		 margin-bottom: 18px;
+		 padding-left: 16px;
+		 background: url(../css/images/right2.png) no-repeat top 5px left;
+		 transition:0.3s;
+		 &:hover{
+			color:$blue;
+		}
+	}
 }
 }
 }
@@ -2342,85 +2344,85 @@ ul.danhMuc{
 	}
 }
 .block_duAnNoiBat{
-  width: 270px;
-  margin-bottom: 30px;
+	width: 270px;
+	margin-bottom: 30px;
 
-  a.title{
-    display: inline-block;
-    width: 100%;
-    height: 40px;
-    padding-left: 14px;
-    background: $blue;
-    @include text($font5, $white, 18px, 40px);
-    overflow: hidden;
-    text-transform: uppercase;
-  }
-  .wrapper{
-    padding: 22px 16px 0 16px;
-    margin-top: -5px;
-    background: #f1f1f1;
-    .slick-prev{
-      top: -20px;
-      right: 37px;
-      height: 20px;
-      left:unset;
-      &:before{
-        content:"\f104";
-        font:normal normal normal 14px/1 FontAwesome;
-        width: 20px;
-        height: 20px;
-        line-height: 20px;
-        border-radius: 2px; 
-        display: inline-block;
-        color:#fff;
-        background:rgba(0,0,0,.2);
-        transition:0.3s;
-      }
-      &:hover{
-        &:before{
-          background:#999;
-        }
-      }
-    }
-    .slick-next{
-      top: -20px;
-      right: 15px;
-      width: 20px;
-      height: 20px;
-      &:before{
-        content:"\f105";
-        font:normal normal normal 14px/1 FontAwesome;
-        width: 20px;
-        height: 20px;
-        line-height: 20px;
-        border-radius: 2px;
-        display: inline-block;
-        color:#fff;
-        background:rgba(0,0,0,.2);
-        transition:0.3s;
-      }
-      &:hover{
-        &:before{
-          background:#999;
-        }
-      }
-    }
-    .item{
-      .khungAnh{
-        &:before{
-          padding-bottom: 66.67%;
-        }
-      }
-      a.outer{
-        display: inline-block;
-        @include text($font5, $gray, 16px, 40px);
-        height: 40px;
-        overflow: hidden;
-        margin-top: 4px;
-        margin-bottom: 4px;
-      }
-    }
-  }
+	a.title{
+		display: inline-block;
+		width: 100%;
+		height: 40px;
+		padding-left: 14px;
+		background: $blue;
+		@include text($font5, $white, 18px, 40px);
+		overflow: hidden;
+		text-transform: uppercase;
+	}
+	.wrapper{
+		padding: 22px 16px 0 16px;
+		margin-top: -5px;
+		background: #f1f1f1;
+		.slick-prev{
+			top: -20px;
+			right: 37px;
+			height: 20px;
+			left:unset;
+			&:before{
+				content:"\f104";
+				font:normal normal normal 14px/1 FontAwesome;
+				width: 20px;
+				height: 20px;
+				line-height: 20px;
+				border-radius: 2px; 
+				display: inline-block;
+				color:#fff;
+				background:rgba(0,0,0,.2);
+				transition:0.3s;
+			}
+			&:hover{
+				&:before{
+					background:#999;
+				}
+			}
+		}
+		.slick-next{
+			top: -20px;
+			right: 15px;
+			width: 20px;
+			height: 20px;
+			&:before{
+				content:"\f105";
+				font:normal normal normal 14px/1 FontAwesome;
+				width: 20px;
+				height: 20px;
+				line-height: 20px;
+				border-radius: 2px;
+				display: inline-block;
+				color:#fff;
+				background:rgba(0,0,0,.2);
+				transition:0.3s;
+			}
+			&:hover{
+				&:before{
+					background:#999;
+				}
+			}
+		}
+		.item{
+			.khungAnh{
+				&:before{
+					padding-bottom: 66.67%;
+				}
+			}
+			a.outer{
+				display: inline-block;
+				@include text($font5, $gray, 16px, 40px);
+				height: 40px;
+				overflow: hidden;
+				margin-top: 4px;
+				margin-bottom: 4px;
+			}
+		}
+	}
 }
 .block_quangCao{
 	margin-bottom: 30px;
@@ -2452,30 +2454,30 @@ ul.danhMuc{
 				background: #f4f4f4;
 			}
 			td{
-        width:50%;
-        border:solid 1px #e2e2e2;
-        &:nth-child(1){
-         a{
-          @include text($font4, $blue, 15px, 39px);
-          font-weight: 600;
-        }	
-      }
-      &:nth-child(2){
-       @include text($font4, $gray, 15px, 39px);
-       font-weight: 600;
-     }
-   }
+				width:50%;
+				border:solid 1px #e2e2e2;
+				&:nth-child(1){
+				 a{
+					@include text($font4, $blue, 15px, 39px);
+					font-weight: 600;
+				}	
+			}
+			&:nth-child(2){
+			 @include text($font4, $gray, 15px, 39px);
+			 font-weight: 600;
+		 }
+	 }
  }
 }
 p.title{
-  @include text($font5, $blue, 16px, 24px);
-  text-transform: uppercase;
-  margin-bottom: 30px;
+	@include text($font5, $blue, 16px, 24px);
+	text-transform: uppercase;
+	margin-bottom: 30px;
 }
 p.note{
-  @include text($font4, $gray, 14px, 24px);
-  font-style: italic;
-  margin-top: 25px;
+	@include text($font4, $gray, 14px, 24px);
+	font-style: italic;
+	margin-top: 25px;
 }
 }
 #dichVu{
@@ -2569,152 +2571,152 @@ p.note{
 	}
 }
 #duAn{
-  div.title{
-    h2.name{
-      margin-top: 29px;
-      margin-bottom: 18px;
-      @include text($font5, $blue, 18px, 24px);
-      text-transform: uppercase;
-    }
-    .noidung{
-      margin-bottom: 37px;
-    }
-  }
-  .itemDuAn{
-    margin-bottom: 18px;
-    &:last-child{
-      margin-bottom: 48px;
-    }
-    h2{
-      display: flex;
-      justify-content: center;
-    }
-    h3{
-      height: 44px;
-    }
-    a.name{
-      display: inline-block;
-      width:auto;
-      @include text($font5, $blue, 18px, 24px);
-      position: relative;
-      padding: 0 40px 7px 40px;
-      text-transform: uppercase;
-      margin-bottom: 22px;
-      transition:0.3s;
-      &:hover{
-        color:$red;
-        &:after{
-          background: $red;
-        }
-      }
-      &:after{
-        content:"";
-        position: absolute;
-        height: 4px;
-        width: 100%;
-        background:$blue;
-        left: 0;
-        bottom:0;
-        transition:0.3s;
-      }
-    }
-    .listDuAn{
-      .slick-prev{
-       left:-48px;
-       width: 38px;
-       height: 38px;
-       z-index: 100;
-       &:before{
-        content: "\f053";
-        font: normal normal normal 14px/1 FontAwesome;
-        width: 38px;
-        height: 38px;
-        line-height: 38px;
-        display: inline-block;
-        color: #fff;
-        background: #999999;
-        transition: 0.3s;
-        opacity:1;
-      }
-      &:hover{
-        &:before{
-         background:#2a83d5;  
-       }
+	div.title{
+		h2.name{
+			margin-top: 29px;
+			margin-bottom: 18px;
+			@include text($font5, $blue, 18px, 24px);
+			text-transform: uppercase;
+		}
+		.noidung{
+			margin-bottom: 37px;
+		}
+	}
+	.itemDuAn{
+		margin-bottom: 18px;
+		&:last-child{
+			margin-bottom: 48px;
+		}
+		h2{
+			display: flex;
+			justify-content: center;
+		}
+		h3{
+			height: 44px;
+		}
+		a.name{
+			display: inline-block;
+			width:auto;
+			@include text($font5, $blue, 18px, 24px);
+			position: relative;
+			padding: 0 40px 7px 40px;
+			text-transform: uppercase;
+			margin-bottom: 22px;
+			transition:0.3s;
+			&:hover{
+				color:$red;
+				&:after{
+					background: $red;
+				}
+			}
+			&:after{
+				content:"";
+				position: absolute;
+				height: 4px;
+				width: 100%;
+				background:$blue;
+				left: 0;
+				bottom:0;
+				transition:0.3s;
+			}
+		}
+		.listDuAn{
+			.slick-prev{
+			 left:-48px;
+			 width: 38px;
+			 height: 38px;
+			 z-index: 100;
+			 &:before{
+				content: "\f053";
+				font: normal normal normal 14px/1 FontAwesome;
+				width: 38px;
+				height: 38px;
+				line-height: 38px;
+				display: inline-block;
+				color: #fff;
+				background: #999999;
+				transition: 0.3s;
+				opacity:1;
+			}
+			&:hover{
+				&:before{
+				 background:#2a83d5;  
+			 }
 
-     }
-   }
-   .slick-next{
-     right:-48px;
-     width: 38px;
-     height: 38px;
-     z-index: 100;
-     &:before{
-      content: "\f054";
-      font: normal normal normal 14px/1 FontAwesome;
-      width: 38px;
-      height: 38px;
-      line-height: 38px;
-      display: inline-block;
-      color: #fff;
-      background: #999999;
-      transition: 0.3s;
-      opacity:1;
-    }
-    &:hover{
-      &:before{
-       background:#2a83d5;  
-     }
+		 }
+	 }
+	 .slick-next{
+		 right:-48px;
+		 width: 38px;
+		 height: 38px;
+		 z-index: 100;
+		 &:before{
+			content: "\f054";
+			font: normal normal normal 14px/1 FontAwesome;
+			width: 38px;
+			height: 38px;
+			line-height: 38px;
+			display: inline-block;
+			color: #fff;
+			background: #999999;
+			transition: 0.3s;
+			opacity:1;
+		}
+		&:hover{
+			&:before{
+			 background:#2a83d5;  
+		 }
 
-   }
+	 }
  }
  .slick-list{
-  margin: 0 -15px;
+	margin: 0 -15px;
 }
 .item{
-  margin: 0 15px;
-  &:hover{
-    .khungAnh{
-      .khungAnhCrop{
-        &:before{
-          background:rgba(0,0,0,.3);
-          margin: 0;
-        }
-      }
-    }
-    a.outer{
-      color:$blue;
-    }
-  }
-  .khungAnh{
-    margin-bottom: 10px;
-    &:before{
-      padding-bottom: 67.57%;
-    }
-    .khungAnhCrop{
-      &:before{
-        content:"";
-        position: absolute;
-        z-index: 2;
-        height: 100%;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background:transparent;
-        transition:0.3s;
-        margin-top: 450px;
-        margin-left: 150px;
-      }
-    }
+	margin: 0 15px;
+	&:hover{
+		.khungAnh{
+			.khungAnhCrop{
+				&:before{
+					background:rgba(0,0,0,.3);
+					margin: 0;
+				}
+			}
+		}
+		a.outer{
+			color:$blue;
+		}
+	}
+	.khungAnh{
+		margin-bottom: 10px;
+		&:before{
+			padding-bottom: 67.57%;
+		}
+		.khungAnhCrop{
+			&:before{
+				content:"";
+				position: absolute;
+				z-index: 2;
+				height: 100%;
+				top: 0;
+				left: 0;
+				width: 100%;
+				background:transparent;
+				transition:0.3s;
+				margin-top: 450px;
+				margin-left: 150px;
+			}
+		}
 
-  }
-  a.outer{
-    display: inline-block;
-    width: 100%;
-    @include text($font4, $gray, 16px, 22px);
-    height: 44px;
-    overflow: hidden;
-    transition:0.3s;
-  }
+	}
+	a.outer{
+		display: inline-block;
+		width: 100%;
+		@include text($font4, $gray, 16px, 22px);
+		height: 44px;
+		overflow: hidden;
+		transition:0.3s;
+	}
 }
 }
 }
@@ -2724,44 +2726,44 @@ p.note{
  height: auto;
  min-height: 100%;
  .item {
-  margin-bottom: 25px;
-  &:hover {
-   a.content_outer {
-    margin-left: 0.4px;
-  }
-  .wrapper_img {
-    .khungAnh {
-     .khungAnhCrop {
-      &:before {
-      opacity: 1;
-     }
-   }
-   a.detail {
-    opacity: 1;
-  }
+	margin-bottom: 25px;
+	&:hover {
+	 a.content_outer {
+		margin-left: 0.4px;
+	}
+	.wrapper_img {
+		.khungAnh {
+		 .khungAnhCrop {
+			&:before {
+			opacity: 1;
+		 }
+	 }
+	 a.detail {
+		opacity: 1;
+	}
 }
 }
 }
 .wrapper_img {
  width: 100%;
  .khungAnh {
-  &:before {
-   padding-bottom: 61.29%;
+	&:before {
+	 padding-bottom: 61.29%;
  }
  .khungAnhCrop {
-   &:before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: .3s;
-  }
+	 &:before {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.3);
+		position: absolute;
+		z-index: 2;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		transition: .3s;
+	}
 }
 a.detail {
  position: absolute;
@@ -2780,9 +2782,9 @@ a.detail {
 }
 a.content_outer {
  @include text($font4,
-  $blue,
-  16px,
-  22px);
+	$blue,
+	16px,
+	22px);
  font-weight: 600;
  margin: 13px 0 5px 0;
  width: 100%;
@@ -2793,1101 +2795,1101 @@ a.content_outer {
 }
 p.description{
  @include text($font4,
-  $gray,
-  14px,
-  22px);
+	$gray,
+	14px,
+	22px);
  height: 66px;
  overflow: hidden;
 }
 }
 }
 #phantrang{
-  margin:20px 0 30px 0;
+	margin:20px 0 30px 0;
 }
 .duAnLienQuan{
-  margin-bottom: 30px;
-  h2{
-    border-top: solid 1px #e2e2e2;
-  }
+	margin-bottom: 30px;
+	h2{
+		border-top: solid 1px #e2e2e2;
+	}
 }
 h2.title{
-  @include text($font2, $blue, 22px, 24px);
-  margin-bottom: 12px;
+	@include text($font2, $blue, 22px, 24px);
+	margin-bottom: 12px;
 }
 .thongke{
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 .noidung{
-  margin-bottom: 25px;
+	margin-bottom: 25px;
 }
 #CommonCuoiChiTietTin{
-  margin-bottom: 35px;
+	margin-bottom: 35px;
 }
 .duAnKhac{
-  margin-bottom: 60px;
+	margin-bottom: 60px;
 }
 }
 #phantrang{
-  .SplitPages{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    a{
-      padding: 0 12px;
-      border:solid 1px #cccccc;
-      border-radius: 0;
-      margin-left: 10px;
-      transition:0.3s;
-      width:auto;
-      @include text($font4, $gray, 16px, 30px);
-      height: 30px;
-      margin-right: 0;
-      &:hover, &.hientai{
-        background: $blue;
-        border:solid 1px transparent;
-        color:#fff;
-      }
-      &.truoc{
-        position: relative;
-        width: 30px;
-        padding: 0;
-        &:before{
-          content:"\f104";
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          font:normal normal normal 14px/1 FontAwesome;
-          line-height: 30px;
-          text-align: center;
-          transition:0.3s;
-          color:#333;
-          top: 0;
-          left: 0;
-        }
-        &:hover{
-          &:before{
-           color:#fff;
-         }
+	.SplitPages{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		a{
+			padding: 0 12px;
+			border:solid 1px #cccccc;
+			border-radius: 0;
+			margin-left: 10px;
+			transition:0.3s;
+			width:auto;
+			@include text($font4, $gray, 16px, 30px);
+			height: 30px;
+			margin-right: 0;
+			&:hover, &.hientai{
+				background: $blue;
+				border:solid 1px transparent;
+				color:#fff;
+			}
+			&.truoc{
+				position: relative;
+				width: 30px;
+				padding: 0;
+				&:before{
+					content:"\f104";
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					font:normal normal normal 14px/1 FontAwesome;
+					line-height: 30px;
+					text-align: center;
+					transition:0.3s;
+					color:#333;
+					top: 0;
+					left: 0;
+				}
+				&:hover{
+					&:before{
+					 color:#fff;
+				 }
 
-       }
-     }
-     &.sau{
-      padding: 0;
-      position: relative;
-      width: 30px;
-      &:before{
-        content:"\f105";
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        font:normal normal normal 14px/1 FontAwesome;
-        line-height: 30px;
-        text-align: center;
-        transition:0.3s;
-        color:#333;
-        top: 0;
-        left: 0;
-      }
-      &:hover{
-       &:before{
-         color:#fff;
-       }
-     }
+			 }
+		 }
+		 &.sau{
+			padding: 0;
+			position: relative;
+			width: 30px;
+			&:before{
+				content:"\f105";
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				font:normal normal normal 14px/1 FontAwesome;
+				line-height: 30px;
+				text-align: center;
+				transition:0.3s;
+				color:#333;
+				top: 0;
+				left: 0;
+			}
+			&:hover{
+			 &:before{
+				 color:#fff;
+			 }
+		 }
 
-   }
+	 }
  }
  span{
-  padding: 0 20px;
-  color:#e4e4e4;
-  line-height: 30px;
-  height: 30px;
-  display: inline-block;
-  font-size: 30px;
+	padding: 0 20px;
+	color:#e4e4e4;
+	line-height: 30px;
+	height: 30px;
+	display: inline-block;
+	font-size: 30px;
 }
 }
 }
 .duAnLienQuan{
-  a.title{
-    display: inline-block;
-    margin-top: 15px;
-    margin-bottom: 14px;
-    @include text($font5, $blue, 24px, 39px);
-    text-transform: uppercase;
-  }
-  .listDuAn{
-    .item{
-      margin-bottom: 3px;
-      a.name{
-        @include text($font5, $gray, 16px, 24px);
-        display: inline-block;
-        width: 100%;
-        overflow: hidden;
-        padding-bottom: 3px;
-        border-bottom: 4px solid $blue;
-        height: 31px;
-        text-transform: uppercase;
-        transition:0.3s;
-        &:hover{
-          color:$blue;
-        }
-      }
-      .khungAnh{
-        &:before{
-          padding-bottom: 67.57%;
-        }
-      }
-    }
-  }
+	a.title{
+		display: inline-block;
+		margin-top: 15px;
+		margin-bottom: 14px;
+		@include text($font5, $blue, 24px, 39px);
+		text-transform: uppercase;
+	}
+	.listDuAn{
+		.item{
+			margin-bottom: 3px;
+			a.name{
+				@include text($font5, $gray, 16px, 24px);
+				display: inline-block;
+				width: 100%;
+				overflow: hidden;
+				padding-bottom: 3px;
+				border-bottom: 4px solid $blue;
+				height: 31px;
+				text-transform: uppercase;
+				transition:0.3s;
+				&:hover{
+					color:$blue;
+				}
+			}
+			.khungAnh{
+				&:before{
+					padding-bottom: 67.57%;
+				}
+			}
+		}
+	}
 }
 #anh{
-  margin-bottom: 35px;
-  .slider-for {
-    padding: 0 50px;
-    margin-bottom: 14px;
-    button.slick-prev {
-      left: 0;
-      z-index: 100;
-      width: 38px;
-      height: 38px;
-      background: rgba(127, 127, 127, .5);
-      &:before {
-        content: "\f104";
-        font: normal normal normal 14px/1 FontAwesome;
-      }
-      &:hover {
-        background: $blue;
-      }
-    }
-    button.slick-next {
-      right: 0;
-      z-index: 100;
-      width: 38px;
-      height: 38px;
-      background: rgba(127, 127, 127, .5);
-      &:before {
-        content: "\f105";
-        font: normal normal normal 14px/1 FontAwesome;
-      }
-      &:hover {
-        background: $blue;
-      }
-    }
-    .khungAnh{
-      &:before{
-        padding-bottom: 51.95%;
-      }
-    }
-  }
-  .slider-nav {
-    .slick-list {
-      margin: 0 -2px;
-    }
-    .slick-slide{
-      margin: 0 2px;
-    }
-    button.slick-prev {
-      left: 0;
-      z-index: 100;
-      width: 33px;
-      height: 33px;
-      background: rgba(255, 255, 255, .3);
-      &:before {
-        content: "\f104";
-        font: normal normal normal 14px/1 FontAwesome;
-      }
-      &:hover {
-        background: $blue;
-      }
-    }
-    button.slick-next {
-      right: 0;
-      z-index: 100;
-      width: 33px;
-      height: 33px;
-      background: rgba(255, 255, 255, .3);
-      &:before {
-        content: "\f105";
-        font: normal normal normal 14px/1 FontAwesome;
-      }
-      &:hover {
-        background: $blue;
-      }
-    }
-    .khungAnh{
-      &:before{
-        padding-bottom: 55.94%;
-      }
-      .khungAnhCrop{
-        &:before {
-          content: "";
-          display: block;
-          width: 100%;
-          height: 100%;
-          background-color: rgba(0,0,0,.5);
-          position: absolute;
-          z-index: 2;
-          top: 0;
-          left: 0;
-          transition: 0.5s;
-          pointer-events:none;
-        }
-      }
-      .slick-slide {
-        margin: 0 5px;
-        &.slick-current.slick-active {
-                    // border: solid 3px $red;
-                    position: relative;
-                    .khungAnh {
-                      .khungAnhCrop {
-                        &:before {
-                         background:transparent;
-                       }
-                     }
-                   }
-                 }
-               }
-             }
-           }
-         }
-         .duAnKhac{
-          a.title{
-            display: inline-block;
-            @include text($font5, $blue, 16px, 22px);
-            text-transform: uppercase;
-            margin-bottom: 21px;
-          }
-          .listDuAn{
-            .item {
-              margin-bottom: 25px;
-              &:hover {
-               a.content_outer {
-                margin-left: 0.4px;
-              }
-              .wrapper_img {
-                .khungAnh {
-                 .khungAnhCrop {
-                  &:before {
-                   width: 100%;
-                   height: 100%;
-                   margin-top: 0;
-                   margin-left: 0;
-                 }
-               }
-               a.detail {
-                width: 50px;
-              }
-            }
-          }
-        }
-        .wrapper_img {
-         width: 100%;
-         .khungAnh {
-          &:before {
-           padding-bottom: 61.29%;
-         }
-         .khungAnhCrop {
-           &:before {
-            content: "";
-            display: block;
-            width: 0;
-            height: 0;
-            margin-top: 150px;
-            margin-left: 50px;
-            background-color: rgba(0, 0, 0, 0.3);
-            position: absolute;
-            z-index: 2;
-            top: 0;
-            left: 0;
-            transition: .3s;
-          }
-        }
-        a.detail {
-         position: absolute;
-         top: 50%;
-         left: 50%;
-         width: 0;
-         height: 50px;
-         background: url(../css/images/plus.png) no-repeat;
-         background-size: cover;
-         z-index: 100;
-         transform: translate(-50%, -50%);
-         transition: .3s;
-       }
-     }
-   }
-   a.content_outer {
-     @include text($font4,
-      $blue,
-      16px,
-      22px);
-     font-weight: 600;
-     margin: 13px 0 5px 0;
-     width: 100%;
-     z-index: 100;
-     display: inline-block;
-     height: 44px;
-     transition: 0.3s;
-   }
-   p.description{
-     @include text($font4,
-      $gray,
-      14px,
-      22px);
-     height: 66px;
-     overflow: hidden;
-   }
+	margin-bottom: 35px;
+	.slider-for {
+		padding: 0 50px;
+		margin-bottom: 14px;
+		button.slick-prev {
+			left: 0;
+			z-index: 100;
+			width: 38px;
+			height: 38px;
+			background: rgba(127, 127, 127, .5);
+			&:before {
+				content: "\f104";
+				font: normal normal normal 14px/1 FontAwesome;
+			}
+			&:hover {
+				background: $blue;
+			}
+		}
+		button.slick-next {
+			right: 0;
+			z-index: 100;
+			width: 38px;
+			height: 38px;
+			background: rgba(127, 127, 127, .5);
+			&:before {
+				content: "\f105";
+				font: normal normal normal 14px/1 FontAwesome;
+			}
+			&:hover {
+				background: $blue;
+			}
+		}
+		.khungAnh{
+			&:before{
+				padding-bottom: 51.95%;
+			}
+		}
+	}
+	.slider-nav {
+		.slick-list {
+			margin: 0 -2px;
+		}
+		.slick-slide{
+			margin: 0 2px;
+		}
+		button.slick-prev {
+			left: 0;
+			z-index: 100;
+			width: 33px;
+			height: 33px;
+			background: rgba(255, 255, 255, .3);
+			&:before {
+				content: "\f104";
+				font: normal normal normal 14px/1 FontAwesome;
+			}
+			&:hover {
+				background: $blue;
+			}
+		}
+		button.slick-next {
+			right: 0;
+			z-index: 100;
+			width: 33px;
+			height: 33px;
+			background: rgba(255, 255, 255, .3);
+			&:before {
+				content: "\f105";
+				font: normal normal normal 14px/1 FontAwesome;
+			}
+			&:hover {
+				background: $blue;
+			}
+		}
+		.khungAnh{
+			&:before{
+				padding-bottom: 55.94%;
+			}
+			.khungAnhCrop{
+				&:before {
+					content: "";
+					display: block;
+					width: 100%;
+					height: 100%;
+					background-color: rgba(0,0,0,.5);
+					position: absolute;
+					z-index: 2;
+					top: 0;
+					left: 0;
+					transition: 0.5s;
+					pointer-events:none;
+				}
+			}
+			.slick-slide {
+				margin: 0 5px;
+				&.slick-current.slick-active {
+										// border: solid 3px $red;
+										position: relative;
+										.khungAnh {
+											.khungAnhCrop {
+												&:before {
+												 background:transparent;
+											 }
+										 }
+									 }
+								 }
+							 }
+						 }
+					 }
+				 }
+				 .duAnKhac{
+					a.title{
+						display: inline-block;
+						@include text($font5, $blue, 16px, 22px);
+						text-transform: uppercase;
+						margin-bottom: 21px;
+					}
+					.listDuAn{
+						.item {
+							margin-bottom: 25px;
+							&:hover {
+							 a.content_outer {
+								margin-left: 0.4px;
+							}
+							.wrapper_img {
+								.khungAnh {
+								 .khungAnhCrop {
+									&:before {
+									 width: 100%;
+									 height: 100%;
+									 margin-top: 0;
+									 margin-left: 0;
+								 }
+							 }
+							 a.detail {
+								width: 50px;
+							}
+						}
+					}
+				}
+				.wrapper_img {
+				 width: 100%;
+				 .khungAnh {
+					&:before {
+					 padding-bottom: 61.29%;
+				 }
+				 .khungAnhCrop {
+					 &:before {
+						content: "";
+						display: block;
+						width: 0;
+						height: 0;
+						margin-top: 150px;
+						margin-left: 50px;
+						background-color: rgba(0, 0, 0, 0.3);
+						position: absolute;
+						z-index: 2;
+						top: 0;
+						left: 0;
+						transition: .3s;
+					}
+				}
+				a.detail {
+				 position: absolute;
+				 top: 50%;
+				 left: 50%;
+				 width: 0;
+				 height: 50px;
+				 background: url(../css/images/plus.png) no-repeat;
+				 background-size: cover;
+				 z-index: 100;
+				 transform: translate(-50%, -50%);
+				 transition: .3s;
+			 }
+		 }
+	 }
+	 a.content_outer {
+		 @include text($font4,
+			$blue,
+			16px,
+			22px);
+		 font-weight: 600;
+		 margin: 13px 0 5px 0;
+		 width: 100%;
+		 z-index: 100;
+		 display: inline-block;
+		 height: 44px;
+		 transition: 0.3s;
+	 }
+	 p.description{
+		 @include text($font4,
+			$gray,
+			14px,
+			22px);
+		 height: 66px;
+		 overflow: hidden;
+	 }
  }
 }
 }
 #tinTuc{
-  div.title {
-   position: relative;
-   height: 42px;
-   margin-bottom: 22px;
-   background: #fff url(../css/images/tripple_line.png) no-repeat bottom left 30px;
-   background-size: 100% 17px;
-   a.first {
-    height: 38px;
-    width: auto;
-    margin-left: 14px;
-    margin-top: 9px;
-    padding: 0 25px;
-    @include text($font2,
-     $white,
-     16px,
-     38px);
-    background: transparent;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    &:first-letter {
-     text-transform: uppercase;
-   }
-   &:before {
-     content: "";
-     position: absolute;
-     width: 100%;
-     height: 100%;
-     background-color: $blue;
-     z-index: -1;
-     border-radius: 0;
-     transform: skew(-35deg);
-     top: 0;
-     left: 0;
-   }
-   &:after {
-     content: "";
-     position: absolute;
-     width: 0;
-     height: 0;
-     border-top: 38px solid $blue;
-     border-right: 27px solid transparent;
-     z-index: -1;
-     left: -14px;
-     top: 0;
-   }
+	div.title {
+	 position: relative;
+	 height: 42px;
+	 margin-bottom: 22px;
+	 background: #fff url(../css/images/tripple_line.png) no-repeat bottom left 30px;
+	 background-size: 100% 17px;
+	 a.first {
+		height: 38px;
+		width: auto;
+		margin-left: 14px;
+		margin-top: 9px;
+		padding: 0 25px;
+		@include text($font2,
+		 $white,
+		 16px,
+		 38px);
+		background: transparent;
+		display: inline-block;
+		position: relative;
+		z-index: 1;
+		&:first-letter {
+		 text-transform: uppercase;
+	 }
+	 &:before {
+		 content: "";
+		 position: absolute;
+		 width: 100%;
+		 height: 100%;
+		 background-color: $blue;
+		 z-index: -1;
+		 border-radius: 0;
+		 transform: skew(-35deg);
+		 top: 0;
+		 left: 0;
+	 }
+	 &:after {
+		 content: "";
+		 position: absolute;
+		 width: 0;
+		 height: 0;
+		 border-top: 38px solid $blue;
+		 border-right: 27px solid transparent;
+		 z-index: -1;
+		 left: -14px;
+		 top: 0;
+	 }
  }
  a.second {
-  float: right;
-  @include text($font4,
-   $blue,
-   14px,
-   10px);
-  display: inline-block;
-  height: 100%;
-  padding-top: 27px;
-  position: relative;
-  z-index: 10;
-  transition: 1s;
-  padding-left: 12px;
-  background-color: #fff;
-  &:first-letter {
-   text-transform: uppercase;
+	float: right;
+	@include text($font4,
+	 $blue,
+	 14px,
+	 10px);
+	display: inline-block;
+	height: 100%;
+	padding-top: 27px;
+	position: relative;
+	z-index: 10;
+	transition: 1s;
+	padding-left: 12px;
+	background-color: #fff;
+	&:first-letter {
+	 text-transform: uppercase;
  }
  i {
-   color: $blue;
-   margin-left: 4px;
+	 color: $blue;
+	 margin-left: 4px;
  }
 }
 }
 .itemFirst{
-  margin-top: 36px;
-  margin-bottom: 60px;
+	margin-top: 36px;
+	margin-bottom: 60px;
 
-  .left{
-    .khungAnh{
-      margin-bottom: 20px;
-      &:before{
-        padding-bottom: 66.71%;
-      }
-    }
-    a.name{
-      display: inline-block;
-      @include text($font4, $blue, 18px, 22px);
-      font-weight: 600;
-      height: 22px;
-      overflow: hidden;
-      margin-bottom: 15px;
-    }
-    p.description{
-      @include text($font4, $gray2, 15px, 22px);
-      height: 88px;
-      overflow: hidden;
-    }
-  }
-  .right{
-    .item{
-      margin-bottom: 20px;
-      &:last-child{
-        margin-bottom: 0;
-      }
-      .khungAnh{
-        margin-right: 15px;
-        width: 160px;
-        float: left;
-        &:before{
-          padding-bottom: 66.87%;
-        }
-      }
-      a.name{
-        width:calc(100% - 160px - 15px);
-        float: left;
-        display: inline-block;
-        @include text($font4, #0f2027, 16px, 22px);
-        font-weight: 600;
-        height: 22px;
-        overflow: hidden;
-        margin-bottom: 7px;
-        transition:0.3s;
-        &:hover{
-          color:$blue;
-        }
-      }
-      p.description{
-        @include text($font4, $gray2, 15px, 22px);
-        height: 88px;
-        overflow: hidden;
-        float: left;
-        width:calc(100% - 160px - 15px);
-      } 
-    }
-  }
+	.left{
+		.khungAnh{
+			margin-bottom: 20px;
+			&:before{
+				padding-bottom: 66.71%;
+			}
+		}
+		a.name{
+			display: inline-block;
+			@include text($font4, $blue, 18px, 22px);
+			font-weight: 600;
+			height: 22px;
+			overflow: hidden;
+			margin-bottom: 15px;
+		}
+		p.description{
+			@include text($font4, $gray2, 15px, 22px);
+			height: 88px;
+			overflow: hidden;
+		}
+	}
+	.right{
+		.item{
+			margin-bottom: 20px;
+			&:last-child{
+				margin-bottom: 0;
+			}
+			.khungAnh{
+				margin-right: 15px;
+				width: 160px;
+				float: left;
+				&:before{
+					padding-bottom: 66.87%;
+				}
+			}
+			a.name{
+				width:calc(100% - 160px - 15px);
+				float: left;
+				display: inline-block;
+				@include text($font4, #0f2027, 16px, 22px);
+				font-weight: 600;
+				height: 22px;
+				overflow: hidden;
+				margin-bottom: 7px;
+				transition:0.3s;
+				&:hover{
+					color:$blue;
+				}
+			}
+			p.description{
+				@include text($font4, $gray2, 15px, 22px);
+				height: 88px;
+				overflow: hidden;
+				float: left;
+				width:calc(100% - 160px - 15px);
+			} 
+		}
+	}
 }
 .listSub{
-  margin-bottom: 20px;
-  .itemSecond{
-    &:nth-child(2n-1){
-      background: #eef7ff;
-      div.title{
-        background-color:#eef7ff;
-        a.second{
-         background-color:#eef7ff;
-       }
-     }
-   }
+	margin-bottom: 20px;
+	.itemSecond{
+		&:nth-child(2n-1){
+			background: #eef7ff;
+			div.title{
+				background-color:#eef7ff;
+				a.second{
+				 background-color:#eef7ff;
+			 }
+		 }
+	 }
  }
 
 }
 .itemSecond{
-  padding-bottom: 40px;
+	padding-bottom: 40px;
 
-  div.title{
-    margin-top: 30px;
-    margin-bottom: 15px;
-  }
-  .listTin{
-    .item{
-      .khungAnh{
-        &:before{
-          padding-bottom: 67.31%;
-        }
-      }
-      a.name{
-        display: inline-block;
-        @include text($font4, $gray, 16px, 26px);
-        font-weight: 600;
-        height: 52px; 
-        overflow: hidden;
-        margin-top: 10px;
-        margin-bottom: 18px;
-        transition:0.3s;
-        &:hover{
-          color:$blue;
-        }
-      }
-      .thongKe{
-        margin-bottom: 8px;
-      }
-      p.description{
-        @include text($font4, $gray, 15px, 22px);
-        height: 66px;
-        overflow: hidden;
-      } 
-    }
-  }
+	div.title{
+		margin-top: 30px;
+		margin-bottom: 15px;
+	}
+	.listTin{
+		.item{
+			.khungAnh{
+				&:before{
+					padding-bottom: 67.31%;
+				}
+			}
+			a.name{
+				display: inline-block;
+				@include text($font4, $gray, 16px, 26px);
+				font-weight: 600;
+				height: 52px; 
+				overflow: hidden;
+				margin-top: 10px;
+				margin-bottom: 18px;
+				transition:0.3s;
+				&:hover{
+					color:$blue;
+				}
+			}
+			.thongKe{
+				margin-bottom: 8px;
+			}
+			p.description{
+				@include text($font4, $gray, 15px, 22px);
+				height: 66px;
+				overflow: hidden;
+			} 
+		}
+	}
 }
 #phantrang{
-  margin-top: 40px;
-  margin-bottom: 57px;
+	margin-top: 40px;
+	margin-bottom: 57px;
 }
 h2.title{
-  @include text($font4, $gray, 20px, 22px);
-  margin-bottom: 7px;
-  font-weight: 600;
+	@include text($font4, $gray, 20px, 22px);
+	margin-bottom: 7px;
+	font-weight: 600;
 }
 .baiVietKhac{
-  margin-bottom: 60px;
+	margin-bottom: 60px;
 }
 }
 .thongKe{
-  height: 19px;
-  display: flex;
-  a{
-    @include text($font4, #999, 13px, 19px);
-    padding-left: 17px;
-    height: 19px;
-    display: inline-block;
-    &.thongKe_ngay{
-      background:url(../css/images/common/date.png) no-repeat left center;
-      margin-right: 29px;
-    }
-    &.thongKe_luotxem{
-      background:url(../css/images/common/view.png) no-repeat left center;
-    }
-  }
+	height: 19px;
+	display: flex;
+	a{
+		@include text($font4, #999, 13px, 19px);
+		padding-left: 17px;
+		height: 19px;
+		display: inline-block;
+		&.thongKe_ngay{
+			background:url(../css/images/common/date.png) no-repeat left center;
+			margin-right: 29px;
+		}
+		&.thongKe_luotxem{
+			background:url(../css/images/common/view.png) no-repeat left center;
+		}
+	}
 }
 .block_tinNoiBat{
-  margin-bottom: 30px;
-  a.title{
-    display: inline-block;
-    @include text($font5,$blue, 18px, 22px );
-    overflow: hidden;
-    margin-bottom: 4px;
-  }
-  .listTin{
-    border-top: solid 4px #dddddd;
-    .item{
-      margin-top: 14px;
-      padding-bottom: 14px;
-      padding-left: 9px;
-      border-bottom: solid 1px #eeeeee;
-      display: flex;
-      justify-content: flex-start;
-      flex-direction: row;
-      .khungAnh{
-        width: 77px;
-        margin-right: 15px;
-        &:before{
-          padding-bottom: 64.94%;
-        }
-      }
-      a.outer{
-        display: inline-block;
-        width:calc(100% - 77px - 15px);
-        @include text($font4, $gray, 15px, 20px);
-        transition:0.3s;
-        &:hover{
-          color:$blue;
-        }
-      }
-    }
-  }
+	margin-bottom: 30px;
+	a.title{
+		display: inline-block;
+		@include text($font5,$blue, 18px, 22px );
+		overflow: hidden;
+		margin-bottom: 4px;
+	}
+	.listTin{
+		border-top: solid 4px #dddddd;
+		.item{
+			margin-top: 14px;
+			padding-bottom: 14px;
+			padding-left: 9px;
+			border-bottom: solid 1px #eeeeee;
+			display: flex;
+			justify-content: flex-start;
+			flex-direction: row;
+			.khungAnh{
+				width: 77px;
+				margin-right: 15px;
+				&:before{
+					padding-bottom: 64.94%;
+				}
+			}
+			a.outer{
+				display: inline-block;
+				width:calc(100% - 77px - 15px);
+				@include text($font4, $gray, 15px, 20px);
+				transition:0.3s;
+				&:hover{
+					color:$blue;
+				}
+			}
+		}
+	}
 }
 .listTinTuc{
-  .item {
-    margin-bottom: 22px;
-    transition: 0.5s;
-    display: flex;
-    justify-content: flex-start;
-    float: right;
-    &:last-child {
-      margin-bottom: 0;
-    }
-    &:hover {
-      .item_right {
-        a.first{
-          color:$blue;
-        }
-        a.second {
-          background: $blue;
-          border-left: solid 2px #84b9ea;
-        }
-      }
-    }
-    .item_left {
-      float: left;
-      width: 280px;
-      .khungAnh {
-        &:before {
-          padding-bottom: 62.5%;
-        }
-        .khungAnhCrop {
-          img {}
-        }
-      }
-    }
-    .item_right {
-      width: calc(100% - 280px);
-      float: right;
-      padding-left: 22px;
-      padding-top: 11px;
-      background: #f8f8f8;
-      a.first {
-        @include text($font4,
-          $gray,
-          18px,
-          22px);
-        display: inline-block;
-        transition: 1s;
-        margin-bottom: 16px;
-        height: 22px;
-        overflow: hidden;
-        font-weight: 600;
-        transition:0.3s;
-      }
-      .thongKe{
-        margin-bottom: 9px;
-      }
-      p {
-        @include text($font4,
-          $gray,
-          14px,
-          22px);
-        height: 66px; 
-        overflow: hidden;
-        margin-bottom: 3px;
-      }
-      a.second {
-        font-family: $font7;
-        color: #fff;
-        font-size: 14px;
-        line-height: 27px;
-        text-align: center;
-        width: 92px;
-        height: 27px;
-        background: #c0c0c0;
-        display: inline-block;
-        transition: .3s;
-        position: relative;
-        float: right;
-        border-left: solid 2px #a3a0a0;
-      }
-    }
-  }
+	.item {
+		margin-bottom: 22px;
+		transition: 0.5s;
+		display: flex;
+		justify-content: flex-start;
+		float: right;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		&:hover {
+			.item_right {
+				a.first{
+					color:$blue;
+				}
+				a.second {
+					background: $blue;
+					border-left: solid 2px #84b9ea;
+				}
+			}
+		}
+		.item_left {
+			float: left;
+			width: 280px;
+			.khungAnh {
+				&:before {
+					padding-bottom: 62.5%;
+				}
+				.khungAnhCrop {
+					img {}
+				}
+			}
+		}
+		.item_right {
+			width: calc(100% - 280px);
+			float: right;
+			padding-left: 22px;
+			padding-top: 11px;
+			background: #f8f8f8;
+			a.first {
+				@include text($font4,
+					$gray,
+					18px,
+					22px);
+				display: inline-block;
+				transition: 1s;
+				margin-bottom: 16px;
+				height: 22px;
+				overflow: hidden;
+				font-weight: 600;
+				transition:0.3s;
+			}
+			.thongKe{
+				margin-bottom: 9px;
+			}
+			p {
+				@include text($font4,
+					$gray,
+					14px,
+					22px);
+				height: 66px; 
+				overflow: hidden;
+				margin-bottom: 3px;
+			}
+			a.second {
+				font-family: $font7;
+				color: #fff;
+				font-size: 14px;
+				line-height: 27px;
+				text-align: center;
+				width: 92px;
+				height: 27px;
+				background: #c0c0c0;
+				display: inline-block;
+				transition: .3s;
+				position: relative;
+				float: right;
+				border-left: solid 2px #a3a0a0;
+			}
+		}
+	}
 }
 .baiVietKhac{
-  a.title{
-    @include text($font2, $blue, 18px, 22px);
-    height: 22px;
-    overflow: hidden;
-    text-transform: uppercase;
-  }
-  .slider_baiVietKhac{
-    .slick-prev{
-      top: -20px;
-      left:unset;
-      right: 32px;
-      width: 30px;
-      height: 30px;
-      z-index: 100;
-      &:before{
-        content: "\f0d9";
-        font: normal normal normal 14px/1 FontAwesome;
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        display: inline-block;
-        color: #fff;
-        background: #cccccc;
-        transition: 0.3s;
-      }
-      &:hover{
-        &:before{
-         background:#e4f1f6;
-         color:#333;
-       }
+	.title{
+		@include text($font2, $blue, 18px, 22px);
+		height: 22px;
+		overflow: hidden;
+		text-transform: uppercase;
+	}
+	.slider_baiVietKhac{
+		.slick-prev{
+			top: -20px;
+			left:unset;
+			right: 32px;
+			width: 30px;
+			height: 30px;
+			z-index: 100;
+			&:before{
+				content: "\f0d9";
+				font: normal normal normal 14px/1 FontAwesome;
+				width: 30px;
+				height: 30px;
+				line-height: 30px;
+				display: inline-block;
+				color: #fff;
+				background: #cccccc;
+				transition: 0.3s;
+			}
+			&:hover{
+				&:before{
+				 background:#e4f1f6;
+				 color:#333;
+			 }
 
-     }
-   }
-   .slick-next{
-    top: -20px;
-    right:0;
-    width: 30px;
-    height: 30px;
-    z-index: 100;
-    &:before{
-      content: "\f0da";
-      font: normal normal normal 14px/1 FontAwesome;
-      width: 30px;
-      height: 30px;
-      line-height: 30px;
-      display: inline-block;
-      color: #fff;
-      background: #cccccc
-    }
-    &:hover{
-      &:before{
-       background:#e4f1f6;  
-       color:#333;
-     }
+		 }
+	 }
+	 .slick-next{
+		top: -20px;
+		right:0;
+		width: 30px;
+		height: 30px;
+		z-index: 100;
+		&:before{
+			content: "\f0da";
+			font: normal normal normal 14px/1 FontAwesome;
+			width: 30px;
+			height: 30px;
+			line-height: 30px;
+			display: inline-block;
+			color: #fff;
+			background: #cccccc
+		}
+		&:hover{
+			&:before{
+			 background:#e4f1f6;  
+			 color:#333;
+		 }
 
-   }
+	 }
  }
  .item {
-  margin-top: 20px;
-  &:hover {
-    .item_right {
-      >a {
-        color: $blue;
-      }
-    }
-  }
-  .item_left {
-    width: 113px;
-    float: left;
-    .khungAnh {
-      &:before {
-        padding-bottom: 60.87%;
-      }
-    }
-  }
-  .item_right {
-    width: calc(100% - 113px);
-    padding-left: 14px;
-    padding-top: 2px;
-    float: left;
-    >a {
-      @include text($font4,
-        $gray,
-        14px,
-        21px);
-      height: 42px;
-      overflow: hidden;
-      transition: 0.3s;
-      display: inline-block;
-    }
-  }
+	margin-top: 20px;
+	&:hover {
+		.item_right {
+			>a {
+				color: $blue;
+			}
+		}
+	}
+	.item_left {
+		width: 113px;
+		float: left;
+		.khungAnh {
+			&:before {
+				padding-bottom: 60.87%;
+			}
+		}
+	}
+	.item_right {
+		width: calc(100% - 113px);
+		padding-left: 14px;
+		padding-top: 2px;
+		float: left;
+		>a {
+			@include text($font4,
+				$gray,
+				14px,
+				21px);
+			height: 42px;
+			overflow: hidden;
+			transition: 0.3s;
+			display: inline-block;
+		}
+	}
 }
 }
 
 }
 #lienHe{
-  padding: 40px 0 55px 0;
-  .container{
-    .row{
-      display: flex;
-      justify-content: flex-start;
-      flex-direction: row;
-      p.title{
-        height: 24px;
-        @include text($font5, $blue, 18px, 24px);
-        text-transform: uppercase;
-        font-weight: bold;
-      }
-      .left{
-        width: 480px;
-        margin-right: 53px;
-        ul.info{
-          margin-top: 3px;
-          margin-bottom: 20px;
-          li{
-            @include text($font4, $gray, 15px, 23px);
-          }
-        }
-        .block_form{
-          .item_form {
-            margin-bottom: 8px;
-            &:first-of-type{
-              margin-top: 10px;
-            }
-            input,
-            textarea,
-            select {
-              width: 100%;
-              outline: 0;
-              height: 38px;
-              line-height: 4238px;
-              padding-left: 10px;
-              @include text($font4,
-                $gray,
-                15px,
-                38px);
-              font-weight: 400;
-              &::placeholder {
-                @include text($font4,
-                  $gray,
-                  15px,
-                  38px);
-                font-weight: 400;
-              }
-            }
-            textarea {
-              height: 120px;
-            }
-          }
-          .item_form.submit {
-            margin-top: 8px;
-            a {
-              height: 40px;
-              @include text($font4,
-                $white,
-                16px,
-                40px);
-              font-weight: bold;
-              text-transform: uppercase;
-              display: inline-block;
-              border-radius: 5px;
-            }
-            a.guiLienHe {
-              width: calc((100% - 7px)/2);
-              margin-right: 7px;
-              float: left;
-              background: $blue;
-              text-align: center;
-              position: relative;
-              display: inline-block;
-              vertical-align: middle;
-              -webkit-transform: perspective(1px) translateZ(0);
-              transform: perspective(1px) translateZ(0);
-              box-shadow: 0 0 1px transparent;
-              -webkit-transition-property: color;
-              transition-property: color;
-              -webkit-transition-duration: 0.25s;
-              transition-duration: 0.25s;
-              &:hover{
-                &:before{
-                 -webkit-transform: scaleX(1);
-                 transform: scaleX(1);
-                 -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-                 transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-               }
-             }
-             &:before{
-               content: "";
-               position: absolute;
-               z-index: -1;
-               top: 0;
-               left: -2px;
-               width: 102%;
-               right: 0;
-               bottom: 0;
-               border-radius: 5px;
-               background:#d1d1d1;
-               -webkit-transform: scaleX(0);
-               transform: scaleX(0);
-               -webkit-transform-origin: 0 50%;
-               transform-origin: 0 50%;
-               -webkit-transition-property: transform;
-               transition-property: transform;
-               -webkit-transition-duration: 0.5s;
-               transition-duration: 0.5s;
-               -webkit-transition-timing-function: ease-out;
-               transition-timing-function: ease-out;
-             }
-           }
-           a.nhapLai {
-            width: calc((100% - 7px)/2);
-            float: left;
-            background: #d1d1d1;
-            text-align: center;
-            position: relative;
-            display: inline-block;
-            vertical-align: middle;
-            -webkit-transform: perspective(1px) translateZ(0);
-            transform: perspective(1px) translateZ(0);
-            box-shadow: 0 0 1px transparent;
-            -webkit-transition-property: color;
-            transition-property: color;
-            -webkit-transition-duration: 0.25s;
-            transition-duration: 0.25s;
-            &:hover{
-              &:before{
-               -webkit-transform: scaleX(1);
-               transform: scaleX(1);
-               -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-               transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-             }
-           }
-           &:before{
-             content: "";
-             position: absolute;
-             z-index: -1;
-             top: 0;
-             left: -2px;
-             width: 102%;
-             right: 0;
-             bottom: 0;
-             border-radius: 5px;
-             background:$blue;
-             -webkit-transform: scaleX(0);
-             transform: scaleX(0);
-             -webkit-transform-origin: 0 50%;
-             transform-origin: 0 50%;
-             -webkit-transition-property: transform;
-             transition-property: transform;
-             -webkit-transition-duration: 0.5s;
-             transition-duration: 0.5s;
-             -webkit-transition-timing-function: ease-out;
-             transition-timing-function: ease-out;
-           }
-         }
-       }
-     }
-   }
-   .right{
-    width:calc(100% - 480px - 53px);
-    #map2{
-      margin-top: 17px;
-      #map_canvas{
-        height: 490px;
-      }
-    }
-  }
+	padding: 40px 0 55px 0;
+	.container{
+		.row{
+			display: flex;
+			justify-content: flex-start;
+			flex-direction: row;
+			p.title{
+				height: 24px;
+				@include text($font5, $blue, 18px, 24px);
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+			.left{
+				width: 480px;
+				margin-right: 53px;
+				ul.info{
+					margin-top: 3px;
+					margin-bottom: 20px;
+					li{
+						@include text($font4, $gray, 15px, 23px);
+					}
+				}
+				.block_form{
+					.item_form {
+						margin-bottom: 8px;
+						&:first-of-type{
+							margin-top: 10px;
+						}
+						input,
+						textarea,
+						select {
+							width: 100%;
+							outline: 0;
+							height: 38px;
+							line-height: 4238px;
+							padding-left: 10px;
+							@include text($font4,
+								$gray,
+								15px,
+								38px);
+							font-weight: 400;
+							&::placeholder {
+								@include text($font4,
+									$gray,
+									15px,
+									38px);
+								font-weight: 400;
+							}
+						}
+						textarea {
+							height: 120px;
+						}
+					}
+					.item_form.submit {
+						margin-top: 8px;
+						a {
+							height: 40px;
+							@include text($font4,
+								$white,
+								16px,
+								40px);
+							font-weight: bold;
+							text-transform: uppercase;
+							display: inline-block;
+							border-radius: 5px;
+						}
+						a.guiLienHe {
+							width: calc((100% - 7px)/2);
+							margin-right: 7px;
+							float: left;
+							background: $blue;
+							text-align: center;
+							position: relative;
+							display: inline-block;
+							vertical-align: middle;
+							-webkit-transform: perspective(1px) translateZ(0);
+							transform: perspective(1px) translateZ(0);
+							box-shadow: 0 0 1px transparent;
+							-webkit-transition-property: color;
+							transition-property: color;
+							-webkit-transition-duration: 0.25s;
+							transition-duration: 0.25s;
+							&:hover{
+								&:before{
+								 -webkit-transform: scaleX(1);
+								 transform: scaleX(1);
+								 -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+								 transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+							 }
+						 }
+						 &:before{
+							 content: "";
+							 position: absolute;
+							 z-index: -1;
+							 top: 0;
+							 left: -2px;
+							 width: 102%;
+							 right: 0;
+							 bottom: 0;
+							 border-radius: 5px;
+							 background:#d1d1d1;
+							 -webkit-transform: scaleX(0);
+							 transform: scaleX(0);
+							 -webkit-transform-origin: 0 50%;
+							 transform-origin: 0 50%;
+							 -webkit-transition-property: transform;
+							 transition-property: transform;
+							 -webkit-transition-duration: 0.5s;
+							 transition-duration: 0.5s;
+							 -webkit-transition-timing-function: ease-out;
+							 transition-timing-function: ease-out;
+						 }
+					 }
+					 a.nhapLai {
+						width: calc((100% - 7px)/2);
+						float: left;
+						background: #d1d1d1;
+						text-align: center;
+						position: relative;
+						display: inline-block;
+						vertical-align: middle;
+						-webkit-transform: perspective(1px) translateZ(0);
+						transform: perspective(1px) translateZ(0);
+						box-shadow: 0 0 1px transparent;
+						-webkit-transition-property: color;
+						transition-property: color;
+						-webkit-transition-duration: 0.25s;
+						transition-duration: 0.25s;
+						&:hover{
+							&:before{
+							 -webkit-transform: scaleX(1);
+							 transform: scaleX(1);
+							 -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+							 transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+						 }
+					 }
+					 &:before{
+						 content: "";
+						 position: absolute;
+						 z-index: -1;
+						 top: 0;
+						 left: -2px;
+						 width: 102%;
+						 right: 0;
+						 bottom: 0;
+						 border-radius: 5px;
+						 background:$blue;
+						 -webkit-transform: scaleX(0);
+						 transform: scaleX(0);
+						 -webkit-transform-origin: 0 50%;
+						 transform-origin: 0 50%;
+						 -webkit-transition-property: transform;
+						 transition-property: transform;
+						 -webkit-transition-duration: 0.5s;
+						 transition-duration: 0.5s;
+						 -webkit-transition-timing-function: ease-out;
+						 transition-timing-function: ease-out;
+					 }
+				 }
+			 }
+		 }
+	 }
+	 .right{
+		width:calc(100% - 480px - 53px);
+		#map2{
+			margin-top: 17px;
+			#map_canvas{
+				height: 490px;
+			}
+		}
+	}
 }
 }
 }
 .guiThanhCong {
-  width: 580px;
-  margin:0 auto 1px auto;
-  span.success {
-    width: 80px;
-    height: 80px;
-    display: block;
-    border-radius: 50%;
-    background: $blue;
-    margin: 0 auto;
-    margin-bottom: 16px;
-    i {
-      color: $white;
-      display: inline-block;
-      width: 80px;
-      height: 80px;
-      line-height: 80px;
-      text-align: center;
-      font-size: 40px;
-    }
-  }
-  p {
-    text-align: center;
-    &:nth-of-type(1) {
-      @include text($font5,
-        $black,
-        22px,
-        30px);
+	width: 580px;
+	margin:0 auto 1px auto;
+	span.success {
+		width: 80px;
+		height: 80px;
+		display: block;
+		border-radius: 50%;
+		background: $blue;
+		margin: 0 auto;
+		margin-bottom: 16px;
+		i {
+			color: $white;
+			display: inline-block;
+			width: 80px;
+			height: 80px;
+			line-height: 80px;
+			text-align: center;
+			font-size: 40px;
+		}
+	}
+	p {
+		text-align: center;
+		&:nth-of-type(1) {
+			@include text($font5,
+				$black,
+				22px,
+				30px);
 
-      &:first-letter {
-        text-transform: uppercase;
-      }
-    }
-    &:nth-of-type(2) {
-      @include text($font4,
-        $black,
-        15px,
-        39px);
-      font-weight: 400;
-      margin-bottom: 2px;
-      margin-bottom: 7px;
-    }
-    &:nth-of-type(3) {
-      @include text($font4,
-        $gray,
-        15px,
-        20px);
-      font-weight: 400;
-      margin-bottom: 25px;
-      span {
-        @include text($font4,
-          #fe0000,
-          15px,
-          22px);
-        font-weight: bold;
-      }
-    }
-  }
-  a {
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    width: 180px;
-    height: 37px;
-    @include text($font5,
-      $white,
-      15px,
-      37px);
-    font-weight: bold;
-    background: $blue;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-    transition:0.3s;
-    &:hover{
-      background: #999;
-      color:#fff;
-    }
-  }
+			&:first-letter {
+				text-transform: uppercase;
+			}
+		}
+		&:nth-of-type(2) {
+			@include text($font4,
+				$black,
+				15px,
+				39px);
+			font-weight: 400;
+			margin-bottom: 2px;
+			margin-bottom: 7px;
+		}
+		&:nth-of-type(3) {
+			@include text($font4,
+				$gray,
+				15px,
+				20px);
+			font-weight: 400;
+			margin-bottom: 25px;
+			span {
+				@include text($font4,
+					#fe0000,
+					15px,
+					22px);
+				font-weight: bold;
+			}
+		}
+	}
+	a {
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align: center;
+		width: 180px;
+		height: 37px;
+		@include text($font5,
+			$white,
+			15px,
+			37px);
+		font-weight: bold;
+		background: $blue;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		border-radius: 5px;
+		transition:0.3s;
+		&:hover{
+			background: #999;
+			color:#fff;
+		}
+	}
 }
 #timKiem{
-  p{
-    @include text($font5, $gray, 14px, 24px);
-    height: 24px;
-    margin-bottom: 37px;
-    span{
-      &.keywords{
-        color:$blue;
-        padding: 0 5px;
-        display: inline-block;
-      }
-    }
-  }
-  .wrapper_item {
-    margin-bottom: 20px;
-    height: auto;
-    min-height: 100%;
-    overflow: hidden;
-    .item {
-      &:hover {
-       a.content_outer {
-        color: $blue;
-        margin-left: 0.4px;
-      }
-      .wrapper_img {
-        .khungAnh {
-         .khungAnhCrop {
-          &:before {
-           width: 100%;
-           height: 100%;
-           margin-top: 0;
-           margin-left: 0;
-         }
-       }
-       a.detail {
-        width: 50px;
-      }
-    }
-  }
+	p{
+		@include text($font5, $gray, 14px, 24px);
+		height: 24px;
+		margin-bottom: 37px;
+		span{
+			&.keywords{
+				color:$blue;
+				padding: 0 5px;
+				display: inline-block;
+			}
+		}
+	}
+	.wrapper_item {
+		margin-bottom: 20px;
+		height: auto;
+		min-height: 100%;
+		overflow: hidden;
+		.item {
+			&:hover {
+			 a.content_outer {
+				color: $blue;
+				margin-left: 0.4px;
+			}
+			.wrapper_img {
+				.khungAnh {
+				 .khungAnhCrop {
+					&:before {
+					 width: 100%;
+					 height: 100%;
+					 margin-top: 0;
+					 margin-left: 0;
+				 }
+			 }
+			 a.detail {
+				width: 50px;
+			}
+		}
+	}
 }
 .wrapper_img {
  width: 100%;
  .khungAnh {
-  &:before {
-   padding-bottom: 61.29%;
+	&:before {
+	 padding-bottom: 61.29%;
  }
  .khungAnhCrop {
-   &:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    margin-top: 150px;
-    margin-left: 50px;
-    background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    transition: .3s;
-  }
+	 &:before {
+		content: "";
+		display: block;
+		width: 0;
+		height: 0;
+		margin-top: 150px;
+		margin-left: 50px;
+		background-color: rgba(0, 0, 0, 0.3);
+		position: absolute;
+		z-index: 2;
+		top: 0;
+		left: 0;
+		transition: .3s;
+	}
 }
 a.detail {
  position: absolute;
@@ -3905,9 +3907,9 @@ a.detail {
 }
 a.content_outer {
  @include text($font5,
-  $gray,
-  16px,
-  19px);
+	$gray,
+	16px,
+	19px);
  margin: 13px 0 23px 0;
  width: 100%;
  z-index: 100;
@@ -3920,95 +3922,98 @@ a.content_outer {
 }
 }
 #video{
-  h2.title{
-    @include text($font5, $blue, 24px, 20px);
-    text-transform: uppercase;
-    margin-bottom: 22px;
-    &.ct{
-     @include text($font5, $blue, 18px, 20px);
-     text-transform: none;
-   }
+	h2.title{
+		@include text($font5, $blue, 24px, 20px);
+		text-transform: uppercase;
+		margin-bottom: 22px;
+		&.ct{
+		 @include text($font5, $blue, 18px, 20px);
+		 text-transform: none;
+	 }
  }
  .listVideo{
-  .item{
-    margin-bottom: 33px;
-    .khungAnh{
-      &:before{
-        padding-bottom: 56.29%;
-      }
-      .khungAnhCrop{
-        iframe{
-          width: 100%;
-          height: 100%;
-        }
-      }
-    }
-    a.content_outer{
-      height: 40px;
-      display: inline-block;
-      width: 100%;
-      @include text($font5, $gray, 16px, 40px);
-      overflow: hidden;
-      transition:0.3s;
-      &:hover{
-        color:$blue;
-      }
-    }
-  }
+	.item{
+		margin-bottom: 33px;
+		.khungAnh{
+			&:before{
+				padding-bottom: 56.29%;
+			}
+			.khungAnhCrop{
+				iframe{
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+		a.content_outer{
+			height: 40px;
+			display: inline-block;
+			width: 100%;
+			@include text($font5, $gray, 16px, 40px);
+			overflow: hidden;
+			transition:0.3s;
+			&:hover{
+				color:$blue;
+			}
+		}
+	}
 }
 .videoKhac{
-  a.title{
-    display: inline-block;
-    @include text($font5, $blue, 16px, 22px);
-    margin-bottom: 20px;
-    text-transform: uppercase;
+	a.title{
+		display: inline-block;
+		@include text($font5, $blue, 16px, 22px);
+		margin-bottom: 20px;
+		text-transform: uppercase;
 
-  }
+	}
 }
 }
 .icon_right{
-  position: fixed;
-  top: 20%;
-  right: 0;
-  z-index: 100;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  a{
-    display: inline-block;
-    height: 50px;
-    width: 50px;   
-    margin-bottom: 5px; 
-    background-size: 100% 100%;
-    transition:0.3s;
-    position: relative;
-    //&:after{
-    //  content:"";
-    //  position: absolute;
-    //  top: 0;
-    //  right: 0;
-    //  width: 5px;
-    //  height: 100%;
-    //  background:rgba(0,0,0,.7);
-    //}
-    &:hover{
-      transform:translateX(-10px);
-    }
-    &:nth-child(1){
-      background:url(../css/images/skype.png) no-repeat;
-    }
-    &:nth-child(2){
-      background:url(../css/images/zalo.png) no-repeat;
-    }
-    &:nth-child(3){
-      background:url(../css/images/phone2.png) no-repeat;
-    }
-  }
+	position: fixed;
+	top: 20%;
+	right: 0;
+	z-index: 100;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	a{
+		display: inline-block;
+		height: 50px;
+		width: 50px;   
+		margin-bottom: 5px; 
+		background-size: 100% 100%;
+		transition:0.3s;
+		position: relative;
+		//&:after{
+		//  content:"";
+		//  position: absolute;
+		//  top: 0;
+		//  right: 0;
+		//  width: 5px;
+		//  height: 100%;
+		//  background:rgba(0,0,0,.7);
+		//}
+		&:hover{
+			transform:translateX(-10px);
+		}
+		&:nth-child(1){
+			background:url(../css/images/skype.png) no-repeat;
+		}
+		&:nth-child(2){
+			background:url(../css/images/zalo.png) no-repeat;
+		}
+		&:nth-child(3){
+			background:url(../css/images/phone2.png) no-repeat;
+		}
+	}
 }
 .khungAnhCrop{
-  img{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-  }
+	img{
+		object-fit: cover;
+		height: 100%;
+		width: 100%;
+	}
+}
+a:focus{
+	outline:none
 }
