@@ -1,329 +1,327 @@
 <?php get_header() ?>
-<main>
-<div id="backtop">
-	<a href="#" title="Back To Top">
-		<i class="fa fa-angle-up" aria-hidden="true"></i>
-	</a>
-</div>
-<div id="banner">
-	<div class="banner banner_tchu" id="banner_tchu">
-		<?php 
-			$args = array(
-				'post_per_page'	=> -1,
-				'post_type'		=> 'slider',
-			);
-			// query
-			$the_query = new WP_Query( $args );
-	?>
-	<?php if( $the_query->have_posts() ): ?>
-	<ul>
-	<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
-		<li class="khungAnh">
-			<span class="khungAnhCrop">
-			<?php echo get_the_post_thumbnail( get_the_ID(), 'full', array( 'class' =>'thumnail') ); ?>
-			</span>
-		</li>
-	<?php endwhile; ?>
-	</ul>
-<?php endif; ?>
-	<?php wp_reset_query();	 // Restore global post data stomped by the_post(). ?>
-	<!-- <div class="bottom_banner">
-		<i class="fa fa-phone" aria-hidden="true"></i>
-		<span>Hotline:&nbsp; </span>
-		<p><a href="tel:0971003388">0971003388</a></p>
-	</div> -->
-</div>
-
-<section id="duAn">
-<div class="container">
-<div class="row content">
-<div class="block">
-
-	<div class="row title">
-		<a href="#" class="first" title="Thiết kế- thi công kiến trúc">Thiết kế cổng nghệ thuật</a>
-		<a href="#" class="second" title="Xem thêm">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-	</div>
-	<div class="wrapper_item">
-		<?php 
-			$args = array(
-				'post_status' => 'publish', // Chỉ lấy những bài viết được publish
-				'post_type' => 'post', // Lấy những bài viết thuộc post, nếu lấy những bài trong 'trang' thì để là page 
-				'showposts' => 8, // số lượng bài viết
-				'cat' => 2, // lấy bài viết trong chuyên mục có id là 1
-			);
-		?>
-		<?php $getposts = new WP_query($args); ?>
-		<?php global $wp_query; $wp_query->in_the_loop = true; ?>
-		<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-			<div class="item">
-					<div class="wrapper_img">
-						<div class="khungAnh">
-							<a href="<?php the_permalink(); ?>" title="<?php bloginfo( 'name' ); ?>" class="khungAnhCrop">
-							<?php echo get_the_post_thumbnail( get_the_id(), 'full', array( 'class' =>'thumnail') ); ?>
-							</a>
-							<a href="<?php the_permalink(); ?> " class="detail " title="<?php the_title(); ?> "></a>
-						</div>
-					</div>
-					<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="content_outer">
-					<?php the_title(); ?>
-					</a>
+	<main>
+		<div id="backtop">
+			<a href="#" title="Back To Top">
+				<i class="fa fa-angle-up" aria-hidden="true"></i>
+			</a>
+		</div>
+		<div id="banner">
+			<div class="banner banner_tchu" id="banner_tchu">
+				<?php
+				$args = array(
+					'post_per_page' => -1,
+					'post_type' => 'slider',
+				);
+				// query
+				$the_query = new WP_Query($args);
+				?>
+				<?php if ($the_query->have_posts()): ?>
+					<ul>
+						<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+							<li class="khungAnh">
+					            <span class="khungAnhCrop">
+					            	<?php echo get_the_post_thumbnail(get_the_ID(), 'full', array('class' => 'thumnail')); ?>
+					            </span>
+							</li>
+						<?php endwhile; ?>
+					</ul>
+				<?php endif; ?>
+				<?php wp_reset_query();     // Restore global post data stomped by the_post(). ?>
+				<div class="bottom_banner">
+					<i class="fa fa-phone" aria-hidden="true"></i>
+					<span>Hotline:&nbsp; </span>
+					<p><a href="tel:0971003388">0971003388</a></p>
 				</div>
-		<?php endwhile; wp_reset_postdata(); ?>
+			</div>
+		</div>
+			<section id="duAn">
+				<div class="container">
+					<div class="row content">
+						<div class="block">
+							<div class="row title">
+								<a href="<?php bloginfo('url'); ?>/danh-muc/thiet-ke-cong" class="first"
+								   title="Thiết kế cổng sắt">Thiết kế cổng sắt</a>
+								<a href="<?php bloginfo('url'); ?>/category/thiet-ke-kien-truc-cau-thang" class="second"
+								   title="Xem thêm">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+							</div>
+							<div class="wrapper_item">
+								<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=4&post_type=san-pham&danh-muc=thiet-ke-cong'); ?>
+								<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+								<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+									<div class="item">
+										<div class="wrapper_img">
+											<div class="khungAnh">
+												<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"
+												   class="khungAnhCrop">
+													<?php echo get_the_post_thumbnail(get_the_id(), 'thumbnail', array('class' => 'thumnail')); ?>
+												</a>
 
-	</div>
-</div>
-<section id="khachHang">
-	<div class="khungAnh">
-		<a href="#" class="khungAnhCrop">
-			<img src="<?php bloginfo('template_directory'); ?>/pics/khachhang.jpg" alt="khách hàng">
-		</a>
-	</div>
-	<div class="content">
-		<p class="first">Chúng tôi đã làm hài lòng hơn <span> 500+</span> khách hàng. Liên hệ với chúng tôi để được tư vấn ngay.
-		</p>
-		<p class="second"><a href="tel:0971003388">0971003388</a></p>
-	</div>
-</section>
-<section id="information">
-	<div class="container">
-		<div class="row">
-			<div class="content_left col-xs-12 col-lg-6">
-				<div class="title">
-					<a href="#" title="Tin tiêu điểm" class="first">Tin tiêu điểm</a>
-					<a href="#" title="Xem thêm" class="more">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-				</div>
-				<div class="main_newz col-lg-12">
-				<?php 
-					$args = array(
-						'post_status' => 'publish', // Chỉ lấy những bài viết được publish
-						'post_type' => 'post', // Lấy những bài viết thuộc post, nếu lấy những bài trong 'trang' thì để là page 
-						'showposts' => 1, // số lượng bài viết
-						'cat' => 9, // lấy bài viết trong chuyên mục có id là 3
-					   
-					);
-					 ?>
-				<?php $getposts = new WP_query($args); ?>
-				<?php global $wp_query; $wp_query->in_the_loop = true; ?>
-				<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-				<div class="wrapper_img">
-						<div class="khungAnh">
-							<a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="khungAnhCrop">
-								<?php echo get_the_post_thumbnail( get_the_id(), 'full', array( 'class' =>'thumnail') ); ?>
-							</a>
+
+											</div>
+										</div>
+										<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"
+										   class="content_outer">
+											<?php the_title(); ?>
+										</a>
+									</div>
+								<?php endwhile; wp_reset_postdata(); ?>
+							</div>
 						</div>
-					</div>
-					<a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="content_outer">
-						<?php the_title(); ?>
-					</a>
-					<div class="thongKe">
-						<span class="date">
-						<?php echo get_the_date(); ?>
-						</span>
-						<span class="luotXem">
-							<?= gt_get_post_view(); ?>
-						</span>
-					</div>
-					<div class="description"><?php the_excerpt(); ?></div>
-				<?php endwhile; wp_reset_postdata(); ?>
-				</div>
-				<div class="sub_newz col-xs-12">
-				<?php 
-					$args = array(
-						'post_status' => 'publish', // Chỉ lấy những bài viết được publish
-						'post_type' => 'post', // Lấy những bài viết thuộc post, nếu lấy những bài trong 'trang' thì để là page 
-						'showposts' => 2, // số lượng bài viết
-						'cat' => 9, // lấy bài viết trong chuyên mục có id là 3,
-						'offset' => 1
-					);
-					 ?>
-				<?php $getposts = new WP_query($args); ?>
-				<?php global $wp_query; $wp_query->in_the_loop = true; ?>
-				<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-				<div class="wrapper_img item col-xs-12">
-						<div class="khungAnh">
-							<a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="khungAnhCrop">
-								<?php echo get_the_post_thumbnail( get_the_id(), 'full', array( 'class' =>'thumnail') ); ?>
-							</a>
+						<div class="block">
+							<div class="row title">
+								<a href="<?php bloginfo('url'); ?>/danh-muc/thiet-ke-cua" class="first"
+								   title="Thiết kế mái kính">Thiết kế mái kính</a>
+								<a href="<?php bloginfo('url'); ?>/category/thiet-ke-kien-truc-cau-thang" class="second"
+								   title="Xem thêm">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+							</div>
+							<div class="wrapper_item">
+								<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=4&post_type=san-pham&danh-muc=thiet-ke-cua'); ?>
+								<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+								<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+									<div class="item">
+										<div class="wrapper_img">
+											<div class="khungAnh">
+												<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"
+												   class="khungAnhCrop">
+
+													<?php echo get_the_post_thumbnail(get_the_id(), 'thumbnail', array('class' => 'thumnail')); ?>
+												</a>
+
+
+											</div>
+										</div>
+										<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"
+										   class="content_outer">
+											<?php the_title(); ?>
+										</a>
+									</div>
+								<?php endwhile; wp_reset_postdata(); ?>
+							</div>
 						</div>
-						<div class="content_outer">
-							<a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="name">
-								<?php the_title(); ?>
-							</a>
-							<div class="thongKe">
-								<span class="date">
-								<?php echo get_the_date(); ?>
-								</span>
-								<span class="luotXem">
-								<?= gt_get_post_view(); ?>
-								</span>
+						<div class="block">
+							<div class="row title">
+								<a href="<?php bloginfo('url'); ?>/danh-muc/theo-yeu-cau" class="first"
+								   title="Thiết kế lan can">Thiết kế lan can</a>
+								<a href="<?php bloginfo('url'); ?>/category/thiet-ke-kien-truc-cau-thang" class="second"
+								   title="Xem thêm">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+							</div>
+							<div class="wrapper_item">
+								<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=4&post_type=san-pham&danh-muc=theo-yeu-cau'); ?>
+								<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+								<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+									<div class="item">
+										<div class="wrapper_img">
+											<div class="khungAnh">
+												<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"
+												   class="khungAnhCrop">
+
+													<?php echo get_the_post_thumbnail(get_the_id(), 'thumbnail', array('class' => 'thumnail')); ?>
+												</a>
+
+
+											</div>
+										</div>
+										<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"
+										   class="content_outer">
+											<?php the_title(); ?>
+										</a>
+									</div>
+								<?php endwhile; wp_reset_postdata(); ?>
+							</div>
+						</div>
+
+						<div class="block">
+							<div class="row title">
+								<a href="<?php bloginfo('url'); ?>/danh-muc/cau-thang" class="first"
+								   title="Thiết kế cầu thang">Thiết kế cầu thang</a>
+								<a href="<?php bloginfo('url'); ?>/category/cau-thang" class="second"
+								   title="Xem thêm">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+							</div>
+							<div class="wrapper_item">
+								<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=4&post_type=san-pham&danh-muc=cau-thang'); ?>
+								<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+								<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+									<div class="item">
+										<div class="wrapper_img">
+											<div class="khungAnh">
+												<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"
+												   class="khungAnhCrop">
+
+													<?php echo get_the_post_thumbnail(get_the_id(), 'thumbnail', array('class' => 'thumnail')); ?>
+												</a>
+
+
+											</div>
+										</div>
+										<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"
+										   class="content_outer">
+											<?php the_title(); ?>
+										</a>
+									</div>
+								<?php endwhile; wp_reset_postdata(); ?>
+							</div>
+						</div>
+
+						<div class="block">
+							<div class="row title">
+								<a href="<?php bloginfo('url'); ?>/danh-muc/hang-rao" class="first"
+								   title="Thiết kế Hàng Rào">Thiết kế Hàng Rào</a>
+								<a href="<?php bloginfo('url'); ?>/category/hang-rao" class="second"
+								   title="Xem thêm">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+							</div>
+							<div class="wrapper_item">
+								<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=4&post_type=san-pham&danh-muc=hang-rao'); ?>
+								<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+								<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+									<div class="item">
+										<div class="wrapper_img">
+											<div class="khungAnh">
+												<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"
+												   class="khungAnhCrop">
+
+													<?php echo get_the_post_thumbnail(get_the_id(), 'thumbnail', array('class' => 'thumnail')); ?>
+												</a>
+
+
+											</div>
+										</div>
+										<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"
+										   class="content_outer">
+											<?php the_title(); ?>
+										</a>
+									</div>
+								<?php endwhile; wp_reset_postdata(); ?>
+							</div>
+						</div>
+
+						<div class="block">
+							<div class="row title">
+								<a href="<?php bloginfo('url'); ?>/danh-muc/hang-muc-ky-thuat" class="first"
+								   title="Hạng Mục Kỹ Thuật">Hạng Mục Kỹ Thuật</a>
+								<a href="<?php bloginfo('url'); ?>/category/hang-muc-ky-thuat" class="second"
+								   title="Xem thêm">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+							</div>
+							<div class="wrapper_item">
+								<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=4&post_type=san-pham&danh-muc=hang-muc-ky-thuat'); ?>
+								<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+								<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+									<div class="item">
+										<div class="wrapper_img">
+											<div class="khungAnh">
+												<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"
+												   class="khungAnhCrop">
+
+													<?php echo get_the_post_thumbnail(get_the_id(), 'thumbnail', array('class' => 'thumnail')); ?>
+												</a>
+
+
+											</div>
+										</div>
+										<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"
+										   class="content_outer">
+											<?php the_title(); ?>
+										</a>
+									</div>
+								<?php endwhile; wp_reset_postdata(); ?>
+							</div>
+						</div>
+
+						<div class="block">
+							<div class="row title">
+								<a href="<?php bloginfo('url'); ?>/danh-muc/phu-kien" class="first"
+								   title="Phụ Kiện Sắt Mỹ Thuật">Phụ Kiện Sắt Mỹ Thuật</a>
+								<a href="<?php bloginfo('url'); ?>/category/phu-kien" class="second"
+								   title="Xem thêm">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+							</div>
+							<div class="wrapper_item">
+								<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=4&post_type=san-pham&danh-muc=phu-kien'); ?>
+								<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+								<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+									<div class="item">
+										<div class="wrapper_img">
+											<div class="khungAnh">
+												<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"
+												   class="khungAnhCrop">
+
+													<?php echo get_the_post_thumbnail(get_the_id(), 'thumbnail', array('class' => 'thumnail')); ?>
+												</a>
+
+
+											</div>
+										</div>
+										<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"
+										   class="content_outer">
+											<?php the_title(); ?>
+										</a>
+									</div>
+								<?php endwhile; wp_reset_postdata(); ?>
 							</div>
 						</div>
 					</div>
-				<?php endwhile; wp_reset_postdata(); ?>
+				</div>
+			</section>
+		<section id="khachHang">
+			<div class="khungAnh">
+				<a href="#" class="khungAnhCrop">
+					<img src="<?php bloginfo('template_directory'); ?>/pics/khachhang.jpg"
+						 alt="khách hàng">
+				</a>
+			</div>
+			<div class="content">
+				<p class="first">Chúng tôi đã làm hài lòng hơn <span> 500+</span> khách hàng. <br class="sp">Liên hệ
+					với chúng tôi để được tư vấn ngay.
+				</p>
+				<p class="second"><a href="tel:<?php the_field('phone_number', 'option'); ?>"><?php the_field('phone_number', 'option'); ?></a></p>
+			</div>
+		</section>
+		<section id="doiTac">
+			<div class="container">
+				<div class="row">
+					<a href="#" title="Đối tác khách hàng" class="title">đối tác khách hàng</a>
+					<?php $price = get_post_meta( get_the_ID(), 'anh-doi-tac', true ); ?>
+					<div class="wrapper_item slider_partner">
+						<?php
+						$args = array(
+							'post_per_page' => -1,
+							'post_type' => 'doi-tac',
+						);
+						// query
+						$the_query = new WP_Query($args);
+						?>
+						<?php if ($the_query->have_posts()): ?>
+								<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+									<div>
+										<div class="item">
+											<a href="<?php echo get_post_meta(get_the_id(), 'link-doi-tac', true); ?>" class="partner">
+												<img src="<?php echo get_post_meta(get_the_id(), 'anh-doi-tac', true); ?>" alt="">
+											</a>
+										</div>
+									</div>
+								<?php endwhile; ?>
+						<?php endif; ?>
+						<?php wp_reset_query();     // Restore global post data stomped by the_post(). ?>
+					</div>
 				</div>
 			</div>
-			<div class="content_right col-xs-12 col-lg-6">
-				<div class="title">
-					<a href="#" title="Tin tiêu điểm" class="first">Giải pháp thiết kế</a>
-					<a href="#" title="Xem thêm" class="more">Xem thêm<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-				</div>
-				<div class="main_newz col-lg-12">
-				<?php 
-					$args = array(
-						'post_status' => 'publish', // Chỉ lấy những bài viết được publish
-						'post_type' => 'post', // Lấy những bài viết thuộc post, nếu lấy những bài trong 'trang' thì để là page 
-						'showposts' => 2, // số lượng bài viết
-						'cat' => 8, // lấy bài viết trong chuyên mục có id là 3
-					   
-					);
-					 ?>
-				<?php $getposts = new WP_query($args); ?>
-				<?php global $wp_query; $wp_query->in_the_loop = true; ?>
-				<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-				<div class="wrapper_img">
-						<div class="khungAnh">
-							<a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="khungAnhCrop">
-								<?php echo get_the_post_thumbnail( get_the_id(), 'full', array( 'class' =>'thumnail') ); ?>
-							</a>
-						</div>
-					</div>
-					<div class="content_outer">
-						<a href<?php bloginfo( 'url' ); ?> title="<?php bloginfo( 'name' ); ?>" class="name">
-						<?php the_title(); ?>
+		</section>
+
+	</main>
+	<section id="dangKyEmail">
+		<div class="container autoheight">
+			<div class="row content autoheight">
+				<div class="right_content">
+					<span>Sắt Nghệ Thuật Trần Gia trên</span>
+					<div class="social">
+						<a href="<?php the_field('facebook', 'option'); ?>" title="facebook" class="g">
+							<p>F</p>
 						</a>
-						<div class="thongKe">
-							<span class="date">
-							<?php echo get_the_date(); ?>
-							</span>
-							<span class="luotXem">
-							<?= gt_get_post_view(); ?>
-							</span>
-						</div>
-						<div class="description"><?php the_excerpt(); ?></div>
-					</div>
-				<?php endwhile; wp_reset_postdata(); ?>
-			   
-				</div>
-				<div class="clear_both"></div>
-				<div class="sub_newz col-xs-12">
-				<?php 
-					$args = array(
-						'post_status' => 'publish', // Chỉ lấy những bài viết được publish
-						'post_type' => 'post', // Lấy những bài viết thuộc post, nếu lấy những bài trong 'trang' thì để là page 
-						'showposts' => 2, // số lượng bài viết
-						'cat' => 8, // lấy bài viết trong chuyên mục có id là 3,
-						'offset' => 2
-					);
-					 ?>
-				<?php $getposts = new WP_query($args); ?>
-				<?php global $wp_query; $wp_query->in_the_loop = true; ?>
-				<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-				<div class="wrapper_img item col-xs-12">
-						<div class="khungAnh">
-							<a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="khungAnhCrop">
-								<?php echo get_the_post_thumbnail( get_the_id(), 'full', array( 'class' =>'thumnail') ); ?>
-							</a>
-						</div>
-						<div class="content_outer">
-							<a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="name">
-								<?php the_title(); ?>
-							</a>
-							<div class="thongKe">
-								<span class="date">
-								<?php echo get_the_date(); ?>
-								</span>
-								<span class="luotXem">
-								<?= gt_get_post_view(); ?>
-								</span>
-							</div>
-						</div>
-					</div>
-				<?php endwhile; wp_reset_postdata(); ?>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section id="doiTac">
-	<div class="container">
-		<div class="row">
-			<a href="#" title="Đối tác khách hàng" class="title">đối tác khách hàng</a>
-			<div class="wrapper_item slider_partner">
-				<div>
-					<div class="item">
-						<a href="#" class="partner">
-							<img src="<?php bloginfo('template_directory'); ?>/pics/partner1.png" alt="doi tac">
-						</a>
-					</div>
-				</div>
-				<div>
-					<div class="item">
-						<a href="#" class="partner">
-							<img src="<?php bloginfo('template_directory'); ?>/pics/partner2.png" alt="doi tac">
-						</a>
-					</div>
-				</div>
-				<div>
-					<div class="item">
-						<a href="#" class="partner">
-							<img src="<?php bloginfo('template_directory'); ?>/pics/partner3.png" alt="doi tac">
-						</a>
-					</div>
-				</div>
-				<div>
-					<div class="item">
-						<a href="#" class="partner">
-							<img src="<?php bloginfo('template_directory'); ?>/pics/partner4.png" alt="doi tac">
-						</a>
-					</div>
-				</div>
-				<div>
-					<div class="item">
-						<a href="#" class="partner">
-							<img src="<?php bloginfo('template_directory'); ?>/pics/partner5.png" alt="doi tac">
-						</a>
-					</div>
-				</div>
-				<div>
-					<div class="item">
-						<a href="#" class="partner">
-							<img src="<?php bloginfo('template_directory'); ?>/pics/partner1.png" alt="doi tac">
+						<a href="<?php the_field('skype', 'option'); ?>" title="skype" class="g">
+							<p>h</p>
 						</a>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
-</main>
-<section id="dangKyEmail">
-	<div class="container autoheight">
-		<div class="row content autoheight">
-			<div class="left_content">
-				<span>Bạn cần tư vấn</span>
-				<input type="text" placeholder="Số điện thoại" class="phone">
-				<input type="text" placeholder="Email của bạn">
-				<a href="#" class="submit" title="gửi đi">gửi</a>
-			</div>
-			<div class="right_content">
-				<span>kiến trúc vlc trên</span>
-				<div class="social">
-					<a href="#" title="facebook" class="g">
-						<p>F</p>
-					</a>
-					<a href="#" title="google" class="g noborder">
-						<p>G</p>
-					</a>
-					<a href="#" title="skype" class="g">
-						<p>h</p>
-					</a>
-					<a href="#" title="twitter" class="g">
-						<p>L</p>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+	</section>
 
 <?php get_footer() ?>

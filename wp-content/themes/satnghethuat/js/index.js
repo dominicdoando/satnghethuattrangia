@@ -21,7 +21,7 @@ return this.each(function () {
         } else {
             mainmenu.show().addClass('open');
             if (settings.format === "dropdown") {
-                mainmenu.find('ul').show();
+                mainmenu.find('ul').slideDown();
             }
         }
     });
@@ -72,7 +72,7 @@ $(document).ready(function () {
     });
         // SLIDER
         $('.banner_tchu ul').slick({
-        dots: false,
+        dots: true,
         infinite: true,
         autoplay: true,
         speed: 1000,
@@ -85,7 +85,21 @@ $(document).ready(function () {
             autoplay: true,
             speed: 300,
             slidesToShow: 5,
-            arrows: true
+            arrows: true,
+            responsive: [
+                {
+                    breakpoint: 1199,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                }
+            ]
         });
         $('.slider_block_video').slick({
             dots: false,

@@ -1,0 +1,272 @@
+    $blue:#2a83d5;
+    $white: #fff;
+    $black:#000;
+    $gray: #333333;
+    $gray2: #666666;
+    $white: #fff;
+    $font1:'sfu_futurabold';
+    $font2: "sfu_futuraheavy";
+    $font3: "utm_bebasregular";
+    $font4: "segoeui";
+    $font5: "segoeuibold";
+    $font6:'sfu_futuralightoblique';
+    $font7:'sfu_futura_book';
+    $font8:'Socialico';
+    $color:$white;
+    $line-height: 24px;
+    @mixin text($font,
+        $color,
+        $font-size,
+        $line-height) {
+        font-family: $font;
+        color: $color;
+        font-size: $font-size;
+        line-height: $line-height;
+    }
+    @mixin mq($breakpoint: md) {
+        @media #{map-get($breakpoints, $breakpoint)} {
+            @content;
+        }
+    }
+
+    $breakpoint-sm: 640px !default;
+    $breakpoint-md: 768px !default;
+    $breakpoint-lg: 990px !default;
+
+    $breakpoints: (
+            'sm-ip': 'screen and (max-width: 330px)',
+            'xs': 'screen and (max-width: 374px)',
+            'sm': 'screen and (max-width: 640px)',
+            'md': 'screen and (max-width: 834px)',
+            'lg': 'screen and (max-width: 990px)',
+            'ipd': 'screen and (max-width: 1024px)',
+            'xl': 'screen and (max-width: 1200px)',
+            'lp': 'screen and (max-width: 1500px)',
+            'mac': 'screen and (max-width: 1770px)',
+            'sm-min': 'screen and (min-width: 641px)',
+            'md-min': 'screen and (min-width: 835px)',
+            'lg-min': 'screen and (min-width: 991px)',
+            'ipd-min': 'screen and (min-width: 1025px)',
+            'xl-min': 'screen and (min-width: 1201px)',
+    ) !default;
+    @media(min-width: 1200px){
+        #duAn{
+            .wrapper_item{
+                .item{
+                    width:calc((100% - 54px)/4);
+                    margin-right: 18px;
+                    float: left;
+                    &:nth-child(4n+4){
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        #information{
+            .content_left{
+                width:calc((100% - 30px)/2);
+                margin-right: 30px;
+            }
+            .content_right{
+                width:calc((100% - 30px)/2);
+            }
+        }
+        #footer{
+            #main_footer{
+                #info_footer{
+                    width: 547px;
+                    float: left;
+                    padding-right: 10px;
+                }
+                #danhMuc{
+                    width: 248px;
+                    float: left;
+                    padding-right: 10px;
+                }
+                #fanpage{
+                    width:calc(100% - 547px - 248px);
+                    float: left;
+                }
+            }
+        }
+        #dichVu, #tinTuc, #timKiem, #video{
+            .container{
+                .row{
+
+                }
+            }
+            .content_left{
+                width: 270px;
+                float: left;
+                margin-top: 40px;
+            }
+            .content_right{
+                width:calc(100% - 270px);
+                padding-left: 30px;
+                float: right;
+                margin-top: 40px;
+            }
+        }
+        #duAn{
+            .wrapper_content{
+                .content_left{
+                    width: 270px;
+                    float: left;
+                    margin-top: 40px;
+                    @include mq(xl){
+                        display: none;
+                    }
+                }
+                .content_right{
+                    width:calc(100% - 270px);
+                    padding-left: 30px;
+                    float: right;
+                    margin-top: 40px;
+                    @include mq(xl){
+                        width: 100%;
+                        padding-left: 0;
+                    }
+                }
+            }
+
+        }
+        #duAn{
+            .itemDuAn{
+                .listDuAn{
+                    .item{
+
+                    }
+                }
+            }
+            .listDuAn.wrapper_item{
+                .item{
+                    width:calc((100% - 36px)/3);
+                    margin-right: 18px;
+                    float: left;
+                    &:nth-child(3n+3){
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        .duAnLienQuan{
+            .listDuAn{
+                .item{
+                    width:calc((100% - 60px)/3);
+                    margin-right: 30px;
+                    float: left;
+                    &:nth-child(3n+3){
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        .duAnKhac{
+            .listDuAn{
+             .item{
+                width:calc((100% - 36px)/3);
+                margin-right: 18px;
+                float: left;
+                &:nth-child(3n+3){
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    #tinTuc{
+        .itemFirst{
+            .left{
+                width: 694px;
+                margin-right: 20px;
+                float: left;
+            }
+            .right{
+                width:calc(100% - 694px - 20px);
+                float: left;
+            }
+        }
+        .itemSecond{
+            .listTin{
+                .item{
+                    width:calc((100% - 129px)/4);
+                    margin-right: 43px;
+                    float: left;
+                    &:nth-child(4n+4){
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+    #timKiem{
+        .container{
+            .row{
+                padding-top: 36px;
+            }
+        }
+        .wrapper_item{
+            .item{
+                width:calc((100% - 54px)/4);
+                margin-right: 18px;
+                float: left;
+                &:nth-child(4n+4){
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    #video{
+        .listVideo{
+            .item{
+                width:calc((100% - 60px)/3);
+                margin-right: 30px;
+                float: left;
+                &:nth-child(3n+3){
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+@media(max-width:1199px){
+    #duAn{
+        padding: 0 0 50px;
+         .content_left{
+             display: none;
+         }
+        .wrapper_item{
+            .item{
+                width:calc((100% - 36px)/3);
+                margin-right: 18px;
+                float: left;
+                &:nth-child(3n+3){
+                    margin-right: 0;
+                }
+                @include mq(sm){
+                    width:calc((100% - 20px)/2);
+                    margin-right: 20px;
+                    &:nth-child(3n+3){
+                        margin-right: 20px;
+                    }
+                    &:nth-child(2n+2){
+                        margin-right: 0;
+                    }
+
+                }
+            }
+        }
+    }
+    #information{
+        .content_left{
+            width:calc((100% - 30px)/2);
+            margin-right: 30px;
+            display: none;
+        }
+        .content_right{
+            width: 100%;
+        }
+    }
+}
+    .menu.open{
+
+    }

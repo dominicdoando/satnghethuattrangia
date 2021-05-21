@@ -61,7 +61,7 @@
 #menu > ul > li > a {
   padding: 0 24px 0 22px;
   font-size: 24px;
-    line-height: 28px;t
+    line-height: 28px;
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
@@ -75,7 +75,7 @@
     right: 0;
     top:9px;
     background: #a2aaa2;
-    
+
 }
 #menu > ul > li:last-child a:after{
     display: none;
@@ -284,36 +284,35 @@
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 700;
+    cursor: pointer;
   }
   #menu #menu-button:after {
     position: absolute;
-    top: 22px;
-    right: 17px;
+    top: 0;
+    right: 0;
     display: block;
-    height: 28px;
-    width: 34px;
+    height: 35px;
+    width: 35px;
     content: "";
-    background: url(../css/images/button-menu.png) no-repeat;
+    background:#fff url(../css/images/button-menu.png) no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+     border-radius: 50%;
   }
   #menu #menu-button:before {
     position: absolute;
-    top: 22px;
-    right: 17px;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
     display: block;
     height: 28px;
     width: 34px;
     content: "";
-    background: url(../css/images/button-menu.png) no-repeat;
+    background:#fff url(images/button-menu.png) no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
-  }
-  #menu #menu-button.menu-opened:after {
-      display: none;
-  }
-  #menu #menu-button.menu-opened:before {
-      display: block;
+    opacity: 0;
+    border-radius: 50%;
   }
   #menu .submenu-button {
     position: absolute;
@@ -322,23 +321,22 @@
     top: 0;
     display: block;
     border-left: 1px solid rgba(120, 120, 120, 0.2);
-    height: 46px;
-    width: 46px;
+    height: 44px;
+    width: 44px;
     cursor: pointer;
   }
-  #menu .submenu-button.submenu-opened {
-    background: #262626;
-  }
+
   #menu ul ul .submenu-button {
     height: 34px;
     width: 34px;
   }
   #menu .submenu-button:after {
     position: absolute;
-    top: 22px;
-    right: 19px;
-    width: 8px;
-    height: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 3px;
     display: block;
     background: #dddddd;
     content: '';
@@ -347,16 +345,14 @@
     top: 15px;
     right: 13px;
   }
-  #menu .submenu-button.submenu-opened:after {
-    background: #ffffff;
-  }
   #menu .submenu-button:before {
     position: absolute;
-    top: 19px;
-    right: 22px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: block;
-    width: 2px;
-    height: 8px;
+    width: 3px;
+    height: 10px;
     background: #dddddd;
     content: '';
   }
